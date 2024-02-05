@@ -31,7 +31,7 @@ function MyComponent(props) {
               Contact Us
             </div>
           </div>
-          <div className="justify-center self-stretch px-5 py-3.5 my-auto text-base text-white bg-sky-600 rounded-3xl">
+          <div className="justify-center self-stretch px-10 py-3.5 my-auto text-base text-white bg-sky-600 rounded-3xl">
             Login
           </div>
         </div>
@@ -260,37 +260,37 @@ function MyComponent(props) {
         </div> */}
         <div className="flex flex-col justify-center items-center px-14 py-12 w-full bg-slate-50 text-stone-950 max-md:px-5 max-md:max-w-full">
           <div className="mt-20 text-base font-bold leading-7 text-orange-500 uppercase whitespace-nowrap tracking-[2px] max-md:mt-10">
-            WHO vrezolve SERVES
+            WHAT vrezolve OFFERS
           </div>
           <div className="mt-9 text-5xl font-bold leading-[54.12px] max-md:max-w-full">
             Any industry. Same great protection.
           </div>
-          <div className="mt-8 text-lg leading-7 text-zinc-700 max-md:max-w-full">
+          {/* <div className="mt-8 text-lg leading-7 text-zinc-700 max-md:max-w-full">
             Thousands of brands in countless industries around the world trust
             vrezolve to ensure safe,{" "}
-          </div>
-          <div className="mt-3.5 text-lg leading-7 whitespace-nowrap text-zinc-700">
+          </div> */}
+          {/* <div className="mt-3.5 text-lg leading-7 whitespace-nowrap text-zinc-700">
             secure interactions.
-          </div>
+          </div> */}
           <div className="mt-10 max-w-full border-solid border-t-[3px] border-t-sky-600 h-[3px] w-[273px]" />
-          <div className="flex gap-5 justify-between self-stretch px-3 mt-24 mb-12 text-base leading-5 whitespace-nowrap max-md:flex-wrap max-md:my-10 max-md:max-w-full">
-            {/* <div className="justify-center items-center px-14 pt-14 bg-white rounded-lg border-2 border-solid shadow-sm border-zinc-100 h-[195px] max-md:px-5 max-md:pt-10">
-              Restaurants
-            </div> */}
-            <div className="flex justify-center items-center px-9 pt-24 bg-white rounded-lg border-2 border-solid shadow-sm border-zinc-100 h-[195px] max-md:px-5 max-md:pt-10 transition duration-300 ease-in-out hover:border-orange-500 hover:shadow-lg">
-              Health & Beauty
+          <div className="flex justify-between gap-[25px] self-stretch px-3 mt-24 mb-12 text-base leading-5 whitespace-nowrap max-md:flex-wrap max-md:my-10 max-md:max-w-full">
+            <div
+              className="flex justify-center items-center flex-1 px-6 py-8 bg-white rounded-lg border-2 border-solid shadow-sm border-zinc-100 max-md:px-5 max-md:pt-10 transition duration-300 ease-in-out hover:border-orange-500 hover:shadow-lg"
+              style={{ height: "240px" }}
+            >
+              Alert Z
             </div>
-            <div className="flex justify-center items-center px-16 pt-20 bg-white rounded-lg border-2 border-solid shadow-sm border-zinc-100 h-[195px] w-[195px] max-md:px-5 max-md:pt-10 transition duration-300 ease-in-out hover:border-orange-500 hover:shadow-lg">
-              Gaming
+            <div
+              className="flex justify-center items-center flex-1 px-6 py-8 bg-white rounded-lg border-2 border-solid shadow-sm border-zinc-100 max-md:px-5 max-md:pt-10 transition duration-300 ease-in-out hover:border-orange-500 hover:shadow-lg"
+              style={{ height: "240px" }}
+            >
+              Disput Z
             </div>
-            <div className="flex justify-center items-center px-9 pt-20 bg-white rounded-lg border-2 border-solid shadow-sm border-zinc-100 h-[195px] max-md:px-5 max-md:pt-10 transition duration-300 ease-in-out hover:border-orange-500 hover:shadow-lg">
-              Online Learning
-            </div>
-            <div className="flex justify-center items-center px-8 pt-24 bg-white rounded-lg border-2 border-solid shadow-sm border-zinc-100 h-[195px] max-md:px-5 max-md:pt-10 transition duration-300 ease-in-out hover:border-orange-500 hover:shadow-lg">
-              Online Streaming
-            </div>
-            <div className="flex justify-center items-center px-14 pt-24 bg-white rounded-lg border-2 border-solid shadow-sm border-zinc-100 h-[195px] max-md:px-5 max-md:pt-10 transition duration-300 ease-in-out hover:border-orange-500 hover:shadow-lg">
-              Health Care
+            <div
+              className="flex justify-center items-center flex-1 px-6 py-8 bg-white rounded-lg border-2 border-solid shadow-sm border-zinc-100 max-md:px-5 max-md:pt-10 transition duration-300 ease-in-out hover:border-orange-500 hover:shadow-lg"
+              style={{ height: "240px" }}
+            >
+              Reward Z
             </div>
           </div>
         </div>
