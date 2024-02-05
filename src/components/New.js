@@ -13,7 +13,7 @@ function MyComponent(props) {
           />
           <div className="flex gap-5 self-stretch px-2.5 text-base text-zinc-700 max-md:flex-wrap max-md:max-w-full">
             {/* <div className="grow justify-center px-2.5 py-9 border-b-4 border-solid border-b-white">
-              Why Kount
+              Why vrezolve
             </div> */}
             <div className="grow justify-center px-2.5 py-10 border-b-4 border-solid border-b-white">
               Home
@@ -59,7 +59,7 @@ function MyComponent(props) {
                   success.
                 </div>
                 {/* <div className="text-lg leading-7 max-md:mr-1 max-md:max-w-full">
-                  uncertainties with Kount. We’ll help your business grow safely
+                  uncertainties with vrezolve. We’ll help your business grow safely
                   and{" "}
                 </div> */}
                 <div className="text-lg leading-7 max-md:mr-1 max-md:max-w-full">
@@ -181,7 +181,7 @@ function MyComponent(props) {
         {/* <div className="flex z-10 flex-col justify-center items-end px-16 py-12 mt-0 w-full font-bold bg-white max-md:px-5 max-md:mt-0 max-md:max-w-full">
           <div className="flex flex-col mt-20 mr-14 mb-12 max-w-full w-[948px] max-md:my-10 max-md:mr-2.5">
             <div className="self-center text-base leading-7 text-sky-600 uppercase whitespace-nowrap tracking-[2px]">
-              WHY CHOOSE KOUNT
+              WHY CHOOSE vrezolve
             </div>
             <div className="mt-9 text-5xl leading-[54.12px] text-stone-950 max-md:max-w-full">
               Unique qualities you won’t find{" "}
@@ -192,13 +192,13 @@ function MyComponent(props) {
                 anywhere else.
               </div>
               <div className="self-start mt-8 ml-3 leading-[161%] text-zinc-700 max-md:max-w-full">
-                We don’t think Kount is better than other companies. We believe
+                We don’t think vrezolve is better than other companies. We believe
                 we are{" "}
               </div>
               <div className="mt-3 leading-7 text-zinc-700 max-md:max-w-full">
                 different
                 <span className="text-zinc-700">
-                  . And that’s an important distinction. Because putting Kount
+                  . And that’s an important distinction. Because putting vrezolve
                   in the
                 </span>
               </div>
@@ -253,21 +253,21 @@ function MyComponent(props) {
                 with accurate efficiency.
               </div>
               <div className="justify-center self-center px-5 py-4 mt-20 text-base font-semibold leading-6 text-white bg-sky-600 rounded-[50px] max-md:pr-5 max-md:mt-10">
-                Discover what makes Kount different
+                Discover what makes vrezolve different
               </div>
             </div>
           </div>
         </div> */}
         <div className="flex flex-col justify-center items-center px-14 py-12 w-full bg-slate-50 text-stone-950 max-md:px-5 max-md:max-w-full">
           <div className="mt-20 text-base font-bold leading-7 text-orange-500 uppercase whitespace-nowrap tracking-[2px] max-md:mt-10">
-            WHO KOUNT SERVES
+            WHO vrezolve SERVES
           </div>
           <div className="mt-9 text-5xl font-bold leading-[54.12px] max-md:max-w-full">
             Any industry. Same great protection.
           </div>
           <div className="mt-8 text-lg leading-7 text-zinc-700 max-md:max-w-full">
             Thousands of brands in countless industries around the world trust
-            Kount to ensure safe,{" "}
+            vrezolve to ensure safe,{" "}
           </div>
           <div className="mt-3.5 text-lg leading-7 whitespace-nowrap text-zinc-700">
             secure interactions.
@@ -309,7 +309,7 @@ function MyComponent(props) {
               Growth at every stage of the journey
             </div>
             <div className="mt-8 text-lg leading-7 text-zinc-700 max-md:max-w-full">
-              How will you use Kount's trust and safety technology?
+              How will you use vrezolve's trust and safety technology?
             </div>
           </div>
         </div>{" "}
@@ -504,7 +504,7 @@ function MyComponent(props) {
               <div className="flex flex-col w-[27%] max-md:ml-0 max-md:w-full">
                 <div className="flex flex-col mt-32 max-md:mt-10">
                   <div className="text-sm font-light leading-7 text-zinc-700">
-                    Kount is trust and safety technology.
+                    vrezolve is trust and safety technology.
                   </div>{" "}
                   <div className="mt-4 text-sm font-light leading-7 whitespace-nowrap text-zinc-700">
                     We deliver confidence in every interaction.
@@ -609,7 +609,7 @@ function MyComponent(props) {
             <div className="flex flex-col flex-1 self-start pr-2 max-md:max-w-full">
               <div className="max-md:max-w-full">
                 ©2024, Equifax Inc., All rights reserved. Equifax and the
-                Equifax marks used herin are trademarks of Equifax Inc. Kount is
+                Equifax marks used herin are trademarks of Equifax Inc. vrezolve is
                 a{" "}
               </div>{" "}
               <div className="max-md:max-w-full">
