@@ -18,12 +18,13 @@ const ExpertConsultation = (props) => {
       </div>
 
       <button
-        className="justify-center items-stretch px-9 py-1.5 mt-9 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px] max-md:px-5"
+        class="justify-center items-stretch px-9 py-1.5 mt-9 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px] max-md:px-5 transition-transform duration-300 transform hover:scale-105"
         aria-label="Talk to an Expert"
-        aria-role="button"
+        role="button"
       >
         Talk to an Expert
       </button>
+
       <div class="relative overflow-hidden w-full max-w-full mt-16 aspect-w-2 aspect-h-1 group">
         <img
           loading="lazy"

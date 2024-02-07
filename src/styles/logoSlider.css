@@ -4,13 +4,13 @@
   overflow: hidden;
   position: relative;
   width: auto;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .slider .slide-track {
   animation: scroll 40s linear infinite;
   display: flex;
-  width: calc(250px * 14);
+  width: calc(250px * 9);
 }
 
 .slider .slide {

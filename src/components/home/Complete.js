@@ -68,10 +68,11 @@ function Complete() {
           </div>
           <div className="mt-20 mb-20 w-full max-w-[990px] max-md:my-10 max-md:max-w-full">
             <div className="flex gap-[50px] max-md:flex-col max-md:gap-0 max-md:">
-              <div className="flex flex-col w-[60%] max-md:ml-0 max-md:w-full">
+              <div className=" flex flex-col w-[60%] max-md:ml-0 max-md:w-full">
                 <img
                   loading="lazy"
-                  srcSet="../images/home/section-1.svg"
+                  srcSet="../images/home/6.svg"
+                  alt=""
                   //   className=" grow w-full shadow-sm aspect-[0.91] max-md:mt-10 max-md:max-w-full"
                   className="hover15"
                 />
@@ -149,11 +150,14 @@ function Complete() {
             <div className="mt-16 text-4xl text-center leading-[62px] max-md:mt-10 max-md:max-w-full">
               Streamlined Dispute Management Solutions for Issuers
             </div>
-            <img
-              loading="lazy"
-              srcSet="../images/home/section-2.svg"
-              className="mt-14 w-full  aspect-[1.11] max-md:mt-10 max-md:max-w-full"
-            />
+            <div className="image-wrapper shine">
+              <img
+                loading="lazy"
+                srcSet="../images/home/7.svg"
+                alt=""
+                className="mt-14 w-full  aspect-[1.11] max-md:mt-10 max-md:max-w-full"
+              />
+            </div>
           </div>
         </div>
         <div className="flex flex-col items-center py-12 pr-20 pl-10 w-full bg-[#f2f5fc]  max-md:px-5 max-md:max-w-full">
@@ -177,7 +181,7 @@ function Complete() {
               <div className="flex flex-col w-[60%] max-md:ml-0 max-md:w-full">
                 <img
                   loading="lazy"
-                  srcSet="../images/home/section-3.svg"
+                  srcSet="../images/home/5.svg"
                   className="grow w-full shadow-sm aspect-[0.91] max-md:mt-10 max-md:max-w-full"
                 />
               </div>{" "}
@@ -217,7 +221,7 @@ function Complete() {
                   </div>
                 </div>
 
-                <button className="justify-center items-stretch px-11 py-1.5 mt-12 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px] max-md:px-5 max-md:mt-10">
+                <button class="justify-center items-stretch px-11 py-1.5 mt-12 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px] max-md:px-5 max-md:mt-10 transition-colors duration-300 hover:bg-orange-600">
                   Learn More
                 </button>
               </div>
@@ -271,10 +275,6 @@ function Complete() {
             </div>
           </div>
         </div>{" "}
-        {/* <div className="flex flex-col self-end mt-36 mr-40 max-w-full text-5xl font-bold text-center text-black leading-[80.16px] tracking-[2.4px] w-[383px] max-md:mt-10 max-md:mr-2.5 max-md:text-4xl mb-[50px]">
-          <div className="max-md:text-4xl">Contact Us</div>{" "}
-          <div className="mt-3 max-w-full mx-auto bg-blue-700 h-[3px] w-[200px]" />
-        </div>{" "} */}
         <div className="flex gap-5  max-md:flex-col max-md:gap-0 max-md:">
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col items-center self-stretch my-auto max-md:mt-10 max-md:max-w-full">
@@ -293,7 +293,7 @@ function Complete() {
                 <div className="max-md:text-4xl">Contact Us</div>{" "}
                 <div className="mt-3 max-w-full mx-auto bg-blue-700 h-[3px] w-[200px]" />
               </div>{" "}
-              <div className="flex flex-col justify-center  py-0.5 mt-10 bg-white rounded max-md:mt-10 max-md:max-w-full">
+              <div className="flex flex-col justify-center mr-5  py-0.5 mt-10 bg-white rounded max-md:mt-10 max-md:max-w-full">
                 <div className="justify-center items-start py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
                   <input
                     type="text"
@@ -325,13 +325,13 @@ function Complete() {
                     className="placeholder-gray-400 text-black text-xl font-medium leading-5 tracking-[2px] outline-none bg-transparent w-full"
                   />
                 </div>
-              </div>
-              <div className="justify-center items-start mt-5 pb-16 pt-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
-                <input
-                  type="text"
-                  placeholder="Send us a message"
-                  className="placeholder-gray-400 text-black text-xl font-medium leading-5 tracking-[2px] outline-none bg-transparent w-full"
-                />
+                <div className="justify-center items-start mt-5 pb-16 pt-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
+                  <input
+                    type="text"
+                    placeholder="Send us a message"
+                    className="placeholder-gray-400 text-black text-xl font-medium leading-5 tracking-[2px] outline-none bg-transparent w-full"
+                  />
+                </div>
               </div>
               <div className="justify-center self-center px-12 py-1.5 mt-6 text-xl font-medium leading-8 text-center text-white bg-orange-500 rounded-[100px] tracking-[2px] max-md:px-5">
                 Submit

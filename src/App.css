@@ -1,87 +1,43 @@
-.hover15 {
-  position: relative;
-}
-.hover15 ::before {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 2;
-  display: block;
-  content: "";
-  width: 0;
-  height: 0;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 100%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  opacity: 0;
-}
-.hover15 :hover::before {
-  -webkit-animation: circle 0.75s;
-  animation: circle 0.75s;
-}
-@-webkit-keyframes circle {
-  0% {
-    opacity: 1;
-  }
-  40% {
-    opacity: 1;
-  }
-  100% {
-    width: 200%;
-    height: 200%;
-    opacity: 0;
-  }
-}
-@keyframes circle {
-  0% {
-    opacity: 1;
-  }
-  40% {
-    opacity: 1;
-  }
-  100% {
-    width: 200%;
-    height: 200%;
-    opacity: 0;
-  }
+/* .image-wrapper {
+ 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  line-height: 1.6;
 }
 
-#hover14 {
+.image-wrapper img {
+  height: auto;
+  max-width: 100%;
+} */
+
+.shine {
   position: relative;
+  overflow: hidden;
 }
-#hover14 ::before {
-  position: absolute;
-  top: 0;
-  left: -75%;
-  z-index: 2;
-  display: block;
-  content: "";
-  width: 50%;
-  height: 100%;
-  background: -webkit-linear-gradient(
-    left,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.3) 100%
-  );
+
+.shine::before {
   background: linear-gradient(
     to right,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.3) 100%
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.7) 100%
   );
-  -webkit-transform: skewX(-25deg);
+  content: "";
+  display: block;
+  height: 100%;
+  left: -75%;
+  position: absolute;
+  top: 0;
   transform: skewX(-25deg);
+  width: 20%;
+  z-index: 2;
 }
-#hover14 :hover {
-  -webkit-animation: shine 0.75s;
-  animation: shine 0.75s;
-  height: 200px;
+
+.shine:hover::before,
+.shine:focus::before {
+  animation: shine 0.85s;
 }
-@-webkit-keyframes shine {
-  100% {
-    left: 125%;
-  }
-}
+
 @keyframes shine {
   100% {
     left: 125%;

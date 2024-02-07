@@ -12,9 +12,9 @@ function LoginNavbar() {
           <div className="leading-[150%]">Blog</div>
           <div className="grow leading-[150%]">Contact Us</div>
         </div>
-        <div className="md:flex justify-center items-stretch px-12 py-1.5 my-auto text-xl font-medium tracking-wider leading-8 text-center text-white bg-orange-500 rounded-[100px] max-md:px-5 hidden">
+        <button class="md:flex justify-center items-stretch px-12 py-1.5 my-auto text-xl font-medium tracking-wider leading-8 text-center text-white bg-orange-500 rounded-[100px] max-md:px-5 hidden transition-transform duration-300 transform hover:scale-105">
           Get In Touch
-        </div>
+        </button>
       </div>
       <div className="mt-3 h-[2px] border-2 border-sky-600 border-solid w-full" />
     </div>
