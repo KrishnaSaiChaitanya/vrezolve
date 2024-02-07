@@ -36,7 +36,7 @@ function Complete() {
         <HomeHero />
         <div className="flex flex-col items-center px-10 py-12 w-full bg-[#f2f5fc] max-md:px-5 max-md:max-w-full">
           <div className="flex flex-col items-center mt-20 max-w-full text-xl text-black w-[858px] max-md:mt-10">
-            <div className="elf-center font-bold whitespace-nowrap leading-[60px] tracking-[4px] anm_mod zoomIn delay">
+            <div className="self-center font-bold whitespace-nowrap leading-[60px] tracking-[4px] anm_mod zoomIn delay">
               OUR SOLUTIONS
             </div>
             <div className="mt-3 h-1 border-2 border-sky-600 border-solid w-[179px]" />
@@ -128,7 +128,7 @@ function Complete() {
         </div>
         <div className="flex justify-center  items-center px-16 py-12 w-full text-xl text-blue-700 bg-white tracking-[2px] max-md:px-5 max-md:max-w-full">
           <div className="flex flex-col items-center mt-20 mb-12 max-w-full w-[780px] max-md:my-10">
-            <div className="self-center font-bold whitespace-nowrap leading-[60px] tracking-[4px]">
+            <div className="anm_mod zoomIn delay self-center font-bold whitespace-nowrap leading-[60px] tracking-[4px]">
               WHY DISPUTEZ
             </div>
             <div className="mt-3 max-w-full mx-auto bg-blue-700 h-[3px] w-[160px]" />
@@ -158,7 +158,7 @@ function Complete() {
         </div>
         <div className="flex flex-col items-center py-12 pr-20 pl-10 w-full bg-[#f2f5fc]  max-md:px-5 max-md:max-w-full">
           <div className="flex flex-col items-center mt-24 max-w-full text-center w-[780px] max-md:mt-10">
-            <h1 className="text-4xl  font-semibold leading-5 text-orange-500 tracking-[5px] max-md:max-w-full">
+            <h1 className="anm_mod zoomIn delay text-4xl  font-semibold leading-5 text-orange-500 tracking-[5px] max-md:max-w-full">
               <span className="font-bold text-black">alert</span>{" "}
               <span className=" font-black text-orange-500">Z</span>
             </h1>
@@ -226,7 +226,7 @@ function Complete() {
         </div>{" "}
         <div className="flex justify-center items-center px-16 py-12 w-full text-xl text-blue-700 bg-white tracking-[2px] max-md:px-5 max-md:max-w-full">
           <div className="flex flex-col items-center mt-20 mb-12 max-w-full w-[780px] max-md:my-10">
-            <div className="self-center font-bold whitespace-nowrap leading-[60px] tracking-[4px]">
+            <div className="anm_mod left delay self-center font-bold whitespace-nowrap leading-[60px] tracking-[4px]">
               WHY ALERTZ
             </div>
             <div className="mt-3 max-w-full mx-auto bg-blue-700 h-[3px] w-[150px]" />
