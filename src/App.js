@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-
+import "./styles/animation.css";
 // import { AlertZ } from "./components/test";
 
 import AlertzHero from "./components/hero/AlertzHero";
@@ -11,11 +11,13 @@ import Home from "./components/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import DisputszHero from "./pages/Disputsz";
 import MyComponent from "./components/New";
+import Complete from "./components/home/Complete";
 
 function App() {
   return (
     <div className="App">
-      <MyComponent />
+      {/* <MyComponent /> */}
+      <Complete />
       {/* <Section /> */}
       {/* <Home /> */}
       {/* <Disputsz /> */}

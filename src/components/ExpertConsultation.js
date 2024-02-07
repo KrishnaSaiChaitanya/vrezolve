@@ -24,22 +24,13 @@ const ExpertConsultation = (props) => {
       >
         Talk to an Expert
       </button>
-      <img
-        loading="lazy"
-        srcSet="../images/home/3.svg"
-        alt=""
-        className="object-contain object-center self-stretch mt-6 w-full aspect-[2.48] max-md:max-w-full"
-      />
-      <header className="font-bold mt-32 text-center text-black leading-[167%] max-md:mt-10 max-md:max-w-full max-md:text-4xl">
-        Corporate Partners
-      </header>
-
-      <div className="mt-5 max-w-full mx-auto bg-blue-700 h-[3px] w-[400px]" />
-      <div className="mt-12 mb-3 text-xl tracking-wider leading-8 text-center text-black w-[795px] max-md:mt-10 max-md:max-w-full">
-        Our corporate partners are integral to our journey, fostering trust and
-        innovation. Through collaboration, we navigate challenges, seize
-        opportunities, and achieve mutual growth. Together, we excel in
-        delivering top-notch solutions and creating a thriving network.
+      <div class="relative overflow-hidden w-full max-w-full mt-16 aspect-w-2 aspect-h-1 group">
+        <img
+          loading="lazy"
+          src="../images/home/3.svg"
+          alt=""
+          class="transition-transform duration-500 transform scale-100 group-hover:scale-125 object-cover object-center w-full h-full"
+        />
       </div>
     </div>
   );
