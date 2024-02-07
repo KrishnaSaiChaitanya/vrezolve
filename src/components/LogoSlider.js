@@ -52,8 +52,8 @@ function LogoSlider() {
           <div class="slide">
             <img
               src="../images/partners/7.svg"
-              height="80"
-              width="140"
+              height="60"
+              width="100"
               alt=""
             />
           </div>
