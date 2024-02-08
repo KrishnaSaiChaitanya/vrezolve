@@ -7,28 +7,6 @@ import LoginNavbar from "../LoginNavbar";
 import HomeHero from "../hero/HomeHero";
 
 function Complete() {
-  useEffect(() => {
-    function checkVisibility() {
-      var elements = document.querySelectorAll(".animation_container .anm_mod");
-      for (var i = 0; i < elements.length; i++) {
-        var windowHeight = window.innerHeight;
-        var elementTop = elements[i].getBoundingClientRect().top;
-        var offset = 140;
-
-        if (elementTop < windowHeight - offset) {
-          elements[i].classList.add("active");
-        } else {
-          elements[i].classList.remove("active");
-        }
-      }
-    }
-
-    window.addEventListener("scroll", checkVisibility);
-
-    return () => {
-      window.removeEventListener("scroll", checkVisibility);
-    };
-  }, []);
   return (
     <div className="animation_container">
       <div className="flex flex-col py-12 bg-white">

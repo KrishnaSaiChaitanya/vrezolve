@@ -148,7 +148,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex gap-3.5 items-center px-5 mt-6 text-base font-extrabold text-blue-700 tracking-[4px]">
+      <div className="flex gap-3.5 items-center px-5 mb-5 mt-6 text-base font-extrabold text-blue-700 tracking-[4px]">
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/62230ee6874d036ceef67daffa907e74c33a88d57c56d370b802f84abf1501df?apiKey=67296d98361248faadca04e106a4f278&"

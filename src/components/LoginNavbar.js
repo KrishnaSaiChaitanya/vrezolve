@@ -3,9 +3,9 @@ import React from "react";
 function LoginNavbar() {
   return (
     <div>
-      <div className="flex gap-5 justify-between items-stretch px-5 max-md:flex-wrap py-2">
+      <div className="flex mt-12 gap-5 justify-between items-stretch px-5 max-md:flex-wrap py-2">
         <img src="../images/logo.svg" />
-        <div className="md:flex gap-5 justify-between items-stretch p-6 text-xl text-center text-black whitespace-nowrap tracking-[2px] max-md:flex-wrap max-md:px-5 max-md:max-w-full hidden">
+        <div className="md:flex gap-6 justify-between items-stretch p-6 text-xl text-center text-black whitespace-nowrap tracking-[2px] max-md:flex-wrap max-md:px-5 max-md:max-w-full hidden">
           <div className="leading-[150%]">Home</div>
           <div className="leading-[150%]">Solutions</div>
           <div className="leading-[150%]">Partners</div>

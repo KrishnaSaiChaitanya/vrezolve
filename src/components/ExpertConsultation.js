@@ -30,7 +30,7 @@ const ExpertConsultation = (props) => {
           loading="lazy"
           src="../images/home/3.svg"
           alt=""
-          class="transition-transform duration-500 transform scale-100 group-hover:scale-125 object-cover object-center w-full h-full"
+          class=" object-cover object-center w-full h-full"
         />
       </div>
     </div>

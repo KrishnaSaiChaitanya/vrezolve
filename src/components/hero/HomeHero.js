@@ -32,8 +32,8 @@ function HomeHero() {
       <img
         loading="lazy"
         alt=""
-        srcSet="../images/home/hero-new.svg"
-        className="flex-1 w-full aspect-[1.04] max-md:max-w-full"
+        srcSet="../images/home-hero-1.png"
+        className="flex-1 w-full  max-md:max-w-full"
       />
     </div>
   );
