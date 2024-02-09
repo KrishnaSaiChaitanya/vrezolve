@@ -11,7 +11,7 @@ function AlertzHero(props) {
           <div className="flex flex-col items-stretch w-6/12 max-md:ml-0 max-md:w-full">
             <img
               loading="lazy"
-              src="../images/alert-hero.svg"
+              src="../images/alertz/1.png"
               className="object-center w-full aspect-square max-md:mt-2 max-md:max-w-full"
             />
           </div>

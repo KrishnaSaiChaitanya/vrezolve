@@ -10,9 +10,9 @@ import Section4 from "../home/Section4";
 function HomeHero() {
   return (
     <div className="flex gap-4 justify-between items-start px-10 pt-8 pb-12 text-xl bg-white max-md:flex-wrap max-md:px-5">
-      <div className="flex flex-col flex-1 self-stretch my-auto max-md:max-w-full">
-        <div className="text-5xl font-bold text-blue-700 leading-[80px] tracking-[2.4px] max-md:max-w-full max-md:text-4xl max-md:leading-[74px]">
-          Unleashing<span className="text-blue-700"> IT</span> Excellence
+      <div className="flex flex-col mx-5 flex-1 self-stretch my-auto max-md:max-w-full">
+        <div className="text-5xl font-bold  leading-[80px] tracking-[2.4px] max-md:max-w-full max-md:text-4xl max-md:leading-[74px]">
+          Unleashing<span className="text-[#0033cc]"> IT</span> Excellence
         </div>
         <div className="mt-12 tracking-wide leading-8 text-black max-md:mt-10 max-md:max-w-full">
           Discover the pinnacle of IT mastery with our comprehensive solutions.
@@ -32,8 +32,9 @@ function HomeHero() {
       <img
         loading="lazy"
         alt=""
-        srcSet="../images/home-hero-1.png"
-        className="flex-1 w-full  max-md:max-w-full"
+        srcSet="../images/home-hero.png"
+        style={{ maxWidth: "590px" }}
+        className="flex-1 w-full p-5   max-md:max-w-full "
       />
     </div>
   );

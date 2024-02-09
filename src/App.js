@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import AlertzHero from "./components/hero/AlertzHero";
 import RewardzHero from "./components/hero/RewardzHero";
 import Alertz from "./pages/Alertz";
+import Disputz from "./pages/Disputz";
 
 function App() {
   useEffect(() => {
@@ -41,7 +42,7 @@ function App() {
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/alertz" element={<Alertz />}></Route>
           <Route exact path="/rewardz" element={<RewardzHero />}></Route>
-          {/* <Route exact path="/disputz" element={<DisputszHero />}></Route> */}
+          <Route exact path="/disputz" element={<Disputz />}></Route>
         </Routes>
         <Footer />
       </Router>
