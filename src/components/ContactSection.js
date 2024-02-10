@@ -23,7 +23,7 @@ function ContactSection() {
               <div className="mt-3 max-w-full mx-auto bg-[#0033cc] h-[3px] w-[200px]" />
             </div>{" "}
             <div className="flex flex-col bg-[#f2f5fc]  justify-center mr-5  py-0.5 mt-10  rounded max-md:mt-10 max-md:max-w-full">
-              <div className="justify-center  items-start py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
+              <div className="justify-center bg-white  items-start py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
                 <input
                   type="text"
                   placeholder="First name"
@@ -31,15 +31,15 @@ function ContactSection() {
                 />
               </div>
 
-              <div className="justify-center items-start mt-5 py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
+              <div className="justify-center bg-white items-start mt-5 py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
                 <input
                   type="text"
                   placeholder="Last name"
-                  className="placeholder-gray-400 text-black text-xl font-medium leading-5 tracking-[2px] outline-none bg-transparent w-full"
+                  className="placeholder-gray-400  text-black text-xl font-medium leading-5 tracking-[2px] outline-none bg-transparent w-full"
                 />
               </div>
 
-              <div className="justify-center items-start mt-5 py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
+              <div className="justify-center bg-white items-start mt-5 py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
                 <input
                   type="text"
                   placeholder="Email"
@@ -47,14 +47,14 @@ function ContactSection() {
                 />
               </div>
 
-              <div className="justify-center items-start mt-5 py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
+              <div className="justify-center bg-white items-start mt-5 py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
                 <input
                   type="text"
                   placeholder="Phone"
                   className="placeholder-gray-400 text-black text-xl font-medium leading-5 tracking-[2px] outline-none bg-transparent w-full"
                 />
               </div>
-              <div className="justify-center items-start mt-5 pb-16 pt-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
+              <div className="justify-center bg-white items-start mt-5 pb-16 pt-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
                 <input
                   type="text"
                   placeholder="Send us a message"

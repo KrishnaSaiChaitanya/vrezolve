@@ -27,19 +27,18 @@ function DisputszHero() {
                   className="object-contain object-center self-center mt-6 max-w-full aspect-[50] stroke-[3px] stroke-blue-700 w-[179px]"
                 />
               </div>
-              <div className="mt-9 text-5xl  font-medium tracking-wider text-orange-500 leading-[80px] max-md:max-w-full max-md:text-4xl max-md:leading-[74px] max-sm:leading-[44px] max-sm:text-3xl ">
+              <div className="mt-9 text-5xl  font-medium tracking-wider leading-[80px] max-md:max-w-full max-md:text-4xl max-md:leading-[74px] max-sm:leading-[44px] max-sm:text-3xl ">
                 <span className="font-bold text-blue-700">
                   Redefining Chargebacks
                 </span>
                 <span className="font-bold">: The dispute</span>
                 <span className=" font-black text-orange-500">Z</span>
-                <span className="font-bold"> Advantage</span>
+                <span className="font-bold"> Difference</span>
               </div>
               <div className="mt-12 text-base tracking-wide leading-8 text-black max-md:mt-10 max-md:max-w-full">
                 <span className="text-xl font-bold">dispute</span>
-                <span className="text-xl  font-black text-orange-500">Z</span>
+                <span className="text-xl  font-black text-orange-500">Z </span>
                 <span className="text-xl">
-                  {" "}
                   seamlessly integrates all chargeback processes – from customer
                   communication and reasoning to accounting, case management,
                   and closure. Transform your approach to chargeback operations

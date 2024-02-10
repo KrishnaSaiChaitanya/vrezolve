@@ -10,6 +10,7 @@ import AlertzHero from "./components/hero/AlertzHero";
 import RewardzHero from "./components/hero/RewardzHero";
 import Alertz from "./pages/Alertz";
 import Disputz from "./pages/Disputz";
+import Rewardz from "./pages/Rewardz";
 
 function App() {
   useEffect(() => {
@@ -41,7 +42,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/alertz" element={<Alertz />}></Route>
-          <Route exact path="/rewardz" element={<RewardzHero />}></Route>
+          <Route exact path="/rewardz" element={<Rewardz />}></Route>
           <Route exact path="/disputz" element={<Disputz />}></Route>
         </Routes>
         <Footer />
