@@ -9,7 +9,7 @@ import ContactSection from "./ContactSection";
 function Home() {
   return (
     <>
-      <div className="animation_container md:flex sm:hidden">
+      <div className="animation_container flex md:flex hidden sm:block">
         <div className="flex flex-col py-12 bg-white">
           <HomeHero />
           <div className="flex flex-col items-center px-10 py-12 w-full bg-[#f2f5fc] max-md:px-5 max-md:max-w-full">
@@ -256,17 +256,17 @@ function Home() {
           <ContactSection />
         </div>
       </div>
-      <div className="sm:flex flex-col px-3 md:hidden items-center py-6 mx-auto w-full bg-white max-w-[380px]">
+      <div className="sm:flex flex-col md:hidden items-center py-6 mx-auto w-full bg-white max-w-[400px]">
         <img
           loading="lazy"
-          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/040da6087941280e424846fcc85dbc41083ff08de47489cca24ef5a4157ddddf?apiKey=67296d98361248faadca04e106a4f278&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/040da6087941280e424846fcc85dbc41083ff08de47489cca24ef5a4157ddddf?apiKey=67296d98361248faadca04e106a4f278&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/040da6087941280e424846fcc85dbc41083ff08de47489cca24ef5a4157ddddf?apiKey=67296d98361248faadca04e106a4f278&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/040da6087941280e424846fcc85dbc41083ff08de47489cca24ef5a4157ddddf?apiKey=67296d98361248faadca04e106a4f278&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/040da6087941280e424846fcc85dbc41083ff08de47489cca24ef5a4157ddddf?apiKey=67296d98361248faadca04e106a4f278&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/040da6087941280e424846fcc85dbc41083ff08de47489cca24ef5a4157ddddf?apiKey=67296d98361248faadca04e106a4f278&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/040da6087941280e424846fcc85dbc41083ff08de47489cca24ef5a4157ddddf?apiKey=67296d98361248faadca04e106a4f278&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/040da6087941280e424846fcc85dbc41083ff08de47489cca24ef5a4157ddddf?apiKey=67296d98361248faadca04e106a4f278&"
+          srcSet="../images/home-hero.png"
           className="mt-16 mx-auto w-full aspect-[0.85] max-w-[306px]"
         />
         <div className="mt-12 p-3 text-2xl font-bold tracking-wider text-center text-blue-700 whitespace-nowrap">
           Unleashing<span className="leading-7 text-blue-700"> IT</span>{" "}
           Excellence
         </div>
-        <div className="mt-6 text-base tracking-normal leading-6 text-center text-black">
+        <div className="mt-6 px-3  text-base tracking-normal leading-6 text-center text-black">
           Discover the pinnacle of IT mastery with our comprehensive solutions.
           From robust fraud defense to seamless dispute management and beyond,
           we empower your digital landscape for unparalleled success.
@@ -275,7 +275,7 @@ function Home() {
           Learn more
         </div>
         <div className="self-stretch mt-20 w-full bg-blue-700 min-h-[2px]" />
-        <div className="flex flex-col self-stretch px-5 pt-12 w-full text-base bg-blue-700 bg-opacity-10">
+        <div className="flex flex-col pb-6 self-stretch px-5 pt-12 w-full text-base bg-blue-700 bg-opacity-10">
           <div className="self-center mt-7 font-bold text-center text-blue-700 whitespace-nowrap leading-[60px] tracking-[3.2px]">
             OUR SOLUTIONS
           </div>
@@ -298,12 +298,12 @@ function Home() {
             </div>
             <img
               loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/9440d15cd388b06c6142621546ecf4aa288ca2db93a0b3204d383f97aecae187?apiKey=67296d98361248faadca04e106a4f278&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9440d15cd388b06c6142621546ecf4aa288ca2db93a0b3204d383f97aecae187?apiKey=67296d98361248faadca04e106a4f278&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9440d15cd388b06c6142621546ecf4aa288ca2db93a0b3204d383f97aecae187?apiKey=67296d98361248faadca04e106a4f278&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9440d15cd388b06c6142621546ecf4aa288ca2db93a0b3204d383f97aecae187?apiKey=67296d98361248faadca04e106a4f278&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9440d15cd388b06c6142621546ecf4aa288ca2db93a0b3204d383f97aecae187?apiKey=67296d98361248faadca04e106a4f278&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9440d15cd388b06c6142621546ecf4aa288ca2db93a0b3204d383f97aecae187?apiKey=67296d98361248faadca04e106a4f278&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9440d15cd388b06c6142621546ecf4aa288ca2db93a0b3204d383f97aecae187?apiKey=67296d98361248faadca04e106a4f278&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9440d15cd388b06c6142621546ecf4aa288ca2db93a0b3204d383f97aecae187?apiKey=67296d98361248faadca04e106a4f278&"
+              srcSet="../images/home/6.svg"
               className="self-center mt-14 w-full rounded-3xl shadow-sm aspect-[1.01] max-w-[325px]"
             />
-            <div className="self-center mt-8 text-2xl italic font-semibold leading-5 text-center text-orange-500 whitespace-nowrap tracking-[5px]">
+            <div className="self-center mt-8 text-2xl  font-semibold leading-5 text-center text-orange-500 whitespace-nowrap tracking-[5px]">
               <span className="font-bold">dispute</span>
-              <span className="italic font-black text-orange-500">Z</span>
+              <span className=" font-black text-orange-500">Z</span>
             </div>
             <div className="mt-7 leading-6">
               Our solution seamlessly integrates all aspects of chargeback
@@ -312,44 +312,46 @@ function Home() {
               every stage of the chargeback process, providing a seamless
               experience for both issuers and merchants.
             </div>
-            <div className="flex gap-3 justify-between mt-6 whitespace-nowrap">
-              <div className="self-start bg-blue-700 rounded-full h-[9px] w-[9px]" />
-              <div className="grow">Integrated Chargeback Operations</div>
-            </div>
-            <div className="flex gap-3 justify-between mt-7 whitespace-nowrap">
-              <div className="self-start bg-blue-700 rounded-full h-[9px] w-[9px]" />
-              <div className="grow">Customer Communication</div>
-            </div>
-            <div className="flex gap-3 justify-between mt-8 whitespace-nowrap">
-              <div className="self-start bg-blue-700 rounded-full h-[9px] w-[9px]" />
-              <div className="grow">Chargeback Reasoning</div>
-            </div>
-            <div className="flex gap-3 justify-between mt-7 whitespace-nowrap">
-              <div className="self-start bg-blue-700 rounded-full h-[9px] w-[9px]" />
-              <div className="grow">Chargeback Accounting</div>
-            </div>
-            <div className="flex gap-3 justify-between mt-7 whitespace-nowrap">
-              <div className="self-start bg-blue-700 rounded-full h-[9px] w-[9px]" />
-              <div className="grow">Case Management</div>
-            </div>
-            <div className="flex gap-3 self-start mt-7">
-              <div className="self-start bg-blue-700 rounded-full h-[9px] w-[9px]" />
-              <div>Case Closure</div>
+            <div className="mt-16">
+              <div className="flex gap-3 justify-between mt-6 whitespace-nowrap">
+                <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />
+                <div className="grow">Integrated Chargeback Operations</div>
+              </div>
+              <div className="flex gap-3 justify-between mt-7 whitespace-nowrap">
+                <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />
+                <div className="grow">Customer Communication</div>
+              </div>
+              <div className="flex gap-3 justify-between mt-8 whitespace-nowrap">
+                <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />
+                <div className="grow">Chargeback Reasoning</div>
+              </div>
+              <div className="flex gap-3 justify-between mt-7 whitespace-nowrap">
+                <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />
+                <div className="grow">Chargeback Accounting</div>
+              </div>
+              <div className="flex gap-3 justify-between mt-7 whitespace-nowrap">
+                <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />
+                <div className="grow">Case Management</div>
+              </div>
+              <div className="flex gap-3 self-start mt-7">
+                <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />
+                <div>Case Closure</div>
+              </div>
             </div>
             <div className="justify-center self-center px-3.5 py-1.5 mt-11 font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px]">
               Learn More
             </div>
           </div>
-          <div className="mt-20 w-full bg-blue-700 min-h-[2px]" />
         </div>
+        <div className="self-stretch  w-full bg-blue-700 min-h-[2px]" />
         <div className="mt-20 text-base font-bold text-center text-blue-700 whitespace-nowrap leading-[60px] tracking-[3.2px]">
           WHY DISPUTEZ
         </div>
-        <div className="h-0.5 bg-blue-700 w-[148px]" />
+        <div className="h-0.5 mx-auto bg-blue-700 w-[148px]" />
         <div className="mt-9 text-2xl font-medium leading-8 text-center text-black tracking-[2px]">
           Experience efficiency at every step
         </div>
-        <div className="mt-11 text-base italic leading-6 text-center text-orange-500 tracking-[2px]">
+        <div className="mt-11 mx-3 text-base  leading-6 text-center  tracking-[2px]">
           <span className="tracking-wider">
             Our tailored solutions for issuers streamline the process, providing
             efficient and strategic tools to navigate and resolve disputes
@@ -357,21 +359,21 @@ function Home() {
             maintain the integrity of your financial transactions with
           </span>{" "}
           <span className="font-bold">dispute</span>
-          <span className="italic font-black text-orange-500">Z</span>
+          <span className=" font-black text-orange-500">Z</span>
         </div>
         <div className="mt-12 text-2xl font-medium leading-8 text-center text-blue-700 tracking-[2px]">
           Streamlined dispute management solutions for issuers
         </div>
         <img
           loading="lazy"
-          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/14661d7fd3b93dea2963f5e6ec4b910e666c8b3ee08858df05ff54d5e04f2aed?apiKey=67296d98361248faadca04e106a4f278&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/14661d7fd3b93dea2963f5e6ec4b910e666c8b3ee08858df05ff54d5e04f2aed?apiKey=67296d98361248faadca04e106a4f278&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/14661d7fd3b93dea2963f5e6ec4b910e666c8b3ee08858df05ff54d5e04f2aed?apiKey=67296d98361248faadca04e106a4f278&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/14661d7fd3b93dea2963f5e6ec4b910e666c8b3ee08858df05ff54d5e04f2aed?apiKey=67296d98361248faadca04e106a4f278&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/14661d7fd3b93dea2963f5e6ec4b910e666c8b3ee08858df05ff54d5e04f2aed?apiKey=67296d98361248faadca04e106a4f278&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/14661d7fd3b93dea2963f5e6ec4b910e666c8b3ee08858df05ff54d5e04f2aed?apiKey=67296d98361248faadca04e106a4f278&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/14661d7fd3b93dea2963f5e6ec4b910e666c8b3ee08858df05ff54d5e04f2aed?apiKey=67296d98361248faadca04e106a4f278&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/14661d7fd3b93dea2963f5e6ec4b910e666c8b3ee08858df05ff54d5e04f2aed?apiKey=67296d98361248faadca04e106a4f278&"
-          className="mt-9 w-full rounded-3xl shadow-sm aspect-square max-w-[334px]"
+          srcSet="../images/home/2.png"
+          className="mt-9 w-full mx-auto rounded-3xl  aspect-square max-w-[334px]"
         />
         <div className="z-10 self-stretch mt-14 w-full bg-blue-700 min-h-[2px]" />
         <div className="flex flex-col self-stretch px-5 py-12 w-full bg-blue-700 bg-opacity-10">
-          <div className="self-center mt-10 text-2xl italic font-semibold leading-5 text-center text-orange-500 whitespace-nowrap tracking-[5px]">
+          <div className="self-center mt-10 text-2xl  font-semibold leading-5 text-center  whitespace-nowrap tracking-[5px]">
             <span className="font-bold">alert</span>
-            <span className="italic font-black text-orange-500">Z</span>
+            <span className=" font-black text-orange-500">Z</span>
           </div>
           <div className="flex flex-col px-6 mt-11 mb-8 w-full text-base tracking-wider leading-8 text-black">
             <div className="leading-6">
@@ -381,32 +383,34 @@ function Home() {
               but also ensures the preservation of the issuer's chargeback
               rights throughout the process.
             </div>{" "}
-            <div className="flex gap-3 self-start mt-10">
-              <div className="self-start bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "}
-              <div className="flex-auto">Fraud Detection</div>
-            </div>{" "}
-            <div className="flex gap-3 justify-between mt-8 whitespace-nowrap">
-              <div className="self-start bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "}
-              <div className="grow">Fraud Prevention</div>
-            </div>{" "}
-            <div className="flex gap-3 justify-between mt-8 whitespace-nowrap">
-              <div className="self-start bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "}
-              <div className="grow">Dispute Resolution</div>
-            </div>{" "}
-            <div className="flex gap-3 justify-between mt-7 whitespace-nowrap">
-              <div className="self-start bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "}
-              <div className="grow">Preservation of Chargeback Rights</div>
-            </div>{" "}
-            <div className="flex gap-3 justify-between mt-7 whitespace-nowrap">
-              <div className="self-start bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "}
-              <div className="grow">Real - Time Fraud Alerts</div>
-            </div>{" "}
+            <div className="">
+              <div className="flex gap-3 self-start mt-10">
+                <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "}
+                <div className="flex-auto">Fraud Detection</div>
+              </div>{" "}
+              <div className="flex gap-3 justify-between mt-8 whitespace-nowrap">
+                <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "}
+                <div className="grow">Fraud Prevention</div>
+              </div>{" "}
+              <div className="flex gap-3 justify-between mt-8 whitespace-nowrap">
+                <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "}
+                <div className="grow">Dispute Resolution</div>
+              </div>{" "}
+              <div className="flex gap-3 justify-between mt-7 whitespace-nowrap">
+                <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "}
+                <div className="grow">Preservation of Chargeback Rights</div>
+              </div>{" "}
+              <div className="flex gap-3 justify-between mt-7 whitespace-nowrap">
+                <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "}
+                <div className="grow">Real - Time Fraud Alerts</div>
+              </div>{" "}
+            </div>
             <div className="justify-center self-center px-3.5 py-1.5 mt-11 font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px]">
               Learn More
             </div>{" "}
             <img
               loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e878af2e3a4036183e64875b55ce86ccb82fe5adc8a0902a9a59a881f517da2c?apiKey=67296d98361248faadca04e106a4f278&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e878af2e3a4036183e64875b55ce86ccb82fe5adc8a0902a9a59a881f517da2c?apiKey=67296d98361248faadca04e106a4f278&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e878af2e3a4036183e64875b55ce86ccb82fe5adc8a0902a9a59a881f517da2c?apiKey=67296d98361248faadca04e106a4f278&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e878af2e3a4036183e64875b55ce86ccb82fe5adc8a0902a9a59a881f517da2c?apiKey=67296d98361248faadca04e106a4f278&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e878af2e3a4036183e64875b55ce86ccb82fe5adc8a0902a9a59a881f517da2c?apiKey=67296d98361248faadca04e106a4f278&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e878af2e3a4036183e64875b55ce86ccb82fe5adc8a0902a9a59a881f517da2c?apiKey=67296d98361248faadca04e106a4f278&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e878af2e3a4036183e64875b55ce86ccb82fe5adc8a0902a9a59a881f517da2c?apiKey=67296d98361248faadca04e106a4f278&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e878af2e3a4036183e64875b55ce86ccb82fe5adc8a0902a9a59a881f517da2c?apiKey=67296d98361248faadca04e106a4f278&"
+              srcSet="../images/home/5.svg"
               className="self-center mt-10 w-full max-w-xs rounded-3xl shadow-sm aspect-[1.01]"
             />
           </div>
@@ -418,13 +422,13 @@ function Home() {
         <div className="mt-9 text-2xl font-medium leading-8 text-center text-black tracking-[2px]">
           Defend against fraud & chargebacks
         </div>{" "}
-        <div className="mt-16 text-base italic tracking-wider leading-6 text-center text-orange-500">
+        <div className="mt-16 text-base mx-3  tracking-wider leading-6 text-center ">
           {" "}
           Its crucial for merchants to stay informed and ahead of the curve. We
           have you covered with real time alerts, so you stay informed and ahead
           of the curve. Resolve disputes quickly and efficiently{" "}
           <span className="font-bold tracking-[2px]">alert</span>{" "}
-          <span className="italic font-semibold text-orange-500 tracking-[2px]">
+          <span className=" font-semibold text-orange-500 tracking-[2px]">
             Z
           </span>
         </div>{" "}
@@ -433,14 +437,14 @@ function Home() {
         </div>{" "}
         <img
           loading="lazy"
-          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/3c81a03fa11b7f7c8396e3042b32e0e029b726ae7eee4eb90346a8cd8f6107b5?apiKey=67296d98361248faadca04e106a4f278&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3c81a03fa11b7f7c8396e3042b32e0e029b726ae7eee4eb90346a8cd8f6107b5?apiKey=67296d98361248faadca04e106a4f278&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3c81a03fa11b7f7c8396e3042b32e0e029b726ae7eee4eb90346a8cd8f6107b5?apiKey=67296d98361248faadca04e106a4f278&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3c81a03fa11b7f7c8396e3042b32e0e029b726ae7eee4eb90346a8cd8f6107b5?apiKey=67296d98361248faadca04e106a4f278&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3c81a03fa11b7f7c8396e3042b32e0e029b726ae7eee4eb90346a8cd8f6107b5?apiKey=67296d98361248faadca04e106a4f278&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3c81a03fa11b7f7c8396e3042b32e0e029b726ae7eee4eb90346a8cd8f6107b5?apiKey=67296d98361248faadca04e106a4f278&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3c81a03fa11b7f7c8396e3042b32e0e029b726ae7eee4eb90346a8cd8f6107b5?apiKey=67296d98361248faadca04e106a4f278&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3c81a03fa11b7f7c8396e3042b32e0e029b726ae7eee4eb90346a8cd8f6107b5?apiKey=67296d98361248faadca04e106a4f278&"
-          className="mt-9 w-full rounded-3xl shadow-sm aspect-[0.98] max-w-[328px]"
+          src="../images/home/1.png"
+          className="mt-9 w-full mx-auto rounded-3xl shadow-sm aspect-[0.98] max-w-[328px]"
         />{" "}
         <div className="self-stretch mt-16 w-full bg-blue-700 min-h-[2px]" />{" "}
         <div className="mt-20 text-2xl font-bold tracking-wider text-center text-black">
           Expert Consultation
         </div>{" "}
-        <div className="mt-3 bg-blue-700 h-[3px] w-[200px]" />{" "}
+        <div className="mt-3 mx-auto bg-blue-700 h-[px] w-[200px]" />{" "}
         <div className="mt-11 text-base tracking-wider leading-6 text-center text-black">
           <span className="font-extrabold text-blue-700">vre</span>
           <span className="text-orange-500">z</span>
