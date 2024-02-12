@@ -8,8 +8,8 @@ function LogoSlider() {
           <div class="slide">
             <img
               src="../images/partners/1.svg"
-              height="80"
-              width="140"
+              height="60"
+              width="100"
               alt=""
             />
           </div>
@@ -41,7 +41,7 @@ function LogoSlider() {
             <img
               src="../images/partners/3.svg"
               height="80"
-              width="140"
+              width="100"
               alt=""
             />
           </div>
@@ -70,12 +70,7 @@ function LogoSlider() {
             /> */}
           </div>
           <div class="slide">
-            <img
-              src="../images/partners/7.svg"
-              height="60"
-              width="100"
-              alt=""
-            />
+            <img src="../images/partners/7.svg" height="50" width="80" alt="" />
           </div>
           <div class="slide">
             {/* <img
@@ -87,7 +82,7 @@ function LogoSlider() {
           </div>
           <div class="slide">
             <img
-              src="../images/partners/8.svg"
+              src="../images/partners/2.svg"
               height="60"
               width="140"
               alt=""
@@ -104,8 +99,8 @@ function LogoSlider() {
           <div class="slide">
             <img
               src="../images/partners/3.svg"
-              height="50"
-              width="140"
+              height="80"
+              width="100"
               alt=""
             />
           </div>

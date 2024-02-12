@@ -9,7 +9,7 @@ import ContactSection from "./ContactSection";
 function Home() {
   return (
     <>
-      <div className="animation_container flex md:flex hidden sm:block">
+      <div className=" flex md:flex hidden sm:block">
         <div className="flex flex-col py-12 bg-white">
           <HomeHero />
           <div className="flex flex-col items-center px-10 py-12 w-full bg-[#f2f5fc] max-md:px-5 max-md:max-w-full">
@@ -445,7 +445,7 @@ function Home() {
           Expert Consultation
         </div>{" "}
         <div className="mt-3 mx-auto bg-blue-700 h-[px] w-[200px]" />{" "}
-        <div className="mt-11 text-base tracking-wider leading-6 text-center text-black">
+        <div className="mt-11 text-base px-3 tracking-wider leading-6 text-center text-black">
           <span className="font-extrabold text-blue-700">vre</span>
           <span className="text-orange-500">z</span>
           <span className="text-blue-700">olve</span> offers expert consultation
@@ -454,15 +454,15 @@ function Home() {
           have the right tools and processes in place to take your business to
           the next level.
         </div>{" "}
-        <div className="justify-center px-3.5 py-1.5 mt-12 text-base font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px]">
+        <div className="justify-center w-[200px] mx-auto px-3.5 py-1.5 mt-12 text-base font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px]">
           Talk to an Expert
         </div>{" "}
         <img
           loading="lazy"
-          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/12db0978ba46274fcb8db8bde2c8dcbe9e13b9876ec67794bb92d86b70c298a8?apiKey=67296d98361248faadca04e106a4f278&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/12db0978ba46274fcb8db8bde2c8dcbe9e13b9876ec67794bb92d86b70c298a8?apiKey=67296d98361248faadca04e106a4f278&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/12db0978ba46274fcb8db8bde2c8dcbe9e13b9876ec67794bb92d86b70c298a8?apiKey=67296d98361248faadca04e106a4f278&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/12db0978ba46274fcb8db8bde2c8dcbe9e13b9876ec67794bb92d86b70c298a8?apiKey=67296d98361248faadca04e106a4f278&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/12db0978ba46274fcb8db8bde2c8dcbe9e13b9876ec67794bb92d86b70c298a8?apiKey=67296d98361248faadca04e106a4f278&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/12db0978ba46274fcb8db8bde2c8dcbe9e13b9876ec67794bb92d86b70c298a8?apiKey=67296d98361248faadca04e106a4f278&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/12db0978ba46274fcb8db8bde2c8dcbe9e13b9876ec67794bb92d86b70c298a8?apiKey=67296d98361248faadca04e106a4f278&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/12db0978ba46274fcb8db8bde2c8dcbe9e13b9876ec67794bb92d86b70c298a8?apiKey=67296d98361248faadca04e106a4f278&"
-          className="self-stretch mt-6 w-full aspect-[1.3]"
+          src="../images/home/3.svg"
+          className="self-stretch  w-full aspect-[1.1]"
         />{" "}
-        <div className="flex flex-col justify-center self-stretch px-5 py-12 mt-20 w-full text-center text-black bg-blue-700">
+        <div className="flex flex-col justify-center self-stretch px-5 py-12 w-full text-center text-black bg-blue-700">
           <div className="flex flex-col items-center py-12 mt-8 mb-8 bg-white rounded-3xl">
             <div className="text-2xl font-bold tracking-wider">
               Corporate Partners
@@ -476,101 +476,11 @@ function Home() {
                 Together, we excel in delivering top-notch solutions and
                 creating a thriving network.
               </div>{" "}
-              <img
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/d98c6cbc17cc0eec504dc285fe8e0470bc4d146fb20d6a6499d548c9dd0ab104?apiKey=67296d98361248faadca04e106a4f278&"
-                className="mt-20 ml-16 aspect-[1.49] w-[75px]"
-              />
+              <LogoSlider />
             </div>
           </div>
         </div>{" "}
-        <div className="flex flex-col items-center self-stretch px-5 pt-12 w-full text-base tracking-wider leading-8 bg-blue-700 bg-opacity-10 text-zinc-500">
-          <div className="mt-12 text-2xl font-bold tracking-wider text-center text-black whitespace-nowrap">
-            Want to learn more?
-          </div>{" "}
-          <div className="mt-11 text-xl text-center text-black">
-            Get in touch with us for any questions or assistance. We're here to
-            help!
-          </div>
-          <div className="mt-14 text-2xl font-bold tracking-wider text-center text-black">
-            Contact Us
-          </div>
-          <div className="mt-3 h-0.5 bg-blue-700 w-[120px]" />
-          <div className="flex flex-col justify-center mt-10 whitespace-nowrap bg-white rounded">
-            <div className="justify-center items-start py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)]">
-              First name
-            </div>
-          </div>
-          <div className="flex flex-col justify-center mt-3 whitespace-nowrap bg-white rounded">
-            <div className="justify-center items-start py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)]">
-              Last name
-            </div>
-          </div>
-          <div className="flex flex-col justify-center mt-3 whitespace-nowrap bg-white rounded">
-            <div className="justify-center items-start py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)]">
-              Email
-            </div>
-          </div>
-          <div className="flex flex-col justify-center mt-3 whitespace-nowrap bg-white rounded">
-            <div className="justify-center items-start py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)]">
-              Phone
-            </div>
-          </div>
-          <div className="flex flex-col justify-center mt-3 whitespace-nowrap bg-white rounded">
-            <div className="items-start pt-3.5 pr-16 pb-20 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)]">
-              Send us a message
-            </div>
-          </div>
-          <div className="justify-center px-8 py-1.5 mt-10 font-medium text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px]">
-            Submit
-          </div>
-          <div className="self-stretch mt-20 w-full bg-blue-700 min-h-[2px]" />
-        </div>
-        <div className="mt-24 text-sm font-medium leading-6 text-center text-blue-700 tracking-[2px]">
-          COMPANY
-        </div>
-        <div className="mt-8 text-sm tracking-wider text-center text-black whitespace-nowrap">
-          About us
-        </div>
-        <div className="mt-6 text-sm tracking-wider text-center text-black whitespace-nowrap">
-          Partner with us
-        </div>
-        <div className="mt-6 text-sm tracking-wider text-center text-black whitespace-nowrap">
-          Contact us
-        </div>
-        <div className="mt-6 text-sm tracking-wider text-center text-black">
-          Blog
-        </div>
-        <div className="mt-20 text-sm font-medium leading-5 text-center text-blue-700 tracking-[2px]">
-          SOLUTIONS
-        </div>
-        <div className="mt-9 text-sm text-center text-black whitespace-nowrap tracking-[2px]">
-          Dispute management
-        </div>
-        <div className="mt-6 text-sm text-black whitespace-nowrap tracking-[2px]">
-          Fraud and risk management
-        </div>
-        <div className="mt-6 text-sm text-center text-black whitespace-nowrap tracking-[2px]">
-          Rewards program
-        </div>
-        <div className="mt-20 text-sm font-medium leading-6 text-blue-700 tracking-[2px]">
-          SOCIAL
-        </div>
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/86d20e42dc106b10fd0b2192ce69cc8630ed7d89178fbff45146e89f9abc888f?apiKey=67296d98361248faadca04e106a4f278&"
-          className="mt-9 w-6 aspect-square"
-        />
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/2d7472b43bcea8fcc7cf4b653786f71698eb678302159cb8c3e0aa403e749310?apiKey=67296d98361248faadca04e106a4f278&"
-          className="mt-7 w-6 aspect-square"
-        />
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/fb375e91d7f92b531398d50389c7ba9fa725cbd95aa201df7c35dcd82e5df4e9?apiKey=67296d98361248faadca04e106a4f278&"
-          className="mt-7 w-6 aspect-square"
-        />
+        <ContactSection />
       </div>
     </>
   );
