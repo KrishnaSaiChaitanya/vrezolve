@@ -5,7 +5,7 @@ import RewardzHero from "../components/hero/RewardzHero";
 function Rewardz() {
   return (
     <div>
-      <div>
+      <div className="hidden md:block">
         <RewardzHero />
         <div className="flex flex-col items-center py-12 mb-6 bg-white">
           <div className="mt-32 text-5xl font-bold text-black leading-[80px] tracking-[2.4px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[74px]">
@@ -35,6 +35,64 @@ function Rewardz() {
             <div className="grow max-md:max-w-full">
               Your journey with us is about to become even more rewarding.
             </div>
+          </div>
+        </div>
+        <ContactSection />
+      </div>
+      <div className="flex md:hidden flex-col items-center pt-5 pb-12 mx-auto w-full bg-white max-w-[380px]">
+        <img
+          loading="lazy"
+          src="../images/rewardz-hero.svg"
+          className="mt-20 w-full aspect-[0.77] max-w-[303px]"
+        />
+        <div className="mt-14 text-2xl italic font-semibold leading-5 text-center text-orange-500 whitespace-nowrap tracking-[5px]">
+          <span className="font-bold text-blue-700">reward</span>
+          <span className="italic font-black text-orange-500">Z</span>
+        </div>
+        <div className="h-0.5 mt-5 mx-auto bg-blue-700 w-[128px]" />
+        <div className="mt-16 text-2xl font-bold tracking-wider text-center text-blue-700 whitespace-nowrap">
+          Unlock a world of rewards
+        </div>
+        <div className="mt-16 px-3 text-base tracking-normal leading-6 text-center text-black">
+          Our rewards program is designed to elevate your experience. Earn
+          points with every transaction, and watch as your loyalty transforms
+          into exciting rewards. From exclusive discounts to special offers,
+          your journey with us is about to become even more rewarding. Start
+          earning today and indulge in the perks that await you!
+        </div>
+        <div className="mt-5 text-2xl font-bold text-center text-orange-500 whitespace-nowrap leading-[60px] tracking-[4.8px]">
+          COMING SOON
+        </div>
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/9ee049d5577892ce6dfccdef16870c5bcc5b0235bedad05c8340c95053ba39ca?apiKey=67296d98361248faadca04e106a4f278&"
+          className="w-40 max-w-full aspect-[100] stroke-[2px] stroke-orange-500"
+        />
+        <div className="mt-28 text-2xl font-bold tracking-wider text-center text-black whitespace-nowrap">
+          Discover <span className="text-black">exclusive rewards</span>
+        </div>
+        <div className="flex gap-3 pr-5 mt-9 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
+          <div className="self-start mt-2.5 bg-blue-700 rounded-full h-[9px] w-[9px]" />
+          <div className="flex-auto">
+            Earn points effortlessly with every transaction.
+          </div>
+        </div>
+        <div className="flex gap-3 pr-5 mt-5 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
+          <div className="my-auto bg-blue-700 rounded-full h-[9px] w-[9px]" />
+          <div className="flex-auto">
+            Loyalty transforms into exciting perks and privileges.
+          </div>
+        </div>
+        <div className="flex gap-3 pr-5 mt-8 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
+          <div className="self-start mt-3 bg-blue-700 rounded-full h-[9px] w-[9px]" />
+          <div className="flex-auto">
+            Access exclusive discounts and special offers.
+          </div>
+        </div>
+        <div className="flex gap-3 pr-5 mt-5 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
+          <div className="self-start mt-3 bg-blue-700 rounded-full h-[9px] w-[9px]" />
+          <div className="flex-auto">
+            Your journey with us about to become even more rewarding.
           </div>
         </div>
         <ContactSection />

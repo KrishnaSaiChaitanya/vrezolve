@@ -55,7 +55,7 @@ function LoginNavbar() {
             : "mt-10"
         }`}
       >
-        <div className="flex mt-3 sm:mt-1 gap-5 justify-between items-stretch px-5 max-md:flex-wrap py-2">
+        <div className="flex mt-3 gap-5 justify-between items-stretch px-5 max-md:flex-wrap py-2">
           <img src="../images/logo.svg" alt="Logo" />
           <div className="md:flex gap-6 justify-between items-stretch p-6 text-xl text-center text-black whitespace-nowrap tracking-[2px] max-md:flex-wrap max-md:px-5 max-md:max-w-full hidden">
             <div className="leading-[150%]">Home</div>
@@ -107,7 +107,7 @@ function LoginNavbar() {
           ref={dropdownRef}
           className="fixed top-18 right-5  bg-white w-64 shadow-md z-50 overflow-y-auto max-h-450"
         >
-          <div className="flex flex-col py-2 bg-white rounded shadow max-w-[280px]">
+          <div className="flex flex-col py-2 bg-white p-2 rounded shadow max-w-[280px]">
             <div className="flex gap-3 justify-between px-3">
               <img
                 loading="lazy"
