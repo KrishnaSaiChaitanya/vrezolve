@@ -3,7 +3,7 @@ import React from "react";
 function CardsSection() {
   return (
     <div className="mt-16">
-      <div className="flex flex-col p-12 bg-blue-700 bg-opacity-10 max-md:px-5">
+      <div className="flex flex-col p-12 bg-[#f2f5fc] max-md:px-5">
         <div className="self-center mt-24 text-5xl font-bold text-center text-black leading-[80.16px] tracking-[2.4px] max-md:mt-10 max-md:max-w-full max-md:text-4xl">
           Unveiling the best of our platform
         </div>
@@ -14,9 +14,9 @@ function CardsSection() {
                 <img
                   loading="lazy"
                   srcSet="../images/alertz/4.svg"
-                  className="max-w-full aspect-square w-[150px]"
+                  className="max-w-full aspect-square w-[100px] m-1"
                 />
-                <div className="mt-5 text-4xl font-medium leading-8 text-blue-700 whitespace-nowrap tracking-[2px] transition-all duration-500 transform hover:text-blue-900">
+                <div className="mt-12 text-4xl font-medium leading-8 text-blue-700 whitespace-nowrap tracking-[2px] transition-all duration-500 transform hover:text-blue-900">
                   Fraud Prevention
                 </div>
                 <div className="self-stretch mt-14 text-xl tracking-wider leading-8 text-center text-black max-md:mt-10 transition-all duration-500 transform hover:text-gray-800">
@@ -31,9 +31,9 @@ function CardsSection() {
                 <img
                   loading="lazy"
                   srcSet="../images/alertz/5.svg"
-                  className="max-w-full aspect-square w-[150px]"
+                  className="max-w-full aspect-square w-[100px] m-1"
                 />
-                <div className="mt-5 text-4xl font-medium leading-8 text-blue-700 whitespace-nowrap tracking-[2px] transition-transform duration-300 ease-in-out transform hover:text-blue-900">
+                <div className="mt-12 text-4xl font-medium leading-8 text-blue-700 whitespace-nowrap tracking-[2px] transition-transform duration-300 ease-in-out transform hover:text-blue-900">
                   Cost Savings
                 </div>
                 <div className="self-stretch mt-14 text-xl tracking-wider leading-8 text-center text-black max-md:mt-10 transition-transform duration-300 ease-in-out transform hover:text-gray-800">
@@ -47,7 +47,7 @@ function CardsSection() {
                 <img
                   loading="lazy"
                   srcSet="../images/alertz/6.svg"
-                  className="max-w-full aspect-square w-[150px]"
+                  className="max-w-full aspect-square w-[130px] m-1"
                 />
                 <div className="mt-5 text-4xl font-medium leading-8 text-blue-700 whitespace-nowrap tracking-[2px]">
                   Faster Resolution

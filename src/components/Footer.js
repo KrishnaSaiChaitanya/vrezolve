@@ -32,7 +32,7 @@ function Footer() {
                         <div className="mt-3 whitespace-nowrap">
                           Fraud and risk management
                         </div>
-                        <div className="mt-3">Rewards program</div>
+                        {/* <div className="mt-3">Rewards program</div> */}
                       </div>
                     </div>
                   </div>
@@ -118,9 +118,9 @@ function Footer() {
         <div className="mt-6 text-sm text-center text-black whitespace-nowrap tracking-[2px]">
           Fraud and risk management
         </div>{" "}
-        <div className="mt-6 text-sm text-center text-black whitespace-nowrap tracking-[2px]">
+        {/* <div className="mt-6 text-sm text-center text-black whitespace-nowrap tracking-[2px]">
           Rewards program
-        </div>{" "}
+        </div>{" "} */}
         <div className="mt-20 text-sm font-medium leading-5 text-center text-blue-700 tracking-[2px]">
           SOCIAL
         </div>{" "}
