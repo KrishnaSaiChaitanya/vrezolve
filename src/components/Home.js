@@ -12,17 +12,14 @@ function Home() {
       <div className=" flex md:flex hidden sm:block">
         <div className="flex flex-col py-12 bg-white">
           <HomeHero />
-          <div className="flex flex-col items-center px-10 py-12 w-full bg-[#f2f5fc] max-md:px-5 max-md:max-w-full">
-            <div className="flex flex-col items-center mt-20 max-w-full text-xl text-black w-[858px] max-md:mt-10">
+          <div className="flex flex-col items-center bg-[#f2f5fc] px-10 py-12 w-full  max-md:px-5 max-md:max-w-full">
+            <div className="flex  flex-col items-center mt-20 max-w-full text-xl text-black w-[858px] max-md:mt-10">
               <div className="self-center text-[#0033cc] font-bold whitespace-nowrap leading-[60px] tracking-[4px] anm_mod left delay">
                 OUR SOLUTIONS
               </div>
               <div className="mt-3 h-[3px] max-w-full mx-auto bg-[#0033cc] w-[179px]" />
               <header className="mt-20 text-5xl font-bold text-center text-black leading-[70px] tracking-[2.4px] w-[951px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[64px]">
-                <span className="text-blue-700">
-                  Issuer and Merchant Solutions
-                </span>{" "}
-                : Empowering Seamless Transactions
+                <span className="">Issuer and Merchant Solutions</span>{" "}
               </header>
 
               <p className="mt-16 text-xl tracking-wider leading-8 text-center text-black w-[775px] max-md:mt-10 max-md:max-w-full">
@@ -282,13 +279,7 @@ function Home() {
           <div className="self-center h-0.5 bg-blue-700 w-[148px]" />
           <div className="flex flex-col px-5 mt-8 w-full tracking-wider text-black leading-[187.5%]">
             <div className="text-2xl font-bold tracking-wider text-center">
-              <span className="leading-7 text-blue-700">
-                Issuer & Merchant Solutions :
-              </span>
-              <span className="leading-7">
-                {" "}
-                Empowering seamless transactions{" "}
-              </span>
+              <span className="leading-7 ">Issuer & Merchant Solutions</span>
             </div>
             <div className="mt-11 leading-6 text-center">
               Experience unmatched efficiency with our tailored solutions

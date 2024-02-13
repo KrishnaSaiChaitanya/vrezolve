@@ -48,6 +48,7 @@ function DisputszHero() {
               <div className="mt-16 text-4xl font-bold tracking-widest leading-5 text-blue-700 max-md:mt-10 max-md:max-w-full">
                 COMING SOON
               </div>
+
               <img
                 loading="lazy"
                 src="../images/line.svg"

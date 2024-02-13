@@ -43,11 +43,12 @@ function RewardzHero() {
               <div className="mt-16 text-4xl font-bold tracking-widest leading-5 text-blue-700 max-md:mt-10 max-md:max-w-full">
                 COMING SOON
               </div>
-              <img
+              <div class="h-0.5 mt-6 mx-auto bg-blue-700 w-[128px]"></div>
+              {/* <img
                 loading="lazy"
                 src="../images/line.svg"
                 className="object-contain object-center mt-6 ml-12 max-w-full aspect-[50] stroke-[3px] stroke-blue-700 w-[179px] max-md:ml-2.5"
-              />
+              /> */}
             </div>
           </div>
         </div>
