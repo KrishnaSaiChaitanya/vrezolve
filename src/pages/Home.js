@@ -117,7 +117,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center  items-center px-16 py-[120px] w-full text-xl text-blue-700 bg-[#f2f5fc] tracking-[2px] max-md:px-5 max-md:max-w-full">
+          <div className="flex justify-center  items-center px-16 py-[120px] w-full text-xl text-[#0033cc] bg-[#f2f5fc] tracking-[2px] max-md:px-5 max-md:max-w-full">
             <div className="flex flex-col items-center  mb-12 max-w-full w-[780px] max-md:my-10">
               <div className="anm_mod  text-[#0033cc] left delay self-center font-bold whitespace-nowrap leading-[60px] tracking-[4px]">
                 WHY ALERTZ
@@ -226,7 +226,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center bg-[#f2f5fc]  items-center px-16 py-12 w-full text-xl text-blue-700  tracking-[2px] max-md:px-5 max-md:max-w-full">
+          <div className="flex justify-center bg-[#f2f5fc]  items-center px-16 py-12 w-full text-xl text-[#0033cc]  tracking-[2px] max-md:px-5 max-md:max-w-full">
             <div className="flex flex-col items-center mt-20 mb-12 max-w-full w-[780px] max-md:my-10">
               <div className="anm_mod text-[#0033cc] left delay self-center font-bold whitespace-nowrap leading-[60px] tracking-[4px]">
                 WHY DISPUTEZ
@@ -283,7 +283,7 @@ function Home() {
       </div>
       <div className="sm:flex flex-col md:hidden items-center py-6 mx-auto w-full bg-white max-w-[400px]">
         <div className="mt-12 p-3 text-2xl font-bold tracking-wider text-center  whitespace-nowrap">
-          Unleashing<span className="leading-7 text-blue-700"> IT</span>{" "}
+          Unleashing<span className="leading-7 text-[#0033cc]"> IT</span>{" "}
           Excellence
         </div>
         <img
@@ -299,12 +299,12 @@ function Home() {
         <div className="justify-center px-3.5 mx-auto w-[200px] py-1.5 mt-12 text-base font-medium leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px]">
           Learn more
         </div>
-        <div className="self-stretch mt-20 w-full bg-blue-700 min-h-[2px]" />
-        <div className="flex flex-col pb-12 self-stretch px-5 pt-12 pb-12 w-full text-base bg-blue-700 bg-opacity-10">
-          <div className="self-center mt-7 font-bold text-center text-blue-700 whitespace-nowrap leading-[60px] tracking-[3.2px]">
+        <div className="self-stretch mt-20 w-full bg-[#0033cc] min-h-[2px]" />
+        <div className="flex flex-col pb-12 self-stretch px-5 pt-12 pb-12 w-full text-base bg-[#0033cc] bg-opacity-10">
+          <div className="self-center mt-7 font-bold text-center text-[#0033cc] whitespace-nowrap leading-[60px] tracking-[3.2px]">
             OUR SOLUTIONS
           </div>
-          <div className="self-center h-0.5 bg-blue-700 w-[148px]" />
+          <div className="self-center h-0.5 bg-[#0033cc] w-[148px]" />
           <div className="flex flex-col px-5 mt-8 w-full tracking-wider text-black leading-[187.5%]">
             <div className="text-2xl font-bold tracking-wider text-center">
               <span className="leading-7 ">Issuer & Merchant Solutions</span>
@@ -317,8 +317,8 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="self-stretch  w-full bg-blue-700 min-h-[2px]" />
-        {/* <div className="z-10 self-stretch mt-14 w-full bg-blue-700 min-h-[2px]" /> */}
+        <div className="self-stretch  w-full bg-[#0033cc] min-h-[2px]" />
+        {/* <div className="z-10 self-stretch mt-14 w-full bg-[#0033cc] min-h-[2px]" /> */}
         <div className="flex flex-col self-stretch px-5 py-12 w-full ">
           <div className="self-center mt-10 text-2xl  font-semibold leading-5 text-center  whitespace-nowrap tracking-[5px]">
             <span className="font-bold">alert</span>
@@ -334,23 +334,23 @@ function Home() {
             </div>{" "}
             <ul className="">
               <li className="flex  self-start mt-10">
-                {/* <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "} */}
+                {/* <div className="self-center bg-[#0033cc] rounded-full h-[9px] w-[9px]" />{" "} */}
                 <div className="flex-auto">Fraud Detection</div>
               </li>{" "}
               <li className="flex justify-between mt-8 whitespace-nowrap">
-                {/* <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "} */}
+                {/* <div className="self-center bg-[#0033cc] rounded-full h-[9px] w-[9px]" />{" "} */}
                 <div className="grow">Fraud Prevention</div>
               </li>{" "}
               <li className="flex  justify-between mt-8 whitespace-nowrap">
-                {/* <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "} */}
+                {/* <div className="self-center bg-[#0033cc] rounded-full h-[9px] w-[9px]" />{" "} */}
                 <div className="grow">Dispute Resolution</div>
               </li>{" "}
               <li className="flex  justify-between mt-7 whitespace-nowrap">
-                {/* <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "} */}
+                {/* <div className="self-center bg-[#0033cc] rounded-full h-[9px] w-[9px]" />{" "} */}
                 <div className="grow">Preservation of Chargeback Rights</div>
               </li>{" "}
               <li className="flex  justify-between mt-7 whitespace-nowrap">
-                {/* <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "} */}
+                {/* <div className="self-center bg-[#0033cc] rounded-full h-[9px] w-[9px]" />{" "} */}
                 <div className="grow">Real - Time Fraud Alerts</div>
               </li>{" "}
             </ul>
@@ -364,9 +364,9 @@ function Home() {
             />
           </div>
         </div>{" "}
-        <div className="self-stretch w-full bg-blue-700 min-h-[2px]" />{" "}
+        <div className="self-stretch w-full bg-[#0033cc] min-h-[2px]" />{" "}
         <div className="bg-[#f2f5fc] py-20">
-          <div className=" text-base font-bold text-center  text-blue-700 whitespace-nowrap leading-[60px] tracking-[3.2px]">
+          <div className=" text-base font-bold text-center  text-[#0033cc] whitespace-nowrap leading-[60px] tracking-[3.2px]">
             WHY ALERTZ
           </div>{" "}
           <div className="mt-9 text-2xl font-medium leading-8 text-center text-black tracking-[2px]">
@@ -382,7 +382,7 @@ function Home() {
               Z
             </span>
           </div>{" "}
-          <div className="mt-14 text-2xl font-medium leading-8 text-center text-blue-700 tracking-[2px]">
+          <div className="mt-14 text-2xl font-medium leading-8 text-center text-[#0033cc] tracking-[2px]">
             Real-time fraud alerts for smart merchants
           </div>{" "}
           <img
@@ -406,29 +406,29 @@ function Home() {
             </div>{" "}
             <ul className="">
               <li className="flex  self-start mt-10">
-                {/* <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "} */}
+                {/* <div className="self-center bg-[#0033cc] rounded-full h-[9px] w-[9px]" />{" "} */}
                 <div className="flex-auto">
                   Integrated Chargeback Operations
                 </div>
               </li>{" "}
               <li className="flex justify-between mt-8 whitespace-nowrap">
-                {/* <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "} */}
+                {/* <div className="self-center bg-[#0033cc] rounded-full h-[9px] w-[9px]" />{" "} */}
                 <div className="grow">Customer Communication</div>
               </li>{" "}
               <li className="flex  justify-between mt-8 whitespace-nowrap">
-                {/* <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "} */}
+                {/* <div className="self-center bg-[#0033cc] rounded-full h-[9px] w-[9px]" />{" "} */}
                 <div className="grow">Chargeback Reasoning</div>
               </li>{" "}
               <li className="flex  justify-between mt-7 whitespace-nowrap">
-                {/* <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "} */}
+                {/* <div className="self-center bg-[#0033cc] rounded-full h-[9px] w-[9px]" />{" "} */}
                 <div className="grow">Chargeback Accounting</div>
               </li>{" "}
               <li className="flex  justify-between mt-7 whitespace-nowrap">
-                {/* <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "} */}
+                {/* <div className="self-center bg-[#0033cc] rounded-full h-[9px] w-[9px]" />{" "} */}
                 <div className="grow">Case Management</div>
               </li>{" "}
               <li className="flex  justify-between mt-7 whitespace-nowrap">
-                {/* <div className="self-center bg-blue-700 rounded-full h-[9px] w-[9px]" />{" "} */}
+                {/* <div className="self-center bg-[#0033cc] rounded-full h-[9px] w-[9px]" />{" "} */}
                 <div className="grow">Case Closure</div>
               </li>{" "}
             </ul>
@@ -443,10 +443,10 @@ function Home() {
           </div>
         </div>{" "}
         <div className="bg-[#f2f5fc] py-20">
-          <div className="text-base font-bold text-center text-blue-700 whitespace-nowrap leading-[60px] tracking-[3.2px]">
+          <div className="text-base font-bold text-center text-[#0033cc] whitespace-nowrap leading-[60px] tracking-[3.2px]">
             WHY DISPUTEZ
           </div>
-          <div className="h-0.5 mx-auto bg-blue-700 w-[148px]" />
+          <div className="h-0.5 mx-auto bg-[#0033cc] w-[148px]" />
           <div className="mt-9 text-2xl font-medium leading-8 text-center text-black tracking-[2px]">
             Experience efficiency at every step
           </div>
@@ -461,7 +461,7 @@ function Home() {
             <span className="font-bold">dispute</span>
             <span className=" font-black text-[#ff6600]">Z</span>
           </div>
-          <div className="mt-12 text-2xl font-medium leading-8 text-center text-blue-700 tracking-[2px]">
+          <div className="mt-12 text-2xl font-medium leading-8 text-center text-[#0033cc] tracking-[2px]">
             Streamlined dispute management solutions for issuers
           </div>
           <img
@@ -470,19 +470,19 @@ function Home() {
             className="mt-9 w-full mx-auto rounded-3xl  aspect-square max-w-[334px]"
           />
         </div>
-        <div className="self-stretch  w-full bg-blue-700 min-h-[2px]" />{" "}
+        <div className="self-stretch  w-full bg-[#0033cc] min-h-[2px]" />{" "}
         <div className="mt-20 text-2xl font-bold tracking-wider text-center text-black">
           Expert Consultation
         </div>{" "}
-        <div className="mt-3 mx-auto bg-blue-700 h-[px] w-[200px]" />{" "}
+        <div className="mt-3 mx-auto bg-[#0033cc] h-[px] w-[200px]" />{" "}
         <div className="mt-11 text-base px-3 tracking-wider leading-6 text-center text-black">
-          <span className="font-extrabold text-blue-700">vre</span>
+          <span className="font-extrabold text-[#0033cc]">vre</span>
           <span className="text-[#ff6600]">z</span>
-          <span className="text-blue-700">olve</span> offers expert consultation
-          and customized solutions to help businesses make the most of their
-          technology investments. Our experienced staff is on hand to ensure you
-          have the right tools and processes in place to take your business to
-          the next level.
+          <span className="text-[#0033cc]">olve</span> offers expert
+          consultation and customized solutions to help businesses make the most
+          of their technology investments. Our experienced staff is on hand to
+          ensure you have the right tools and processes in place to take your
+          business to the next level.
         </div>{" "}
         <div className="justify-center w-[200px] mx-auto px-3.5 py-1.5 mt-12 text-base font-medium leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px]">
           Talk to an Expert
@@ -492,12 +492,12 @@ function Home() {
           src="../images/home/3.svg"
           className="self-stretch  w-full aspect-[1.1]"
         />{" "}
-        <div className="flex flex-col justify-center self-stretch px-5 py-12 w-full text-center text-black bg-blue-700">
+        <div className="flex flex-col justify-center self-stretch px-5 py-12 w-full text-center text-black bg-[#0033cc]">
           <div className="flex flex-col items-center py-12 mt-8 mb-8 bg-white rounded-3xl">
             <div className="text-2xl font-bold tracking-wider">
               Corporate Partners
             </div>{" "}
-            <div className="mt-5 h-0.5 bg-blue-700 w-[200px]" />{" "}
+            <div className="mt-5 h-0.5 bg-[#0033cc] w-[200px]" />{" "}
             <div className="flex flex-col self-stretch pr-5 pl-2.5 mt-10 mb-9 text-base tracking-wider leading-6">
               <div>
                 Our corporate partners are integral to our journey, fostering
