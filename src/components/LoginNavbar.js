@@ -67,7 +67,7 @@ function LoginNavbar() {
 
           <button
             className="md:flex justify-center items-stretch px-6 py-2 my-auto text-xl font-medium tracking-wider leading-8 text-center text-white bg-[#ff6600] rounded-[100px] max-md:px-5 hidden transition-transform duration-300 transform hover:scale-105"
-            onClick={toggleMenu}
+            // onClick={toggleMenu}
           >
             Get In Touch
           </button>
