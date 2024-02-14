@@ -12,6 +12,7 @@ import Alertz from "./pages/Alertz";
 import Disputz from "./pages/Disputz";
 import Rewardz from "./pages/Rewardz";
 import Home from "./pages/Home";
+import HomeHero from "./components/hero/HomeHero";
 
 function App() {
   useEffect(() => {
@@ -38,16 +39,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <Router>
-        <LoginNavbar />
-        <Routes>
-          <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/alertz" element={<Alertz />}></Route>
-          <Route exact path="/rewardz" element={<Rewardz />}></Route>
-          <Route exact path="/disputz" element={<Disputz />}></Route>
-        </Routes>
-        <Footer />
-      </Router>
+      <HomeHero />
     </div>
   );
 }
