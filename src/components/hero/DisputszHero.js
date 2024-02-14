@@ -10,34 +10,29 @@ function DisputszHero() {
               loading="lazy"
               src="../images/dispute-hero.svg"
               alt=""
-              className="object-contain object-center self-stretch my-auto w-full aspect-[0.88] fill-blue-700 max-md:mt-10 max-md:max-w-full"
+              className="object-contain object-center self-stretch my-auto w-full aspect-[0.88] fill-[#0033cc] max-md:mt-10 max-md:max-w-full"
             />
           </div>
           <div className="flex flex-col items-stretch ml-5 w-[54%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col items-stretch self-stretch my-auto max-md:mt-10 max-md:max-w-full">
               <div className="flex flex-col items-stretch ml-4 max-w-full w-[200px] max-md:ml-2.5">
                 <div className="text-4xl  font-bold leading-5 whitespace-nowrap tracking-[5px]">
-                  <span className="text-blue-700 ">dispute</span>
-                  <span className=" font-black text-orange-500">Z</span>
+                  <span className="text-[#0033cc] ">dispute</span>
+                  <span className=" font-black text-[#ff6600]">Z</span>
                 </div>
-                <img
-                  loading="lazy"
-                  src="../images/line.svg"
-                  alt=""
-                  className="object-contain object-center self-center mt-6 max-w-full aspect-[50] stroke-[3px] stroke-blue-700 w-[179px]"
-                />
+                <div className="mt-5 ml-5 max-w-full mx-auto bg-[#0033cc] h-[3px] w-[150px]" />
               </div>
               <div className="mt-9 text-5xl  font-medium tracking-wider leading-[80px] max-md:max-w-full max-md:text-4xl max-md:leading-[74px] max-sm:leading-[44px] max-sm:text-3xl ">
-                <span className="font-bold text-blue-700">
+                <span className="font-bold text-[#0033cc]">
                   Redefining Chargebacks
                 </span>
                 <span className="font-bold">: The dispute</span>
-                <span className=" font-black text-orange-500">Z</span>
+                <span className=" font-black text-[#ff6600]">Z</span>
                 <span className="font-bold"> Difference</span>
               </div>
               <div className="mt-12 text-base tracking-wide leading-8 text-black max-md:mt-10 max-md:max-w-full">
                 <span className="text-xl font-bold">dispute</span>
-                <span className="text-xl  font-black text-orange-500">Z </span>
+                <span className="text-xl  font-black text-[#ff6600]">Z </span>
                 <span className="text-xl">
                   seamlessly integrates all chargeback processes – from customer
                   communication and reasoning to accounting, case management,
@@ -45,28 +40,24 @@ function DisputszHero() {
                   for a more streamlined and automated experience.
                 </span>
               </div>
-              <div className="mt-16 text-4xl font-bold tracking-widest leading-5 text-blue-700 max-md:mt-10 max-md:max-w-full">
+              <div className="mt-16 text-4xl font-bold tracking-widest leading-5 text-[#0033cc] max-md:mt-10 max-md:max-w-full">
                 COMING SOON
               </div>
 
-              <img
-                loading="lazy"
-                src="../images/line.svg"
-                className="object-contain object-center mt-6 ml-12 max-w-full aspect-[50] stroke-[3px] stroke-blue-700 w-[179px] max-md:ml-2.5"
-              />
+              <div className="mt-6 max-w-full ml-16 bg-[#0033cc] h-[3px] w-[180px]" />
             </div>
           </div>
         </div>
       </div>
       {/* <div className="flex flex-col items-stretch mt-5 px-10">
-        <header className="mx-3 text-center text-5xl font-bold text-blue-700 leading-[80px] tracking-[2.4px] max-md:mr-2.5 max-md:max-w-full max-md:text-3xl max-md:leading-[54px] max-sm:leading-[14px]">
+        <header className="mx-3 text-center text-5xl font-bold text-[#0033cc] leading-[80px] tracking-[2.4px] max-md:mr-2.5 max-md:max-w-full max-md:text-3xl max-md:leading-[54px] max-sm:leading-[14px]">
           Revolutionizing{" "}
           <span className="text-black">Chargeback Processes</span>
         </header>
 
         <form>
           <div className="flex gap-5 justify-between items-stretch p-3 mt-20  max-md:mt-10 max-md:max-w-full">
-            <div className="flex flex-col my-auto w-4 h-4 text-blue-700 rounded-full"></div>
+            <div className="flex flex-col my-auto w-4 h-4 text-[#0033cc] rounded-full"></div>
             <div className="grow text-2xl tracking-wider leading-10 text-black max-md:max-w-full">
               Earn points effortlessly with every transaction.
             </div>

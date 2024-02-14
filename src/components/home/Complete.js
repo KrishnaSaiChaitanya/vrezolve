@@ -33,7 +33,7 @@ function Complete() {
             </p>
             <div className="mt-40 text-4xl  font-semibold leading-5 whitespace-nowrap tracking-[5px] max-md:mt-10 anm_mod zoomIn delay">
               <span className="font-bold">dispute</span>
-              <span className=" font-black text-orange-500">Z</span>
+              <span className=" font-black text-[#ff6600]">Z</span>
             </div>
             <div className="mt-10 max-w-full mx-auto bg-blue-700 h-[3px] w-[160px]" />
             <div className="mt-16 tracking-wider leading-8 text-center max-md:mt-10 max-md:max-w-full">
@@ -98,7 +98,7 @@ function Complete() {
                   </div>
                 </div>
 
-                <button className="justify-center items-stretch px-11 py-1.5 mt-12 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px] max-md:px-5 max-md:mt-10">
+                <button className="justify-center items-stretch px-11 py-1.5 mt-12 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px] max-md:px-5 max-md:mt-10">
                   Learn More
                 </button>
               </div>
@@ -123,7 +123,7 @@ function Complete() {
                 transactions with
               </span>{" "}
               <span className="font-bold">dispute</span>{" "}
-              <span className=" font-semibold text-orange-500">Z</span>
+              <span className=" font-semibold text-[#ff6600]">Z</span>
             </div>{" "}
             <div className="mt-16 text-4xl text-center leading-[62px] max-md:mt-10 max-md:max-w-full">
               Streamlined Dispute Management Solutions for Issuers
@@ -140,9 +140,9 @@ function Complete() {
         </div>
         <div className="flex flex-col items-center py-12 pr-20 pl-10 w-full bg-[#f2f5fc]  max-md:px-5 max-md:max-w-full">
           <div className="flex flex-col items-center mt-24 max-w-full text-center w-[780px] max-md:mt-10">
-            <h1 className="anm_mod zoomIn delay text-4xl  font-semibold leading-5 text-orange-500 tracking-[5px] max-md:max-w-full">
+            <h1 className="anm_mod zoomIn delay text-4xl  font-semibold leading-5 text-[#ff6600] tracking-[5px] max-md:max-w-full">
               <span className="font-bold text-black">alert</span>{" "}
-              <span className=" font-black text-orange-500">Z</span>
+              <span className=" font-black text-[#ff6600]">Z</span>
             </h1>
 
             <div className="mt-10 max-w-full mx-auto bg-blue-700 h-[3px] w-[160px]" />
@@ -199,7 +199,7 @@ function Complete() {
                   </div>
                 </div>
 
-                <button class="justify-center items-stretch px-11 py-1.5 mt-12 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px] max-md:px-5 max-md:mt-10 transition-colors duration-300 hover:bg-orange-600">
+                <button class="justify-center items-stretch px-11 py-1.5 mt-12 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px] max-md:px-5 max-md:mt-10 transition-colors duration-300 hover:bg-orange-600">
                   Learn More
                 </button>
               </div>
@@ -224,7 +224,7 @@ function Complete() {
                 efficiently
               </span>{" "}
               <span className="font-bold">alert</span>{" "}
-              <span className=" font-semibold text-orange-500">Z</span>
+              <span className=" font-semibold text-[#ff6600]">Z</span>
             </div>{" "}
             <div className="mt-16  w-[588px] text-4xl text-center leading-[62px] max-md:mt-10 max-md:max-w-full">
               Real-time Fraud Alerts for Smart Merchants
@@ -311,7 +311,7 @@ function Complete() {
                   />
                 </div>
               </div>
-              <div className="justify-center self-center px-12 py-1.5 mt-6 text-xl font-medium leading-8 text-center text-white bg-orange-500 rounded-[100px] tracking-[2px] max-md:px-5">
+              <div className="justify-center self-center px-12 py-1.5 mt-6 text-xl font-medium leading-8 text-center text-white bg-[#ff6600] rounded-[100px] tracking-[2px] max-md:px-5">
                 Submit
               </div>
             </div>

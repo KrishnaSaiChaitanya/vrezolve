@@ -81,7 +81,7 @@ function MyComponent(props) {
           </div>
         </div>
         <div className="flex flex-col items-center px-5 py-12 w-full bg-white leading-[161%] text-zinc-700 max-md:max-w-full">
-          <div className="mt-20 text-base font-bold leading-7 text-orange-500 uppercase whitespace-nowrap tracking-[2px] max-md:mt-10">
+          <div className="mt-20 text-base font-bold leading-7 text-[#ff6600] uppercase whitespace-nowrap tracking-[2px] max-md:mt-10">
             WHAT Vrezolve OFFERS
           </div>
           <div className="text-blue-700 mt-9 text-5xl font-bold leading-[54.12px] max-md:max-w-full">
@@ -100,7 +100,7 @@ function MyComponent(props) {
           <div className="mt-11 bg-sky-600 h-[3px] w-[200px] max-md:mt-10" />
           <div className="flex flex-col self-stretch px-16 mt-52 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
             <div className="text-4xl font-bold leading-10 text-stone-950 max-md:max-w-full">
-              Disput <span className="text-orange-500">Z</span>
+              Disput <span className="text-[#ff6600]">Z</span>
             </div>
             <div className="self-start mt-6 text-lg  w-[550px] max-md:max-w-full">
               Our solution seamlessly integrates all aspects of chargeback
@@ -120,7 +120,7 @@ function MyComponent(props) {
 
             <div className="self-end  w-[550px] mt-6 text-lg max-md:mr-1.5 max-md:max-w-full">
               <div className="self-center mt-40 ml-34 text-4xl font-bold leading-10 text-stone-950 max-md:mt-10">
-                Alert <span className="text-orange-500">Z</span>
+                Alert <span className="text-[#ff6600]">Z</span>
               </div>
               <p className="mt-5">
                 Our solution facilitates instant communication of fraud and
@@ -136,7 +136,7 @@ function MyComponent(props) {
           </div>
           <div className="flex flex-col items-start self-stretch px-16 mt-40 mb-64 w-full max-md:px-5 max-md:my-10 max-md:max-w-full">
             <div className="text-4xl font-bold leading-10 text-stone-950 max-md:max-w-full">
-              Reward <span className="text-orange-500">Z</span>
+              Reward <span className="text-[#ff6600]">Z</span>
             </div>
             <div className="self-start mt-6 text-lg  w-[550px] max-md:max-w-full">
               Our solution seamlessly integrates all aspects of chargeback
@@ -156,7 +156,7 @@ function MyComponent(props) {
           </div>
         </div>
         <div className="flex flex-col items-start px-16 py-12 w-full text-lg font-bold leading-7 text-white bg-blue-700 opacity-7  max-md:px-5 max-md:max-w-full">
-          <div className="mt-11 text-base leading-7 text-orange-500 uppercase tracking-[2px] max-md:mt-10 max-md:max-w-full">
+          <div className="mt-11 text-base leading-7 text-[#ff6600] uppercase tracking-[2px] max-md:mt-10 max-md:max-w-full">
             PERSONALIZED SOLUTION
           </div>
           <div className="mt-7 text-5xl leading-[54.12px] max-md:max-w-full">
@@ -259,7 +259,7 @@ function MyComponent(props) {
           </div>
         </div> */}
         <div className="flex flex-col justify-center items-center px-14 py-12 w-full bg-slate-50 text-stone-950 max-md:px-5 max-md:max-w-full">
-          <div className="mt-20 text-base font-bold leading-7 text-orange-500 uppercase whitespace-nowrap tracking-[2px] max-md:mt-10">
+          <div className="mt-20 text-base font-bold leading-7 text-[#ff6600] uppercase whitespace-nowrap tracking-[2px] max-md:mt-10">
             WHAT vrezolve OFFERS
           </div>
           <div className="mt-9 text-5xl font-bold leading-[54.12px] max-md:max-w-full">
@@ -275,19 +275,19 @@ function MyComponent(props) {
           <div className="mt-10 max-w-full border-solid border-t-[3px] border-t-sky-600 h-[3px] w-[273px]" />
           <div className="flex justify-between gap-[25px] self-stretch px-3 mt-24 mb-12 text-base leading-5 whitespace-nowrap max-md:flex-wrap max-md:my-10 max-md:max-w-full">
             <div
-              className="flex justify-center items-center flex-1 px-6 py-8 bg-white rounded-lg border-2 border-solid shadow-sm border-zinc-100 max-md:px-5 max-md:pt-10 transition duration-300 ease-in-out hover:border-orange-500 hover:shadow-lg"
+              className="flex justify-center items-center flex-1 px-6 py-8 bg-white rounded-lg border-2 border-solid shadow-sm border-zinc-100 max-md:px-5 max-md:pt-10 transition duration-300 ease-in-out hover:border-[#ff6600] hover:shadow-lg"
               style={{ height: "240px" }}
             >
               Alert Z
             </div>
             <div
-              className="flex justify-center items-center flex-1 px-6 py-8 bg-white rounded-lg border-2 border-solid shadow-sm border-zinc-100 max-md:px-5 max-md:pt-10 transition duration-300 ease-in-out hover:border-orange-500 hover:shadow-lg"
+              className="flex justify-center items-center flex-1 px-6 py-8 bg-white rounded-lg border-2 border-solid shadow-sm border-zinc-100 max-md:px-5 max-md:pt-10 transition duration-300 ease-in-out hover:border-[#ff6600] hover:shadow-lg"
               style={{ height: "240px" }}
             >
               Disput Z
             </div>
             <div
-              className="flex justify-center items-center flex-1 px-6 py-8 bg-white rounded-lg border-2 border-solid shadow-sm border-zinc-100 max-md:px-5 max-md:pt-10 transition duration-300 ease-in-out hover:border-orange-500 hover:shadow-lg"
+              className="flex justify-center items-center flex-1 px-6 py-8 bg-white rounded-lg border-2 border-solid shadow-sm border-zinc-100 max-md:px-5 max-md:pt-10 transition duration-300 ease-in-out hover:border-[#ff6600] hover:shadow-lg"
               style={{ height: "240px" }}
             >
               Reward Z

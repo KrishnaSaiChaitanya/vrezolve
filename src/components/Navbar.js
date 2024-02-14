@@ -5,10 +5,10 @@ function Navbar() {
     <div className="flex gap-5 justify-between items-start mt-5 w-full whitespace-nowrap max-w-[1180px] max-md:flex-wrap max-md:max-w-full">
       <header className="flex flex-col items-stretch px-5">
         <h1
-          className="self-center text-4xl italic font-extrabold leading-6 text-orange-500 tracking-[4px]"
+          className="self-center text-4xl italic font-extrabold leading-6 text-[#ff6600] tracking-[4px]"
           aria-label="Vrezolve"
         >
-          vre<span className="italic text-orange-500">z</span>olve
+          vre<span className="italic text-[#ff6600]">z</span>olve
         </h1>
         <p className="mt-6 text-xl leading-6 text-black tracking-[2px]">
           Smart Payment Solutions

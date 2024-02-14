@@ -31,7 +31,7 @@ function Home() {
               </p>
               {/* <div className="mt-40 text-4xl  font-semibold leading-5 whitespace-nowrap tracking-[5px] max-md:mt-10 anm_mod left delay">
                 <span className="font-bold">dispute</span>
-                <span className=" font-black text-orange-500">Z</span>
+                <span className=" font-black text-[#ff6600]">Z</span>
               </div>
               <div className="mt-10 max-w-full mx-auto bg-[#0033cc] h-[3px] w-[160px]" />
               <div className="mt-16 tracking-wider leading-8 text-center max-md:mt-10 max-md:max-w-full">
@@ -45,9 +45,9 @@ function Home() {
           </div>
           <div className="flex flex-col items-center py-12 pr-20 pl-10 w-full   max-md:px-5 max-md:max-w-full">
             <div className="flex flex-col items-center mt-24 max-w-full text-center w-[780px] max-md:mt-10">
-              <h1 className="anm_mod left delay text-4xl  font-semibold leading-5 text-orange-500 tracking-[5px] max-md:max-w-full">
+              <h1 className="anm_mod left delay text-4xl  font-semibold leading-5 text-[#ff6600] tracking-[5px] max-md:max-w-full">
                 <span className="font-bold text-black">alert</span>{" "}
-                <span className=" font-black text-orange-500">Z</span>
+                <span className=" font-black text-[#ff6600]">Z</span>
               </h1>
 
               <div className="mt-10 max-w-full mx-auto bg-[#0033cc] h-[3px] w-[160px]" />
@@ -104,7 +104,7 @@ function Home() {
                     </div>
                   </div>
 
-                  <button class="justify-center items-stretch px-11 py-1.5 mt-12 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px] max-md:px-5 max-md:mt-10 transition-colors duration-300 hover:bg-orange-600">
+                  <button class="justify-center items-stretch px-11 py-1.5 mt-12 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px] max-md:px-5 max-md:mt-10 transition-colors duration-300 hover:bg-orange-600">
                     Learn More
                   </button>
                 </div>
@@ -129,7 +129,7 @@ function Home() {
                   efficiently
                 </span>{" "}
                 <span className="font-bold">alert</span>{" "}
-                <span className=" font-semibold text-orange-500">Z</span>
+                <span className=" font-semibold text-[#ff6600]">Z</span>
               </div>{" "}
               <div className="mt-16  w-[588px] text-4xl text-center leading-[62px] max-md:mt-10 max-md:max-w-full">
                 Real-time Fraud Alerts for Smart Merchants
@@ -141,9 +141,9 @@ function Home() {
           </div>
           <div className="flex flex-col items-center py-12 pr-20 pl-10 w-full   max-md:px-5 max-md:max-w-full">
             <div className="flex flex-col items-center mt-24 max-w-full text-center w-[780px] max-md:mt-10">
-              <h1 className="anm_mod left delay text-4xl  font-semibold leading-5 text-orange-500 tracking-[5px] max-md:max-w-full">
+              <h1 className="anm_mod left delay text-4xl  font-semibold leading-5 text-[#ff6600] tracking-[5px] max-md:max-w-full">
                 <span className="font-bold text-black">dispute</span>{" "}
-                <span className=" font-black text-orange-500">Z</span>
+                <span className=" font-black text-[#ff6600]">Z</span>
               </h1>
 
               <div className="mt-10 max-w-full mx-auto bg-[#0033cc] h-[3px] w-[160px]" />
@@ -209,7 +209,7 @@ function Home() {
                     </div>
                   </div>
 
-                  <button className="justify-center items-stretch px-11 py-1.5 mt-12 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px] max-md:px-5 max-md:mt-10">
+                  <button className="justify-center items-stretch px-11 py-1.5 mt-12 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px] max-md:px-5 max-md:mt-10">
                     Learn More
                   </button>
                 </div>
@@ -234,7 +234,7 @@ function Home() {
                   financial transactions with
                 </span>{" "}
                 <span className="font-bold">dispute</span>{" "}
-                <span className=" font-semibold text-orange-500">Z</span>
+                <span className=" font-semibold text-[#ff6600]">Z</span>
               </div>{" "}
               <div className="mt-16 text-4xl text-center leading-[62px] max-md:mt-10 max-md:max-w-full">
                 Streamlined Dispute Management Solutions for Issuers
@@ -286,7 +286,7 @@ function Home() {
           From robust fraud defense to seamless dispute management and beyond,
           we empower your digital landscape for unparalleled success.
         </div>
-        <div className="justify-center px-3.5 mx-auto w-[200px] py-1.5 mt-12 text-base font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px]">
+        <div className="justify-center px-3.5 mx-auto w-[200px] py-1.5 mt-12 text-base font-medium leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px]">
           Learn more
         </div>
         <div className="self-stretch mt-20 w-full bg-blue-700 min-h-[2px]" />
@@ -310,9 +310,9 @@ function Home() {
               srcSet="../images/home/6.svg"
               className="self-center mt-14 w-full rounded-3xl shadow-sm aspect-[1.01] max-w-[325px]"
             />
-            <div className="self-center mt-8 text-2xl  font-semibold leading-5 text-center text-orange-500 whitespace-nowrap tracking-[5px]">
+            <div className="self-center mt-8 text-2xl  font-semibold leading-5 text-center text-[#ff6600] whitespace-nowrap tracking-[5px]">
               <span className="font-bold">dispute</span>
-              <span className=" font-black text-orange-500">Z</span>
+              <span className=" font-black text-[#ff6600]">Z</span>
             </div>
             <div className="mt-7 leading-6">
               Our solution seamlessly integrates all aspects of chargeback
@@ -347,7 +347,7 @@ function Home() {
                 <div>Case Closure</div>
               </div>
             </div>
-            <div className="justify-center self-center px-3.5 py-1.5 mt-11 font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px]">
+            <div className="justify-center self-center px-3.5 py-1.5 mt-11 font-medium leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px]">
               Learn More
             </div>
           </div>
@@ -368,7 +368,7 @@ function Home() {
             maintain the integrity of your financial transactions with
           </span>{" "}
           <span className="font-bold">dispute</span>
-          <span className=" font-black text-orange-500">Z</span>
+          <span className=" font-black text-[#ff6600]">Z</span>
         </div>
         <div className="mt-12 text-2xl font-medium leading-8 text-center text-blue-700 tracking-[2px]">
           Streamlined dispute management solutions for issuers
@@ -382,7 +382,7 @@ function Home() {
         <div className="flex flex-col self-stretch px-5 py-12 w-full bg-blue-700 bg-opacity-10">
           <div className="self-center mt-10 text-2xl  font-semibold leading-5 text-center  whitespace-nowrap tracking-[5px]">
             <span className="font-bold">alert</span>
-            <span className=" font-black text-orange-500">Z</span>
+            <span className=" font-black text-[#ff6600]">Z</span>
           </div>
           <div className="flex flex-col px-6 mt-11 mb-8 w-full text-base tracking-wider leading-8 text-black">
             <div className="leading-6">
@@ -414,7 +414,7 @@ function Home() {
                 <div className="grow">Real - Time Fraud Alerts</div>
               </div>{" "}
             </div>
-            <div className="justify-center self-center px-3.5 py-1.5 mt-11 font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px]">
+            <div className="justify-center self-center px-3.5 py-1.5 mt-11 font-medium leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px]">
               Learn More
             </div>{" "}
             <img
@@ -437,7 +437,7 @@ function Home() {
           have you covered with real time alerts, so you stay informed and ahead
           of the curve. Resolve disputes quickly and efficiently{" "}
           <span className="font-bold tracking-[2px]">alert</span>{" "}
-          <span className=" font-semibold text-orange-500 tracking-[2px]">
+          <span className=" font-semibold text-[#ff6600] tracking-[2px]">
             Z
           </span>
         </div>{" "}
@@ -456,14 +456,14 @@ function Home() {
         <div className="mt-3 mx-auto bg-blue-700 h-[px] w-[200px]" />{" "}
         <div className="mt-11 text-base px-3 tracking-wider leading-6 text-center text-black">
           <span className="font-extrabold text-blue-700">vre</span>
-          <span className="text-orange-500">z</span>
+          <span className="text-[#ff6600]">z</span>
           <span className="text-blue-700">olve</span> offers expert consultation
           and customized solutions to help businesses make the most of their
           technology investments. Our experienced staff is on hand to ensure you
           have the right tools and processes in place to take your business to
           the next level.
         </div>{" "}
-        <div className="justify-center w-[200px] mx-auto px-3.5 py-1.5 mt-12 text-base font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px]">
+        <div className="justify-center w-[200px] mx-auto px-3.5 py-1.5 mt-12 text-base font-medium leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px]">
           Talk to an Expert
         </div>{" "}
         <img

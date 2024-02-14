@@ -66,7 +66,7 @@ function LoginNavbar() {
           </div>
 
           <button
-            className="md:flex justify-center items-stretch px-6 py-2 my-auto text-xl font-medium tracking-wider leading-8 text-center text-white bg-orange-500 rounded-[100px] max-md:px-5 hidden transition-transform duration-300 transform hover:scale-105"
+            className="md:flex justify-center items-stretch px-6 py-2 my-auto text-xl font-medium tracking-wider leading-8 text-center text-white bg-[#ff6600] rounded-[100px] max-md:px-5 hidden transition-transform duration-300 transform hover:scale-105"
             onClick={toggleMenu}
           >
             Get In Touch
@@ -86,76 +86,96 @@ function LoginNavbar() {
       {isMenuOpen && !isDropdownOpen && (
         <div
           ref={sidebarRef}
-          className="fixed top-18 right-5  bg-white w-64 shadow-md z-50 overflow-y-auto max-h-450"
+          className="fixed top-18 right-5   bg-white w-64 shadow-md z-50 overflow-y-auto h-[280px] p-3"
         >
-          <div className="p-4">
-            <div className="leading-[150%] mb-3">Home</div>
+          <div className="p-4 my-auto h-[200px]">
+            <div className="leading-[150%] p-2 mt-3 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
+              Home
+            </div>
             <div
-              className="leading-[150%] mb-3"
+              className="leading-[150%] p-2 flex flex-row transition-opacity duration-300 ease-in-out hover:bg-gray-200"
               onClick={() => setDropdownOpen(!isDropdownOpen)}
             >
-              Solutions
+              <span className="mr-5  ">Solutions</span>
+              <img src="../images/arrow.svg" />
             </div>
-            <div className="leading-[150%] mb-3">Partners</div>
-            <div className="leading-[150%] mb-3">Blog</div>
-            <div className="leading-[150%]">Contact Us</div>
+            <div className="leading-[150%] p-2 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
+              Partners
+            </div>
+            <div className="leading-[150%]  p-2  transition-opacity duration-300 ease-in-out hover:bg-gray-200">
+              Blog
+            </div>
+            <div className="leading-[150%] transition-opacity duration-300 ease-in-out hover:bg-gray-200 p-2">
+              Contact Us
+            </div>
           </div>
         </div>
       )}
       {isMenuOpen && isDropdownOpen && (
         <div
           ref={dropdownRef}
-          className="fixed top-18 right-5  bg-white w-64 shadow-md z-50 overflow-y-auto max-h-450"
+          className="fixed top-18 right-5  p-3 bg-white w-64 shadow-md z-50 overflow-y-auto h-[280px]"
         >
           <div className="flex flex-col py-2 bg-white p-2 rounded shadow max-w-[280px]">
-            <div className="flex gap-3 justify-between px-3">
+            <div className="flex gap-3 justify-between px-3 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/f7dd6963be2ba1d01d37e57d19abda85a90f20cf97c7cceba18c074d77702fd1?apiKey=67296d98361248faadca04e106a4f278&"
                 className="my-auto w-6 aspect-square"
               />
               <div className="flex flex-col flex-1">
-                <div className="text-base  font-bold tracking-wide leading-6  whitespace-nowrap">
-                  dispute
-                  <span className=" font-black text-orange-500">Z</span>
+                <div className="text-base mb-2 flex flex-row  font-bold tracking-wide leading-6  whitespace-nowrap">
+                  <span>
+                    dispute
+                    <span className=" font-black text-[#ff6600]">Z</span>
+                  </span>
+                  <img
+                    src="../images/badge.svg"
+                    className="w-[90px] mt-1 ml-2"
+                  />
                 </div>
                 <div className="text-sm tracking-wide leading-5 text-zinc-700">
-                  Advanced Dispute Management Solutions
+                  Dispute Management
                 </div>
               </div>
             </div>
-            <div className="mt-5 w-full bg-stone-300 min-h-[1px]" />
-            <div className="flex gap-3 justify-between px-3 mt-5">
+
+            <div className="mt-3 w-full bg-stone-300 min-h-[1px]" />
+            <div className="flex gap-3 justify-between px-3 mt-5 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/d09416d61dc61ef9f19660b50f777243cd8b08c07f96bbd932c28838e060dd8e?apiKey=67296d98361248faadca04e106a4f278&"
                 className="my-auto w-6 aspect-square"
               />
               <div className="flex flex-col flex-1">
-                <div className="text-base  font-bold tracking-wide leading-6  whitespace-nowrap">
+                <div className="text-base  font-bold tracking-wide mb-2 leading-6  whitespace-nowrap">
                   alert
-                  <span className=" font-black text-orange-500">Z</span>
+                  <span className=" font-black text-[#ff6600]">Z</span>
                 </div>
                 <div className="text-sm tracking-wide leading-5 text-zinc-700">
-                  Strengthening Security with Chargeback Alerts and Fraud Alerts
+                  Real-time fraud and chargeback alerts
                 </div>
               </div>
             </div>
             <div className="mt-5 w-full bg-stone-300 min-h-[1px]" />
-            <div className="flex gap-3 justify-between px-3 mt-5">
+            <div className="flex gap-3 justify-between px-3 mt-5 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa8c066ef3188d3a76fc4e05fb3105e34b7d1ce1a8e0a8e5257144fc0fdcae02?apiKey=67296d98361248faadca04e106a4f278&"
                 className="my-auto w-6 aspect-square"
               />
               <div className="flex flex-col flex-1">
-                <div className="text-base  font-bold tracking-wide leading-6  whitespace-nowrap pl-2">
+                <div className="text-base mb-2   flex flex-row font-bold tracking-wide leading-6  whitespace-nowrap pl-2">
                   reward
-                  <span className=" font-black text-orange-500">Z</span>
+                  <span className=" font-black text-[#ff6600]">Z</span>
+                  <img
+                    src="../images/badge.svg"
+                    className="w-[90px] mt-1 ml-2"
+                  />
                 </div>
-                <div className="text-sm tracking-wide leading-5 text-zinc-700">
+                {/* <div className="text-sm tracking-wide leading-5 text-zinc-700">
                   Unlock Exclusive Rewards on every Journey
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

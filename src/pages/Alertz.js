@@ -154,9 +154,7 @@ function Alertz() {
                     </div>{" "}
                     <div className="mt-9 tracking-wider leading-8 max-md:max-w-full">
                       <span className="font-bold">alert</span>
-                      <span className=" font-black text-orange-500">
-                        Z
-                      </span>{" "}
+                      <span className=" font-black text-[#ff6600]">Z</span>{" "}
                       proactively notifies merchants and issuers of any
                       suspicious transactions, empowering them to take immediate
                       action. Our mission is to stay ahead of the fraudsters,
@@ -254,7 +252,7 @@ function Alertz() {
                       </div>
                       <div className="mt-9 tracking-wider leading-8 max-md:max-w-full">
                         <span className="font-bold">alert</span>{" "}
-                        <span className=" font-black text-orange-500">Z</span>{" "}
+                        <span className=" font-black text-[#ff6600]">Z</span>{" "}
                         <span className="">
                           has a platform that serves as a communication bridge,
                           ensuring merchants and cardholders can address issues
@@ -410,9 +408,9 @@ function Alertz() {
           src="../images/alertz/1.png"
           className="self-stretch mt-6 w-full aspect-[1.03]"
         />
-        <div className="mt-14 text-2xl  font-semibold leading-5 text-center text-orange-500 whitespace-nowrap tracking-[5px]">
+        <div className="mt-14 text-2xl  font-semibold leading-5 text-center text-[#ff6600] whitespace-nowrap tracking-[5px]">
           <span className="font-bold text-blue-700">alert</span>
-          <span className=" font-black text-orange-500">Z</span>
+          <span className=" font-black text-[#ff6600]">Z</span>
         </div>
         <div className="h-0.5 mt-5 mx-auto bg-blue-700 w-[128px]" />
         <div className="mt-8 px-3 text-2xl font-bold tracking-wider text-center text-black">
@@ -421,12 +419,12 @@ function Alertz() {
         </div>
         <div className="mt-10 px-3 text-base tracking-normal leading-6 text-center text-black">
           <span className="font-bold">alert </span>
-          <span className=" font-black text-orange-500">Z</span> empowers you
+          <span className=" font-black text-[#ff6600]">Z</span> empowers you
           with a robust shield against the threats of fraud and chargeback
           disputes. Explore our cutting-edge solutions and stay ahead in
           safeguarding your transactions.
         </div>
-        <div className="justify-center mx-auto w-[180px] px-3 py-1.5 mt-8 text-base font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px]">
+        <div className="justify-center mx-auto w-[180px] px-3 py-1.5 mt-8 text-base font-medium leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px]">
           Get Started
         </div>
         <div className="flex flex-col self-stretch px-6 mt-16 w-full">
@@ -530,7 +528,7 @@ function Alertz() {
           </div>
           <div className="mt-12 text-center">
             <span className="font-bold">alert</span>
-            <span className=" font-black text-orange-500">Z</span> proactively
+            <span className=" font-black text-[#ff6600]">Z</span> proactively
             notifies merchants and issuers of any suspicious transactions,
             empowering them to take immediate action. Our mission is to stay
             ahead of the fraudsters, and we're proud to offer best-in-class
@@ -601,11 +599,11 @@ function Alertz() {
           </div>
           <div className="mt-11 text-center">
             <span className="font-bold">alert</span>{" "}
-            <span className=" font-black text-orange-500">Z</span> has a
-            platform that serves as a communication bridge, ensuring merchants
-            and cardholders can address issues promptly. Experience faster
-            dispute resolution and eliminate the need for chargebacks with
-            direct issue resolution.
+            <span className=" font-black text-[#ff6600]">Z</span> has a platform
+            that serves as a communication bridge, ensuring merchants and
+            cardholders can address issues promptly. Experience faster dispute
+            resolution and eliminate the need for chargebacks with direct issue
+            resolution.
           </div>
           <div className="mt-12">
             <ul>
@@ -731,7 +729,7 @@ function Alertz() {
               Send us a message
             </div>
           </div>{" "}
-          <div className="justify-center self-center px-8 py-1.5 mt-10 mb-8 font-medium text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px]">
+          <div className="justify-center self-center px-8 py-1.5 mt-10 mb-8 font-medium text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px]">
             Submit
           </div>
         </div>{" "} */}

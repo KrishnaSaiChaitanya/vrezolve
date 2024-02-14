@@ -63,7 +63,7 @@ function ContactSection() {
                   />
                 </div>
               </div>
-              <div className="justify-center self-center px-12 py-1.5 mt-6 text-xl font-medium leading-8 text-center text-white bg-orange-500 rounded-[100px] tracking-[2px] max-md:px-5">
+              <div className="justify-center self-center px-12 py-1.5 mt-6 text-xl font-medium leading-8 text-center text-white bg-[#ff6600] rounded-[100px] tracking-[2px] max-md:px-5">
                 Submit
               </div>
             </div>
@@ -124,7 +124,7 @@ function ContactSection() {
             />
           </div>
         </div>
-        <div className="justify-center self-center px-8 py-1.5 mt-10 mb-8 font-medium text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px]">
+        <div className="justify-center self-center px-8 py-1.5 mt-10 mb-8 font-medium text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px]">
           Submit
         </div>
       </div>

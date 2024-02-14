@@ -17,9 +17,9 @@ function AlertzHero(props) {
           </div>
           <div className="flex flex-col items-stretch ml-5 w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col items-stretch mt-36 max-md:mt-10 max-md:max-w-full">
-              <div className="text-4xl  font-bold leading-5 text-left text-orange-500 tracking-[5px] max-md:max-w-full">
+              <div className="text-4xl  font-bold leading-5 text-left text-[#ff6600] tracking-[5px] max-md:max-w-full">
                 <span className="text-blue-700">alert</span>
-                <span className=" font-black text-orange-500">Z</span>
+                <span className=" font-black text-[#ff6600]">Z</span>
               </div>
               <img
                 loading="lazy"
@@ -37,7 +37,7 @@ function AlertzHero(props) {
                   <span className="text-xl font-bold leading-6 tracking-[2px]">
                     alert
                   </span>
-                  <span className="text-xl  font-black leading-6 text-orange-500 tracking-[2px]">
+                  <span className="text-xl  font-black leading-6 text-[#ff6600] tracking-[2px]">
                     Z
                   </span>{" "}
                   <span className="text-xl">
@@ -46,7 +46,7 @@ function AlertzHero(props) {
                     solutions and stay ahead in safeguarding your transactions.
                   </span>
                 </div>
-                <button className="justify-center items-stretch self-start px-12 py-1.5 mt-9 text-xl font-medium tracking-wider leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5">
+                <button className="justify-center items-stretch self-start px-12 py-1.5 mt-9 text-xl font-medium tracking-wider leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] max-md:px-5">
                   Get Started
                 </button>
               </div>

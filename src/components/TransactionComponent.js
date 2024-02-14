@@ -29,9 +29,9 @@ function TransactionComponent() {
           <div className="flex flex-col items-stretch ml-1 w-[46%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow items-start mt-3 max-md:mt-10 max-md:max-w-full">
               <div className=" ml-4 flex flex-col items-stretch self-stretch max-md:max-w-full">
-                <h1 className="text-4xl  font-semibold leading-5 text-orange-500 tracking-[5px] max-md:max-w-full">
+                <h1 className="text-4xl  font-semibold leading-5 text-[#ff6600] tracking-[5px] max-md:max-w-full">
                   <span className="font-bold text-black">dispute</span>{" "}
-                  <span className=" font-black text-orange-500">Z</span>
+                  <span className=" font-black text-[#ff6600]">Z</span>
                 </h1>
 
                 <p className="mt-12 text-xl tracking-wider leading-8 text-black max-md:mt-10 max-md:max-w-full">
@@ -85,7 +85,7 @@ function TransactionComponent() {
                 </div>
               </div>
 
-              <button className="justify-center items-stretch px-11 py-1.5 mt-12 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px] max-md:px-5 max-md:mt-10">
+              <button className="justify-center items-stretch px-11 py-1.5 mt-12 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px] max-md:px-5 max-md:mt-10">
                 Learn More
               </button>
             </div>

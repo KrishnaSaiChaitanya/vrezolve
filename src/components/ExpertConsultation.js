@@ -9,7 +9,7 @@ const ExpertConsultation = (props) => {
       <div className="mt-5 max-w-full mx-auto bg-blue-700 h-[3px] w-[400px]" />
       <div className="mt-12 text-xl tracking-wider text-center text-black-200 w-[775px] max-md:mt-10 max-md:max-w-full">
         <span className="font-bold text-blue-700 ">vre</span>{" "}
-        <span className=" font-black text-orange-500">Z</span>{" "}
+        <span className=" font-black text-[#ff6600]">Z</span>{" "}
         <span className="font-bold text-blue-700 ">olve</span> offers expert
         consultation and customized solutions to help businesses make the most
         of their technology investments. Our experienced staff is on hand to
@@ -18,7 +18,7 @@ const ExpertConsultation = (props) => {
       </div>
 
       <button
-        class="justify-center items-stretch px-9 py-1.5 mt-9 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px] max-md:px-5 transition-transform duration-300 transform hover:scale-105"
+        class="justify-center items-stretch px-9 py-1.5 mt-9 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px] max-md:px-5 transition-transform duration-300 transform hover:scale-105"
         aria-label="Talk to an Expert"
         role="button"
       >

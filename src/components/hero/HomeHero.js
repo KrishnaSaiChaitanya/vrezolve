@@ -19,7 +19,7 @@ function HomeHero() {
           From robust fraud defense to seamless dispute management and beyond,
           we empower your digital landscape for unparalleled success.
         </div>
-        <button class="justify-center self-start px-11 py-1.5 mt-14 font-medium text-center text-white whitespace-nowrap bg-orange-500 leading-[150%] rounded-[100px] tracking-[2px] max-md:px-5 max-md:mt-10 transition-transform duration-300 transform hover:scale-105">
+        <button class="justify-center self-start px-11 py-1.5 mt-14 font-medium text-center text-white whitespace-nowrap bg-[#ff6600] leading-[150%] rounded-[100px] tracking-[2px] max-md:px-5 max-md:mt-10 transition-transform duration-300 transform hover:scale-105">
           Learn More
         </button>
       </div>

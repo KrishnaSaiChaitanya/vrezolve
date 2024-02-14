@@ -13,7 +13,7 @@ function EnhancedSecurityComponent() {
         and protected interaction with our platform.
       </div>
       <button
-        className="justify-center items-stretch px-12 py-1.5 mt-9 text-xl font-medium tracking-wider leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5"
+        className="justify-center items-stretch px-12 py-1.5 mt-9 text-xl font-medium tracking-wider leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] max-md:px-5"
         type="button"
       >
         Get Started

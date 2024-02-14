@@ -19,7 +19,7 @@ function Section() {
           </div>
           <div className="mt-9 tracking-wider max-md:max-w-full">
             <span className="font-bold">alert</span>
-            <span className="italic font-black text-orange-500">Z</span>{" "}
+            <span className="italic font-black text-[#ff6600]">Z</span>{" "}
             proactively notifies merchants and issuers of any suspicious
             transactions, empowering them to take immediate action. Our mission
             is to stay ahead of the fraudsters, and we're proud to offer

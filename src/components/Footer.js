@@ -65,7 +65,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center self-stretch py-6 mt-32 w-full bg-blue-700 max-md:mt-10 max-md:max-w-full">
+        <div className="flex flex-col justify-center self-stretch py-6 mt-32 w-full bg-[#0033cc] max-md:mt-10 max-md:max-w-full">
           <div className="flex flex-col items-center px-16 pt-0.5 pb-2 w-full max-md:px-5 max-md:max-w-full">
             <div className="flex text-white gap-5 justify-between max-w-full w-[467px] max-md:flex-wrap">
               <div>Terms of Use</div>
@@ -75,7 +75,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex gap-3.5 items-center px-5 mb-5 mt-6 text-base font-extrabold text-blue-700 tracking-[4px]">
+        <div className="flex gap-3.5 items-center px-5 mb-5 mt-6 text-base font-extrabold text-[#0033cc] tracking-[4px]">
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/62230ee6874d036ceef67daffa907e74c33a88d57c56d370b802f84abf1501df?apiKey=67296d98361248faadca04e106a4f278&"
@@ -83,7 +83,7 @@ function Footer() {
           />
           <div className="self-stretch">
             <span className="">vre</span>
-            <span className="leading-6 text-orange-500 ">z</span>
+            <span className="leading-6 text-[#ff6600] ">z</span>
             <span className="">olve</span>
           </div>
           <img
@@ -94,7 +94,7 @@ function Footer() {
         </div>
       </div>
       <div className="block md:hidden ">
-        <div className="mt-16 text-sm font-medium leading-6 text-center text-blue-700 tracking-[2px]">
+        <div className="mt-16 text-sm font-medium leading-6 text-center text-[#0033cc] tracking-[2px]">
           COMPANY
         </div>{" "}
         <div className="mt-8 text-sm tracking-wider text-center text-black whitespace-nowrap">
@@ -109,7 +109,7 @@ function Footer() {
         <div className="mt-6 text-sm tracking-wider text-center text-black">
           Blog
         </div>{" "}
-        <div className="mt-20 text-sm font-medium leading-5 text-center text-blue-700 tracking-[2px]">
+        <div className="mt-20 text-sm font-medium leading-5 text-center text-[#0033cc] tracking-[2px]">
           SOLUTIONS
         </div>{" "}
         <div className="mt-9 text-sm text-center text-black whitespace-nowrap tracking-[2px]">
@@ -121,7 +121,7 @@ function Footer() {
         {/* <div className="mt-6 text-sm text-center text-black whitespace-nowrap tracking-[2px]">
           Rewards program
         </div>{" "} */}
-        <div className="mt-20 text-sm font-medium leading-5 text-center text-blue-700 tracking-[2px]">
+        <div className="mt-20 text-sm font-medium leading-5 text-center text-[#0033cc] tracking-[2px]">
           SOCIAL
         </div>{" "}
         <div className="w-full mx-auto">
@@ -141,7 +141,7 @@ function Footer() {
             className="mt-7 w-6 mx-auto aspect-square"
           />
         </div>
-        <div className="flex flex-col justify-center self-stretch py-6 mt-20 w-full text-sm leading-5 text-white whitespace-nowrap bg-blue-700">
+        <div className="flex flex-col justify-center self-stretch py-6 mt-20 w-full text-sm leading-5 text-white whitespace-nowrap bg-[#0033cc]">
           <div className="flex gap-5 justify-between px-2 py-0.5">
             <div className="grow">Terms of Use</div> <div>Compliance</div>{" "}
             <div>Privacy</div>{" "}
@@ -150,7 +150,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex gap-3.5 items-center justify-center px-5 mb-5 mt-6 text-base font-extrabold text-blue-700 tracking-[4px]">
+        <div className="flex gap-3.5 items-center justify-center px-5 mb-5 mt-6 text-base font-extrabold text-[#0033cc] tracking-[4px]">
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/62230ee6874d036ceef67daffa907e74c33a88d57c56d370b802f84abf1501df?apiKey=67296d98361248faadca04e106a4f278&"
@@ -158,7 +158,7 @@ function Footer() {
           />
           <div className="self-stretch">
             <span className="">vre</span>
-            <span className="leading-6 text-orange-500 ">z</span>
+            <span className="leading-6 text-[#ff6600] ">z</span>
             <span className="">olve</span>
           </div>
           <img

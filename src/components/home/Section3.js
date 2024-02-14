@@ -22,7 +22,7 @@ function Section3() {
                     financial transactions with
                   </span>{" "}
                   <span className="font-bold">dispute</span>
-                  <span className=" font-black text-orange-500">Z</span>
+                  <span className=" font-black text-[#ff6600]">Z</span>
                 </div>
                 <div className="mt-9 max-md:max-w-full">
                   <div className="flex gap-3 max-md:flex-col max-md:gap-0 max-md:">
