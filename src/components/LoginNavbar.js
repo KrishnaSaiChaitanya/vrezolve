@@ -86,7 +86,7 @@ function LoginNavbar() {
       {isMenuOpen && !isDropdownOpen && (
         <div
           ref={sidebarRef}
-          className="fixed top-18 right-5   bg-white w-64 shadow-md z-50 overflow-y-auto h-[280px] p-3"
+          className="fixed top-[110px] right-5   bg-white w-64 shadow-md z-50 overflow-y-auto h-[280px] p-3"
         >
           <div className="p-4 my-auto h-[200px]">
             <div className="leading-[150%] p-2 mt-3 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
@@ -114,7 +114,7 @@ function LoginNavbar() {
       {isMenuOpen && isDropdownOpen && (
         <div
           ref={dropdownRef}
-          className="fixed top-18 right-5  p-3 bg-white w-64 shadow-md z-50 overflow-y-auto h-[280px]"
+          className="fixed top-[110px] right-5  p-3 bg-white w-64 shadow-md z-50 overflow-y-auto h-[280px]"
         >
           <div className="flex flex-col py-2 bg-white p-2 rounded shadow max-w-[280px]">
             <div className="flex gap-3 justify-between px-3 transition-opacity duration-300 ease-in-out hover:bg-gray-200">

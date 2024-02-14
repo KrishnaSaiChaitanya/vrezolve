@@ -9,7 +9,7 @@ import Section4 from "../home/Section4";
 
 function HomeHero() {
   return (
-    <div className="flex gap-4 justify-between items-start px-10 pt-8 pb-12 text-xl bg-white max-md:flex-wrap max-md:px-5">
+    <div className="flex gap-4 justify-between items-start px-10 mt-[120px] mb-[120px] text-xl bg-white max-md:flex-wrap max-md:px-5">
       <div className="flex flex-col mx-5 flex-1 self-stretch my-auto max-md:max-w-full">
         <div className="text-5xl font-bold  leading-[80px] tracking-[2.4px] max-md:max-w-full max-md:text-4xl max-md:leading-[74px]">
           Unleashing<span className="text-[#0033cc]"> IT</span> Excellence

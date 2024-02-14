@@ -6,7 +6,7 @@ import Section from "../Section";
 function AlertzHero(props) {
   return (
     <>
-      <div className="px-10 pt-2 pb-12 bg-white max-md:px-5">
+      <div className="px-10 pt-2 mb-[120px] bg-white max-md:px-5">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:items-stretch">
           <div className="flex flex-col items-stretch w-6/12 max-md:ml-0 max-md:w-full">
             <img
@@ -18,16 +18,16 @@ function AlertzHero(props) {
           <div className="flex flex-col items-stretch ml-5 w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col items-stretch mt-36 max-md:mt-10 max-md:max-w-full">
               <div className="text-4xl  font-bold leading-5 text-left text-[#ff6600] tracking-[5px] max-md:max-w-full">
-                <span className="text-blue-700">alert</span>
+                <span className="text-[#0033cc]">alert</span>
                 <span className=" font-black text-[#ff6600]">Z</span>
               </div>
               <img
                 loading="lazy"
                 src="../images/line.svg"
-                className="object-center mt-6  max-w-full aspect-[50] stroke-[3px] stroke-blue-700 w-[150px] max-md:ml-2"
+                className="object-center mt-6  max-w-full aspect-[50] stroke-[3px] stroke-[#0033cc] w-[150px] max-md:ml-2"
               />
               <div className="mt-9 text-5xl font-medium tracking-wider text-black leading-[80px] max-md:max-w-full max-md:text-4xl max-md:leading-[74px]">
-                <span className="font-bold text-blue-700">
+                <span className="font-bold text-[#0033cc]">
                   E-commerce defense
                 </span>
                 <span className="font-bold">: Fraud & chargebacks</span>
