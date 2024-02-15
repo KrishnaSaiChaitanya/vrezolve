@@ -20,11 +20,11 @@ function Home() {
                 OUR SOLUTIONS
               </div>
               {/* <div className="mt-3 h-[3px] max-w-full mx-auto bg-[#0033cc] w-[179px]" /> */}
-              <header className="mt-6 text-5xl font-bold text-center text-[#0033cc] leading-[70px] tracking-[2.4px] w-[951px]  max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[64px]">
+              <header className="mt-6 text-5xl font-bold text-center text-[#0033cc] leading-[60px] tracking-[2.4px] w-[951px]  max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[64px]">
                 <span className="">Issuer and Merchant Solutions</span>{" "}
               </header>
 
-              <p className="mt-16 text-xl tracking-wider leading-8 text-center text-black w-[775px] max-md:mt-10 max-md:max-w-full">
+              <p className="mt-16 text-xl  leading-8 text-center text-black w-[775px] max-md:mt-10 max-md:max-w-full">
                 Experience unmatched efficiency with our tailored solutions
                 designed for both issuers and merchants. Our comprehensive suite
                 of tools empowers seamless transactions, ensuring a smooth and
