@@ -23,3 +23,47 @@ ul li::before {
   margin-right: 0.5rem;
   margin-top: 3px;
 }
+
+/* Default styles */
+
+/* Media queries for different screen sizes */
+@media screen and (min-width: 768px) {
+  /* Adjust width for tablets */
+  /* #hero-image {
+    width: 80%;
+  } */
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1799px) {
+  /* Adjust width for small desktops */
+  #hero-image {
+    max-width: 550px;
+    padding: 15px;
+  }
+  #home-image {
+    max-width: 550px;
+    padding: 15px;
+    margin: auto;
+  }
+  #hero-section {
+    max-width: 600px;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  /* Adjust width for large desktops */
+  #hero-image {
+    width: 640px;
+    padding: 15px;
+  }
+  #home-image {
+    max-width: 640px;
+    padding: 15px;
+    margin: auto;
+  }
+  #hero-section {
+    max-width: 680px;
+    margin: auto;
+  }
+}

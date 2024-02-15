@@ -12,15 +12,15 @@ function Home() {
       <div className=" flex md:flex hidden sm:block">
         <div className="flex flex-col  bg-white">
           <HomeHero />
-          <div className=" max-w-full mx-auto bg-[#0033cc] h-[3px] w-full" />
+          {/* <div className=" max-w-full mx-auto bg-[#0033cc] h-[3px] w-full" /> */}
           {/* Section1 */}
-          <div className="flex flex-col items-center bg-[#f2f5fc] px-10 py-[120px] w-full  max-md:px-5 max-md:max-w-full">
+          <div className="flex flex-col items-center  px-10 py-[120px] w-full  max-md:px-5 max-md:max-w-full">
             <div className="flex  flex-col items-center max-w-full text-xl text-black w-[858px] max-md:mt-10">
               <div className="self-center text-[#0033cc] font-bold whitespace-nowrap leading-[60px] tracking-[4px] anm_mod left delay">
                 OUR SOLUTIONS
               </div>
-              <div className="mt-3 h-[3px] max-w-full mx-auto bg-[#0033cc] w-[179px]" />
-              <header className="mt-20 text-5xl font-bold text-center text-black leading-[70px] tracking-[2.4px] w-[951px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[64px]">
+              {/* <div className="mt-3 h-[3px] max-w-full mx-auto bg-[#0033cc] w-[179px]" /> */}
+              <header className="mt-6 text-5xl font-bold text-center text-[#0033cc] leading-[70px] tracking-[2.4px] w-[951px]  max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[64px]">
                 <span className="">Issuer and Merchant Solutions</span>{" "}
               </header>
 
@@ -44,7 +44,7 @@ function Home() {
               </div> */}
             </div>
           </div>
-          <div className="flex flex-col items-center py-[120px] pr-20 pl-10 w-full   max-md:px-5 max-md:max-w-full">
+          <div className="flex flex-col items-center pb-[120px] pr-20 pl-10 w-full   max-md:px-5 max-md:max-w-full">
             <div className=" w-full  max-md:max-w-full">
               <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
                 <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
@@ -52,7 +52,7 @@ function Home() {
                     <img
                       loading="lazy"
                       srcSet="../images/home/5.svg"
-                      className=" grow mt-24 w-full aspect-[1.08] max-md:mt-10 max-md:max-w-full"
+                      className="m-auto"
                     />
                   </div>
                 </div>
@@ -117,7 +117,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center  items-center px-16 py-[120px] w-full text-xl text-[#0033cc] bg-[#f2f5fc] tracking-[2px] max-md:px-5 max-md:max-w-full">
+          {/* <div className="flex justify-center  items-center px-16 py-[120px] w-full text-xl text-[#0033cc] bg-[#f2f5fc] tracking-[2px] max-md:px-5 max-md:max-w-full">
             <div className="flex flex-col items-center  mb-12 max-w-full w-[780px] max-md:my-10">
               <div className="anm_mod  text-[#0033cc] left delay self-center font-bold whitespace-nowrap leading-[60px] tracking-[4px]">
                 WHY ALERTZ
@@ -146,6 +146,47 @@ function Home() {
                 className="mt-14 w-full  aspect-[1.11] max-md:mt-10 max-md:max-w-full"
               />
             </div>
+          </div> */}
+          <div className="flex flex-col px-10 py-[120px]  w-full bg-[#f2f5fc] max-md:px-5 max-md:mt-10 max-md:max-w-full">
+            <div className="self-center  text-4xl font-medium text-black leading-[54px] max-md:mt-10 max-md:max-w-full">
+              Defend against fraud and chargebacks
+            </div>
+            <div className="mt-12 mb-11 max-md:pr-5 max-md:my-10 max-md:max-w-full">
+              <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
+                <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+                  <div
+                    id="hero-section"
+                    className="flex flex-col grow justify-center py-12 pr-6 text-xl  max-md:mt-10 max-md:max-w-full"
+                  >
+                    <div className="self-start text-[#0033cc] mt-16 ml-3 font-bold whitespace-nowrap leading-[150%] tracking-[4px] max-md:mt-10 max-md:ml-2.5">
+                      WHY ALERTZ
+                    </div>
+                    <div className="mt-14  leading-8  max-md:mt-10 max-md:max-w-full">
+                      <span className="">
+                        {" "}
+                        Its crucial for merchants to stay informed and ahead of
+                        the curve. We have you covered with real time alerts, so
+                        you stay informed and ahead of the curve. Resolve
+                        disputes quickly and efficiently
+                      </span>{" "}
+                      <span className="font-bold">alert</span>{" "}
+                      <span className=" font-semibold text-orange-500">Z</span>
+                    </div>
+                    <div className="mt-9 text-[#0033cc] text-4xl font-medium leading-[54px] max-md:max-w-full">
+                      Real-time Fraud Alerts for Smart Merchants
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+                  <img
+                    loading="lazy"
+                    srcSet="../images/home/8.svg"
+                    id="home-image"
+                    className="w-full m-autoaspect-square max-md:mt-10 max-md:max-w-full"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
           <div className="flex flex-col items-center py-[120px] pr-20 pl-10 w-full   max-md:px-5 max-md:max-w-full">
             <div className=" w-full  max-md:max-w-full">
@@ -155,7 +196,7 @@ function Home() {
                     <img
                       loading="lazy"
                       srcSet="../images/home/6.svg"
-                      className=" grow mt-24 w-full aspect-[1.08] max-md:mt-10 max-md:max-w-full"
+                      className=" m-auto"
                     />
                   </div>
                 </div>
@@ -226,7 +267,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center bg-[#f2f5fc]  items-center px-16 py-12 w-full text-xl text-[#0033cc]  tracking-[2px] max-md:px-5 max-md:max-w-full">
+          {/* <div className="flex justify-center bg-[#f2f5fc]  items-center px-16 py-12 w-full text-xl text-[#0033cc]  tracking-[2px] max-md:px-5 max-md:max-w-full">
             <div className="flex flex-col items-center mt-20 mb-12 max-w-full w-[780px] max-md:my-10">
               <div className="anm_mod text-[#0033cc] left delay self-center font-bold whitespace-nowrap leading-[60px] tracking-[4px]">
                 WHY DISPUTEZ
@@ -258,6 +299,48 @@ function Home() {
                 />
               </div>
             </div>
+          </div> */}
+          <div className="flex flex-col px-10 py-[120px]  w-full bg-[#f2f5fc] max-md:px-5 max-md:mt-10 max-md:max-w-full">
+            <div className="self-center text-4xl font-medium text-black leading-[54px] max-md:mt-10 max-md:max-w-full">
+              Experience efficiency at every step
+            </div>
+            <div className="mt-12 mb-11 max-md:pr-5 max-md:my-10 max-md:max-w-full">
+              <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
+                <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+                  <div
+                    id="hero-section"
+                    className="flex flex-col grow justify-center py-12 pr-6 text-xl  max-md:mt-10 max-md:max-w-full"
+                  >
+                    <div className="self-start text-[#0033cc] mt-16 ml-3 font-bold whitespace-nowrap leading-[150%] tracking-[4px] max-md:mt-10 max-md:ml-2.5">
+                      WHY DISPUTEZ
+                    </div>
+                    <div className="mt-14  leading-8  max-md:mt-10 max-md:max-w-full">
+                      <span className="">
+                        {" "}
+                        Our tailored solutions for issuers streamline the
+                        process, providing efficient and strategic tools to
+                        navigate and resolve disputes effortlessly. Stay in
+                        control, enhance customer satisfaction, and maintain the
+                        integrity of your financial transactions with disputeZ
+                      </span>{" "}
+                      <span className="font-bold">dispute</span>{" "}
+                      <span className=" font-semibold text-orange-500">Z</span>
+                    </div>
+                    <div className="mt-9 text-[#0033cc] text-4xl font-medium leading-[54px] max-md:max-w-full">
+                      Streamlined Dispute Management Solutions for Issuers
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+                  <img
+                    loading="lazy"
+                    srcSet="../images/home/9.svg"
+                    id="home-image"
+                    className="w-full m-autoaspect-square max-md:mt-10 max-md:max-w-full"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
           <ExpertConsultation />
           <div className="flex flex-col justify-center py-12 mt-32 w-full text-center text-black bg-[#0033CC] max-md:pl-5 max-md:mt-10 max-md:max-w-full">
@@ -266,7 +349,7 @@ function Home() {
                 Corporate Partners
               </div>{" "}
               <div className="mt-5 max-w-full mx-auto bg-[#0033cc] h-[3px] w-[400px]" />
-              <div className="self-end mt-12 text-xl mx-auto tracking-wider leading-8 w-[775px] max-md:mt-10 max-md:max-w-full">
+              <div className="self-end mt-12 text-xl mx-auto  leading-8 w-[775px] max-md:mt-10 max-md:max-w-full">
                 Our corporate partners are integral to our journey, fostering
                 trust and innovation. Through collaboration, we navigate
                 challenges, seize opportunities, and achieve mutual growth.
@@ -451,7 +534,7 @@ function Home() {
             Experience efficiency at every step
           </div>
           <div className="mt-11 mx-3 text-base  leading-6 text-center  tracking-[2px]">
-            <span className="tracking-wider">
+            <span className="">
               Our tailored solutions for issuers streamline the process,
               providing efficient and strategic tools to navigate and resolve
               disputes effortlessly. Stay in control, enhance customer
@@ -498,7 +581,7 @@ function Home() {
               Corporate Partners
             </div>{" "}
             <div className="mt-5 h-0.5 bg-[#0033cc] w-[200px]" />{" "}
-            <div className="flex flex-col self-stretch pr-5 pl-2.5 mt-10 mb-9 text-base tracking-wider leading-6">
+            <div className="flex flex-col self-stretch pr-5 pl-2.5 mt-10 mb-9 text-base  leading-6">
               <div>
                 Our corporate partners are integral to our journey, fostering
                 trust and innovation. Through collaboration, we navigate
