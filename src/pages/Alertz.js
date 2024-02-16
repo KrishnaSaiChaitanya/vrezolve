@@ -17,8 +17,8 @@ function Alertz() {
             <div className="max-md:max-w-full">
               <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
                 <div className="flex flex-col w-[59%] max-md:ml-0 max-md:w-full">
-                  <div className="flex flex-col grow text-xl tracking-wider leading-8 text-black max-md:mt-7 max-md:max-w-full">
-                    <div className="text-5xl font-bold text-center  leading-[80px] tracking-[2.4px] max-md:max-w-full max-md:text-4xl max-md:leading-[74px]">
+                  <div className="flex flex-col grow text-xl  leading-8 text-black max-md:mt-7 max-md:max-w-full">
+                    <div className="text-4xl font-bold   leading-[60px]  max-md:max-w-full max-md:text-4xl max-md:leading-[60px]">
                       Stay informed & secure with{" "}
                       <span className="text-[#0033cc]">real-time alerts</span>
                     </div>
@@ -57,11 +57,11 @@ function Alertz() {
           </div>{" "}
         </div>
         <div className=" mt-[120px] flex flex-col items-center self-center  w-full max-w-[1040px] max-md:max-w-full">
-          <div className=" mx-auto text-5xl font-bold text-center text-black leading-[80px] tracking-[2.4px] w-[693px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[74px]">
+          <div className=" mx-auto text-4xl font-bold text-center text-black leading-[60px]  w-[693px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[60px]">
             <span className="text-[#0033cc]">Streamlined</span> Protection,
             Effortless <span className="text-[#0033cc]">Monitoring</span>
           </div>{" "}
-          <div className="self-end mt-16 mx-auto text-xl tracking-wider leading-8 text-center text-black w-[779px] max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
+          <div className="self-end mt-16 mx-auto text-xl  leading-8 text-center text-black w-[779px] max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
             Our unique dashboard features an intuitive design, providing you
             with a simple yet powerful tool to safeguard your transactions.
             Elevate your defenses effortlessly with our advanced system,
@@ -71,7 +71,7 @@ function Alertz() {
           <div className="mt-16  text-4xl font-bold text-black leading-[60px] tracking-[5px] max-md:mt-10 max-md:max-w-full">
             Key features spotlight
           </div>{" "}
-          <div className="flex flex-col text-xl tracking-wider mt-12 mx-auto leading-8 text-black max-w-[305px]">
+          <div className="flex flex-col text-xl  mt-12 mx-auto leading-8 text-black max-w-[305px]">
             <div className="flex gap-5 justify-between px-5">
               <img
                 loading="lazy"
@@ -149,7 +149,7 @@ function Alertz() {
                     <div className="mt-9 leading-[50px] font-bold text-4xl tracking-[5px] max-md:max-w-full">
                       Fraud Detection and Prevention
                     </div>{" "}
-                    <div className="mt-9 tracking-wider leading-8 max-md:max-w-full">
+                    <div className="mt-9  leading-8 max-md:max-w-full">
                       <span className="font-bold">alert</span>
                       <span className=" font-black text-[#ff6600]">Z</span>{" "}
                       proactively notifies merchants and issuers of any
@@ -247,7 +247,7 @@ function Alertz() {
                       <div className="mt-9 text-4xl font-bold leading-[60px] tracking-[5px] max-md:max-w-full">
                         Dispute Resolution
                       </div>
-                      <div className="mt-9 tracking-wider leading-8 max-md:max-w-full">
+                      <div className="mt-9  leading-8 max-md:max-w-full">
                         <span className="font-bold">alert</span>{" "}
                         <span className=" font-black text-[#ff6600]">Z</span>{" "}
                         <span className="">
@@ -335,7 +335,7 @@ function Alertz() {
                     <div className="mt-9 leading-[50px] font-bold text-4xl tracking-[5px] max-md:max-w-full">
                       Preservation of Chargeback Rights
                     </div>{" "}
-                    <div className="mt-9 tracking-wider leading-8 max-md:max-w-full">
+                    <div className="mt-9  leading-8 max-md:max-w-full">
                       Preserving chargeback rights is integral to our commitment
                       to customer satisfaction and dispute resolution. We
                       understand the importance of providing users with a
@@ -401,7 +401,7 @@ function Alertz() {
           <span className=" font-black text-[#ff6600]">Z</span>
         </div>
         <div className="h-0.5 mt-5 mx-auto bg-[#0033cc] w-[128px]" />
-        <div className="mt-8 px-3 text-2xl font-bold tracking-wider text-center text-black">
+        <div className="mt-8 px-3 text-2xl font-bold  text-center text-black">
           <span className="text-[#0033cc]">E-commerce defense :</span> Fraud &
           Chargebacks
         </div>
@@ -421,7 +421,7 @@ function Alertz() {
           Get Started
         </div>
         <div className="flex flex-col self-stretch px-6 mt-16 w-full bg-[#f2f5fc] py-12 p">
-          <div className="text-2xl font-bold tracking-wider text-center text-[#0033cc]">
+          <div className="text-2xl font-bold  text-center text-[#0033cc]">
             <span className="text-black">Stay informed & secure with</span>{" "}
             real-time alerts
           </div>
@@ -431,7 +431,7 @@ function Alertz() {
             className="self-center mt-12 w-full aspect-[1.12] mx-auto max-w-[310px]"
           />
 
-          <div className="mt-16 text-base tracking-wider leading-6 text-center text-black">
+          <div className="mt-16 text-base  leading-6 text-center text-black">
             Our platform provides users with instant notifications, keeping them
             updated on critical information such as transactions, account
             activity, and security alerts.{" "}
@@ -441,7 +441,7 @@ function Alertz() {
               <div className="shrink-0 bg-[#0033cc] rounded-full h-[9px]" />
               <div className="shrink-0 mt-36 bg-[#0033cc] rounded-full h-[9px]" />
             </div>
-            <ul className="flex flex-col flex-1 text-base tracking-wider leading-6 text-black">
+            <ul className="flex flex-col flex-1 text-base  leading-6 text-black">
               <li>
                 This proactive approach empowers users to stay ahead of any
                 potential issues, enabling swift actions and ensuring a secure
@@ -454,8 +454,8 @@ function Alertz() {
             </ul>
           </div>
         </div>{" "}
-        <div className="flex flex-col px-5 mx-auto w-full text-2xl tracking-wider text-black  my-16">
-          <div className="w-full font-bold tracking-wider text-center">
+        <div className="flex flex-col px-5 mx-auto w-full text-2xl  text-black  my-16">
+          <div className="w-full font-bold  text-center">
             <span className="text-blue-700">Streamlined</span> Protection,
             Effortless <span className="text-blue-700">Monitoring</span>
           </div>
@@ -534,7 +534,7 @@ function Alertz() {
           />
         </div>
         <div className="flex flex-col self-stretch px-6 py-12 w-full bg-[#0033cc] bg-opacity-10 ">
-          <div className="mt-10 text-2xl font-bold tracking-wider text-center text-black">
+          <div className="mt-10 text-2xl font-bold  text-center text-black">
             Unveiling the best of our platform
           </div>{" "}
           <div className="flex gap-5 justify-between mt-14">
@@ -556,12 +556,12 @@ function Alertz() {
             </div>{" "}
             <div className="flex flex-col flex-1 text-base font-medium leading-8 text-[#0033cc] tracking-[2px]">
               <div>Fraud Prevention</div>{" "}
-              <div className="mt-6 tracking-wider leading-6 text-black">
+              <div className="mt-6  leading-6 text-black">
                 Employing advanced technologies and vigilance for robust fraud
                 prevention.
               </div>{" "}
               <div className="mt-10">Cost Savings</div>{" "}
-              <div className="mt-6 tracking-wider leading-6 text-black">
+              <div className="mt-6  leading-6 text-black">
                 Our approach to minimize disputes and associated fees.
               </div>
             </div>
@@ -578,14 +578,14 @@ function Alertz() {
               <div className="font-medium leading-8 text-[#0033cc] tracking-[2px]">
                 Faster Resolution{" "}
               </div>{" "}
-              <div className="mt-6 tracking-wider leading-6 text-black">
+              <div className="mt-6  leading-6 text-black">
                 Facilitating swift and direct interactions between merchants and
                 card issuer banks for expedited resolutions.
               </div>
             </div>
           </div>
         </div>{" "}
-        <div className="flex flex-col mb-16 self-stretch px-6 mt-20 w-full text-base tracking-wider leading-6 text-black">
+        <div className="flex flex-col mb-16 self-stretch px-6 mt-20 w-full text-base  leading-6 text-black">
           <div className="self-center font-bold text-center text-[#0033cc] whitespace-nowrap leading-[60px] tracking-[3.2px]">
             PROACTIVE ALERTS
           </div>
@@ -766,15 +766,15 @@ function Alertz() {
           </ul>
         </div>
         <ContactSection />
-        {/* <div className="flex flex-col self-stretch px-6 py-12 mt-24 w-full text-base tracking-wider leading-8 bg-[#0033cc] bg-opacity-10 text-zinc-500">
-          <div className="mt-12 text-2xl font-bold tracking-wider text-center text-black whitespace-nowrap">
+        {/* <div className="flex flex-col self-stretch px-6 py-12 mt-24 w-full text-base  leading-8 bg-[#0033cc] bg-opacity-10 text-zinc-500">
+          <div className="mt-12 text-2xl font-bold  text-center text-black whitespace-nowrap">
             Want to learn more?
           </div>
           <div className="mt-14 text-xl text-center text-black">
             Get in touch with us for any questions or assistance. We're here to
             help!
           </div>{" "}
-          <div className="self-center mt-14 text-2xl font-bold tracking-wider text-center text-black">
+          <div className="self-center mt-14 text-2xl font-bold  text-center text-black">
             Contact Us
           </div>{" "}
           <div className="self-center mt-10 h-0.5 bg-[#0033cc] w-[120px]" />{" "}

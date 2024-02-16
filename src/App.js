@@ -12,6 +12,8 @@ import Alertz from "./pages/Alertz";
 import Disputz from "./pages/Disputz";
 import Rewardz from "./pages/Rewardz";
 import Home from "./pages/Home";
+import New from "./pages/New";
+import NewAlertz from "./pages/NewAlertz";
 
 function App() {
   useEffect(() => {
@@ -41,7 +43,8 @@ function App() {
       <Router>
         <LoginNavbar />
         <Routes>
-          <Route exact path="/" element={<Home />}></Route>
+          <Route exact path="/" element={<New />}></Route>
+          <Route exact path="/alert" element={<NewAlertz />}></Route>
           <Route exact path="/alertz" element={<Alertz />}></Route>
           <Route exact path="/rewardz" element={<Rewardz />}></Route>
           <Route exact path="/disputz" element={<Disputz />}></Route>

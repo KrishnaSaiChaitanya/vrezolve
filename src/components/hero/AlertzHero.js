@@ -12,7 +12,8 @@ function AlertzHero(props) {
             <img
               loading="lazy"
               src="../images/alertz/1.png"
-              className="object-center w-full aspect-square max-md:mt-2 max-md:max-w-full"
+              id="hero-image"
+              className="m-auto md:mt-[80px] mt-0"
             />
           </div>
           <div className="flex flex-col items-stretch ml-5 w-6/12 max-md:ml-0 max-md:w-full">
@@ -26,7 +27,7 @@ function AlertzHero(props) {
                 src="../images/line.svg"
                 className="object-center mt-6  max-w-full aspect-[50] stroke-[3px] stroke-[#0033cc] w-[150px] max-md:ml-2"
               />
-              <div className="mt-9 text-5xl font-medium tracking-wider text-black leading-[80px] max-md:max-w-full max-md:text-4xl max-md:leading-[74px]">
+              <div className="mt-9 text-4xl font-medium  text-black leading-[60px] max-md:max-w-full max-md:text-4xl max-md:leading-[74px]">
                 <span className="font-bold text-[#0033cc]">
                   E-commerce defense
                 </span>
@@ -46,7 +47,7 @@ function AlertzHero(props) {
                     solutions and stay ahead in safeguarding your transactions.
                   </span>
                 </div>
-                <button className="justify-center items-stretch self-start px-12 py-1.5 mt-9 text-xl font-medium tracking-wider leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] max-md:px-5">
+                <button className="justify-center items-stretch self-start px-12 py-1.5 mt-9 text-xl font-medium  leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] max-md:px-5">
                   Get Started
                 </button>
               </div>

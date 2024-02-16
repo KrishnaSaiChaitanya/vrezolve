@@ -113,7 +113,7 @@ function ContactSection() {
 
         <div className="mt-32  max-w-full mx-auto bg-[#0033cc] h-[3px] w-full" />
       </div>
-      <div className="flex md:hidden flex-col self-stretch px-6 py-12 mt-24 w-full text-base tracking-wider leading-8 bg-[#f2f5fc] text-zinc-500">
+      <div className="flex md:hidden flex-col self-stretch px-6 py-12  w-full text-base tracking-wider leading-8 bg-[#f2f5fc] text-zinc-500">
         <div className="mt-16 text-2xl font-bold tracking-wider text-center text-black whitespace-nowrap">
           Want to learn more?
         </div>

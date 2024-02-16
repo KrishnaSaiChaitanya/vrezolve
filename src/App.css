@@ -46,8 +46,9 @@ ul li::before {
     margin: auto;
   }
   #hero-section {
-    max-width: 600px;
+    max-width: 1230px;
     margin: auto;
+    gap: 120px;
   }
 }
 
@@ -63,7 +64,8 @@ ul li::before {
     margin: auto;
   }
   #hero-section {
-    max-width: 680px;
+    max-width: 1280px;
     margin: auto;
+    gap: 160px;
   }
 }
