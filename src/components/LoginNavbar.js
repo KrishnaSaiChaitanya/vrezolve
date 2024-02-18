@@ -55,9 +55,9 @@ function LoginNavbar() {
             : "mt-10"
         }`}
       >
-        <div className="flex mt-3 gap-5 justify-between items-stretch px-5 max-md:flex-wrap py-2">
+        <div className="flex mt-3 gap-[32px] justify-between items-stretch px-5 max-md:flex-wrap py-2">
           <img src="../images/logo.svg" alt="Logo" />
-          <div className="md:flex gap-6 justify-between items-stretch p-6 text-xl text-center text-black whitespace-nowrap tracking-[2px] max-md:flex-wrap max-md:px-5 max-md:max-w-full hidden">
+          <div className="md:flex gap-6 justify-between items-stretch p-6 text-xl text-center text-black whitespace-nowrap max-md:flex-wrap max-md:px-5 max-md:max-w-full hidden">
             <div className="leading-[150%]">Home</div>
             <div className="leading-[150%]">Solutions</div>
             <div className="leading-[150%]">Partners</div>
@@ -69,7 +69,7 @@ function LoginNavbar() {
             className="md:flex justify-center items-stretch px-6 py-2 my-auto text-xl font-medium tracking-wider leading-8 text-center text-white bg-[#ff6600] rounded-[100px] max-md:px-5 hidden transition-transform duration-300 transform hover:scale-105"
             // onClick={toggleMenu}
           >
-            Get In Touch
+            GET IN TOUCH
           </button>
           <button
             className="md:hidden justify-center items-stretch my-auto text-xl font-medium tracking-wider leading-8 text-center text-white max-md:px-5 flex transition-transform duration-300 transform hover:scale-105"

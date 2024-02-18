@@ -4,46 +4,63 @@ function Footer() {
   return (
     <>
       <div className="hidden md:flex  flex-col mt-[60px] items-center">
-        <div className="px-5 mt-12 max-w-full w-[899px] max-md:mt-10">
+        <div className="max-w-full w-[789px]">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
-            <div className="flex flex-col w-2/5 max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow mt-3 text-base text-center text-black max-md:mt-10">
-                <div className="text-xl font-medium text-blue-700">COMPANY</div>
-                <div className="mt-9">About us</div>
-                <div className="mt-6 whitespace-nowrap">Partner with us</div>
-                <div className="mt-6 whitespace-nowrap">Contact us</div>
-                <div className="mt-6">Blog</div>
-              </div>
-            </div>
-            <div className="flex flex-col ml-5 w-[43%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col mt-3 text-base text-center text-black max-md:mt-10">
-                <div className="text-xl font-medium text-blue-700">
-                  SOLUTIONS
-                </div>
-                <div className="mt-9">Dispute management</div>
-                <div className="mt-6 whitespace-nowrap">
-                  Fraud and risk management
+            <div className="flex flex-col w-[36%] max-md:ml-0 max-md:w-full">
+              <div className="flex flex-col grow items-start max-md:mt-10">
+                <p className="text-xl font-medium leading-5 text-center tracking-[2px] max-md:ml-2.5 text-[#0033cc] ">
+                  COMPANY
+                </p>
+                <div className="flex flex-col self-start mt-5 text-base  text-black tracking-[2px]">
+                  <div>About us</div>
+                  <div className="mt-3 whitespace-nowrap">Partner with us</div>
+                  <div className="mt-3">Contact us</div>
+                  <div className="mt-3">Blog</div>
                 </div>
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-[17%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col justify-center items-center px-3 pt-3 text-xl font-medium text-center text-blue-700 whitespace-nowrap max-md:mt-10">
-                <div className="self-stretch">SOCIAL</div>
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/86d20e42dc106b10fd0b2192ce69cc8630ed7d89178fbff45146e89f9abc888f?apiKey=67296d98361248faadca04e106a4f278&"
-                  className="mt-9 w-6 aspect-square"
-                />
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/2d7472b43bcea8fcc7cf4b653786f71698eb678302159cb8c3e0aa403e749310?apiKey=67296d98361248faadca04e106a4f278&"
-                  className="mt-6 w-6 aspect-square"
-                />
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/fb375e91d7f92b531398d50389c7ba9fa725cbd95aa201df7c35dcd82e5df4e9?apiKey=67296d98361248faadca04e106a4f278&"
-                  className="mt-6 w-6 aspect-square"
-                />
+            <div className="flex flex-col ml-5 w-[64%] max-md:ml-0 max-md:w-full">
+              <div className="max-md:mt-10 max-md:max-w-full">
+                <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
+                  <div className="flex flex-col w-[71%] max-md:ml-0 max-md:w-full">
+                    <div className="flex flex-col grow items-start max-md:mt-10">
+                      <p className="text-xl font-medium leading-5 text-center  tracking-[2px] max-md:ml-2.5 text-[#0033cc] ">
+                        SOLUTIONS
+                      </p>
+                      <div className="flex flex-col self-start mt-5 text-base  text-black tracking-[2px]">
+                        <div>Dispute management</div>
+                        <div className="mt-3 whitespace-nowrap">
+                          Fraud and risk management
+                        </div>
+                        {/* <div className="mt-3">Rewards program</div> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col ml-5 w-[29%] max-md:ml-0 max-md:w-full">
+                    <div className="flex flex-col max-md:mt-10">
+                      <p className="text-xl font-[500] leading-5 text-center text-[#0033cc]  tracking-[2px] max-md:ml-2.5">
+                        SOCIAL
+                      </p>
+                      <div className="flex flex-col gap-5 justify-between items-center px-5 mt-8">
+                        <img
+                          loading="lazy"
+                          src="../images/icons/1.svg"
+                          className="w-6 aspect-square"
+                        />
+                        <img
+                          loading="lazy"
+                          src="../images/icons/2.svg"
+                          className="w-6 aspect-square"
+                        />
+                        <img
+                          loading="lazy"
+                          src="../images/icons/3.svg"
+                          className="w-6 aspect-square"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

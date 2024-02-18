@@ -12,30 +12,46 @@ function Disputz() {
             <span className="text-[#0033cc]">Revolutionizing</span> Chargeback
             Processes
           </div>
-          <div className="flex gap-5 justify-between p-3 mt-20 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
-            <div className="my-auto w-5 h-4 bg-[#0033cc] rounded-full" />
+          <div className="flex gap-[40px] justify-between p-3 mt-20 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
+            <img
+              loading="lazy"
+              src="../images/cube.svg"
+              className="my-auto aspect-square w-[48px]"
+            />
             <div className="flex-auto max-md:max-w-full">
               <span className="text-[#0033cc]">Seamless Integration : </span>
               Customer communication, reasoning, accounting, case management and
               closure.
             </div>
           </div>
-          <div className="flex gap-5 justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
-            <div className="my-auto w-4 h-4 bg-[#0033cc] rounded-full" />
+          <div className="flex gap-[40px] justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
+            <img
+              loading="lazy"
+              src="../images/cube.svg"
+              className="my-auto aspect-square w-[45px]"
+            />
             <div className="flex-auto max-md:max-w-full">
               <span className="text-[#0033cc]">Automated Experience :</span>{" "}
               Brace yourselves for a more streamlined chargeback process.
             </div>
           </div>
-          <div className="flex gap-5 justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
-            <div className="my-auto w-4 h-4 bg-[#0033cc] rounded-full" />
+          <div className="flex gap-[40px] justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
+            <img
+              loading="lazy"
+              src="../images/cube.svg"
+              className="my-auto aspect-square w-[40px]"
+            />
             <div className="grow max-md:max-w-full">
               <span className="text-[#0033cc]">Efficiency Unleashed :</span> The
               future of chargeback operations is coming soon!
             </div>
           </div>
-          <div className="flex gap-5 justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
-            <div className="my-auto w-4 h-4 bg-[#0033cc] rounded-full" />
+          <div className="flex gap-[40px] justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
+            <img
+              loading="lazy"
+              src="../images/cube.svg"
+              className="my-auto aspect-square w-[40px]"
+            />
             <div className="grow max-md:max-w-full">
               <span className="text-[#0033cc]">Stay Tuned :</span>{" "}
               #ChargebackInnovation #Coming Soon
@@ -49,7 +65,11 @@ function Disputz() {
           <span className="font-bold text-[#0033cc]">dispute</span>
           <span className=" font-black text-[#ff6600]">Z</span>
         </div>
-        <div className="h-0.5 mt-5 mx-auto bg-[#0033cc] w-[128px]" />
+        <img
+          loading="lazy"
+          src="../images/cube.svg"
+          className="my-auto aspect-square w-[45px]"
+        />
         <div className="mt-12 text-2xl  font-bold tracking-wider text-center ">
           <span className="leading-7 text-[#0033cc]">
             Redefining chargebacks :

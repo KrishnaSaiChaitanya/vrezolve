@@ -68,7 +68,7 @@ function ContactSection() {
               <div className="text-5xl font-bold text-center text-black max-md:max-w-full max-md:text-4xl">
                 Contact Us
               </div>
-              <div className="mt-3 max-w-full mx-auto bg-[#0033cc] h-[3px] w-[200px]" />
+
               <div className="justify-center bg-white mt-20 items-start py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
                 <input
                   type="text"
@@ -123,8 +123,7 @@ function ContactSection() {
         </div>{" "}
         <div className="self-center mt-9 text-2xl font-bold tracking-wider text-center text-black">
           Contact Us
-        </div>{" "}
-        <div className="self-center mt-5 h-0.5 bg-blue-700 w-[120px]" />{" "}
+        </div>
         <div className="flex flex-col bg-[#f2f5fc]  justify-center md:mr-5   py-0.5 mt-10  rounded max-md:mt-10 max-md:max-w-full">
           <div className="justify-center bg-white  items-start py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
             <input
