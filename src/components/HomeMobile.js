@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "./Footer";
 import LogoSlider from "./LogoSlider";
 import ContactSection from "./ContactSection";
 
@@ -12,6 +11,7 @@ function HomeMobile() {
             Unleashing<span className="text-blue-700"> IT</span> Excellence
           </div>
           <img
+            alt="vrezolve"
             loading="lazy"
             srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&"
             className="self-center mt-8 w-full aspect-[0.85] max-w-[306px]"
@@ -45,6 +45,7 @@ function HomeMobile() {
           <span className=" font-black text-orange-500">Z</span>
         </div>
         <img
+          alt="vrezolve"
           loading="lazy"
           srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&"
           className="mt-8 w-full aspect-square max-w-[350px]"
@@ -58,6 +59,7 @@ function HomeMobile() {
         </div>{" "}
         <div className="flex gap-5 justify-between pr-5 mt-10 w-full text-base leading-6 text-black whitespace-nowrap max-w-[298px]">
           <img
+            alt="vrezolve"
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/ec99c612ec500db945fa7470496aec07df0df2d16f9b867c6a7fe8711028c2e4?apiKey=67296d98361248faadca04e106a4f278&"
             className="w-6 aspect-square"
@@ -68,6 +70,7 @@ function HomeMobile() {
         </div>{" "}
         <div className="flex gap-5 justify-between pr-5 mt-6 w-full text-base leading-6 text-black whitespace-nowrap max-w-[298px]">
           <img
+            alt="vrezolve"
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/ec99c612ec500db945fa7470496aec07df0df2d16f9b867c6a7fe8711028c2e4?apiKey=67296d98361248faadca04e106a4f278&"
             className="w-6 aspect-square"
@@ -76,6 +79,7 @@ function HomeMobile() {
         </div>{" "}
         <div className="flex gap-5 justify-between pr-5 mt-6 w-full text-base leading-6 text-black whitespace-nowrap max-w-[298px]">
           <img
+            alt="vrezolve"
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/ec99c612ec500db945fa7470496aec07df0df2d16f9b867c6a7fe8711028c2e4?apiKey=67296d98361248faadca04e106a4f278&"
             className="w-6 aspect-square"
@@ -106,6 +110,7 @@ function HomeMobile() {
             Real-time fraud alerts for smart merchants
           </div>{" "}
           <img
+            alt="vrezolve"
             loading="lazy"
             src="../images/home/8.svg"
             className="mt-9 w-full mx-auto rounded-3xl shadow-sm aspect-[0.78] max-w-[328px]"
@@ -117,6 +122,7 @@ function HomeMobile() {
           <span className=" font-black text-orange-500">Z</span>
         </div>{" "}
         <img
+          alt="vrezolve"
           loading="lazy"
           srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&"
           className="mt-6 w-full aspect-square max-w-[350px]"
@@ -130,6 +136,7 @@ function HomeMobile() {
         </div>{" "}
         <div className="flex gap-5 justify-between pr-5 mt-6 w-full text-base leading-6 text-black whitespace-nowrap max-w-[298px]">
           <img
+            alt="vrezolve"
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/ec99c612ec500db945fa7470496aec07df0df2d16f9b867c6a7fe8711028c2e4?apiKey=67296d98361248faadca04e106a4f278&"
             className="w-6 aspect-square"
@@ -140,6 +147,7 @@ function HomeMobile() {
         </div>{" "}
         <div className="flex gap-5 justify-between pr-5 mt-6 w-full text-base leading-6 text-black whitespace-nowrap max-w-[298px]">
           <img
+            alt="vrezolve"
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/ec99c612ec500db945fa7470496aec07df0df2d16f9b867c6a7fe8711028c2e4?apiKey=67296d98361248faadca04e106a4f278&"
             className="w-6 aspect-square"
@@ -148,6 +156,7 @@ function HomeMobile() {
         </div>{" "}
         <div className="flex gap-5 justify-between pr-5 mt-6 w-full text-base leading-6 text-black whitespace-nowrap max-w-[298px]">
           <img
+            alt="vrezolve"
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/ec99c612ec500db945fa7470496aec07df0df2d16f9b867c6a7fe8711028c2e4?apiKey=67296d98361248faadca04e106a4f278&"
             className="w-6 aspect-square"
@@ -156,6 +165,7 @@ function HomeMobile() {
         </div>{" "}
         <div className="flex gap-5 justify-between pr-5 mt-6 w-full text-base leading-6 text-black whitespace-nowrap max-w-[298px]">
           <img
+            alt="vrezolve"
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/ec99c612ec500db945fa7470496aec07df0df2d16f9b867c6a7fe8711028c2e4?apiKey=67296d98361248faadca04e106a4f278&"
             className="w-6 aspect-square"
@@ -164,6 +174,7 @@ function HomeMobile() {
         </div>{" "}
         <div className="flex gap-5 justify-between pr-5 mt-6 w-full text-base leading-6 text-black whitespace-nowrap max-w-[298px]">
           <img
+            alt="vrezolve"
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/ec99c612ec500db945fa7470496aec07df0df2d16f9b867c6a7fe8711028c2e4?apiKey=67296d98361248faadca04e106a4f278&"
             className="w-6 aspect-square"
@@ -172,6 +183,7 @@ function HomeMobile() {
         </div>{" "}
         <div className="flex gap-5 justify-between pr-5 mt-6 w-full text-base leading-6 text-black whitespace-nowrap max-w-[298px]">
           <img
+            alt="vrezolve"
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/ec99c612ec500db945fa7470496aec07df0df2d16f9b867c6a7fe8711028c2e4?apiKey=67296d98361248faadca04e106a4f278&"
             className="w-6 aspect-square"
@@ -204,6 +216,7 @@ function HomeMobile() {
             Streamlined dispute management solutions for issuers
           </div>
           <img
+            alt="vrezolve"
             loading="lazy"
             srcSet="../images/home/9.svg"
             className="mt-9 w-full mx-auto rounded-3xl  aspect-square max-w-[334px]"
@@ -213,6 +226,7 @@ function HomeMobile() {
           Expert Consultation
         </div>{" "}
         <img
+          alt="vrezolve"
           loading="lazy"
           srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&"
           className="mt-6 w-full aspect-square max-w-[350px]"

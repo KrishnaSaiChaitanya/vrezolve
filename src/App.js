@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import "./styles/animation.css";
 
@@ -6,8 +5,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import LoginNavbar from "./components/LoginNavbar";
 import Footer from "./components/Footer";
-import AlertzHero from "./components/hero/AlertzHero";
-import RewardzHero from "./components/hero/RewardzHero";
 import Alertz from "./pages/Alertz";
 import Disputz from "./pages/Disputz";
 import Rewardz from "./pages/Rewardz";

@@ -14,6 +14,7 @@ function Disputz() {
           </div>
           <div className="flex gap-[40px] justify-between p-3 mt-20 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
             <img
+              alt="vrezolve"
               loading="lazy"
               src="../images/cube.svg"
               className="my-auto aspect-square w-[48px]"
@@ -26,6 +27,7 @@ function Disputz() {
           </div>
           <div className="flex gap-[40px] justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
             <img
+              alt="vrezolve"
               loading="lazy"
               src="../images/cube.svg"
               className="my-auto aspect-square w-[45px]"
@@ -37,6 +39,7 @@ function Disputz() {
           </div>
           <div className="flex gap-[40px] justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
             <img
+              alt="vrezolve"
               loading="lazy"
               src="../images/cube.svg"
               className="my-auto aspect-square w-[40px]"
@@ -48,6 +51,7 @@ function Disputz() {
           </div>
           <div className="flex gap-[40px] justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
             <img
+              alt="vrezolve"
               loading="lazy"
               src="../images/cube.svg"
               className="my-auto aspect-square w-[40px]"
@@ -66,6 +70,7 @@ function Disputz() {
           <span className=" font-black text-[#ff6600]">Z</span>
         </div>
         <img
+          alt="vrezolve"
           loading="lazy"
           src="../images/cube.svg"
           className="my-auto aspect-square w-[45px]"
@@ -79,6 +84,7 @@ function Disputz() {
           <span className="leading-7"> advantage</span>
         </div>
         <img
+          alt="vrezolve"
           loading="lazy"
           src="../images/dispute-hero.svg"
           className="mt-16 w-full aspect-[0.77] max-w-[305px]"

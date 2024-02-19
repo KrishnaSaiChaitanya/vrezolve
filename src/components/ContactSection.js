@@ -1,5 +1,4 @@
 import React from "react";
-import CardsSection from "./CardsSection";
 
 function ContactSection() {
   return (

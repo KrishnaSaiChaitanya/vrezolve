@@ -75,7 +75,7 @@ function LoginNavbar() {
             className="md:hidden justify-center items-stretch my-auto text-xl font-medium tracking-wider leading-8 text-center text-white max-md:px-5 flex transition-transform duration-300 transform hover:scale-105"
             onClick={toggleMenu}
           >
-            <img src="../images/menu.svg" />
+            <img alt="vrezolve" src="../images/menu.svg" />
           </button>
         </div>
         {!isNavbarFixed && <div className="mt-3 h-[3px] bg-[#0033cc] w-full" />}
@@ -97,7 +97,7 @@ function LoginNavbar() {
               onClick={() => setDropdownOpen(!isDropdownOpen)}
             >
               <span className="mr-5  ">Solutions</span>
-              <img src="../images/arrow.svg" />
+              <img alt="vrezolve" src="../images/arrow.svg" />
             </div>
             <div className="leading-[150%] p-2 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
               Partners
@@ -119,6 +119,7 @@ function LoginNavbar() {
           <div className="flex flex-col py-2 bg-white p-2 rounded shadow max-w-[280px]">
             <div className="flex gap-3 justify-between px-3 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
               <img
+                alt="vrezolve"
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/f7dd6963be2ba1d01d37e57d19abda85a90f20cf97c7cceba18c074d77702fd1?apiKey=67296d98361248faadca04e106a4f278&"
                 className="my-auto w-6 aspect-square"
@@ -130,6 +131,7 @@ function LoginNavbar() {
                     <span className=" font-black text-[#ff6600]">Z</span>
                   </span>
                   <img
+                    alt="vrezolve"
                     src="../images/badge.svg"
                     className="w-[90px] mt-1 ml-2"
                   />
@@ -143,6 +145,7 @@ function LoginNavbar() {
             <div className="mt-3 w-full bg-stone-300 min-h-[1px]" />
             <div className="flex gap-3 justify-between px-3 mt-5 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
               <img
+                alt="vrezolve"
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/d09416d61dc61ef9f19660b50f777243cd8b08c07f96bbd932c28838e060dd8e?apiKey=67296d98361248faadca04e106a4f278&"
                 className="my-auto w-6 aspect-square"
@@ -160,6 +163,7 @@ function LoginNavbar() {
             <div className="mt-5 w-full bg-stone-300 min-h-[1px]" />
             <div className="flex gap-3 justify-between px-3 mt-5 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
               <img
+                alt="vrezolve"
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa8c066ef3188d3a76fc4e05fb3105e34b7d1ce1a8e0a8e5257144fc0fdcae02?apiKey=67296d98361248faadca04e106a4f278&"
                 className="my-auto w-6 aspect-square"
@@ -169,6 +173,7 @@ function LoginNavbar() {
                   reward
                   <span className=" font-black text-[#ff6600]">Z</span>
                   <img
+                    alt="vrezolve"
                     src="../images/badge.svg"
                     className="w-[90px] mt-1 ml-2"
                   />

@@ -7,9 +7,9 @@ function RewardzHero() {
         <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:items-stretch">
           <div className="flex flex-col items-stretch w-[46%] max-md:ml-0 max-md:w-full">
             <img
+              alt="vrezolve"
               loading="lazy"
               src="../images/rewardz-hero.svg"
-              alt=""
               className="object-contain object-center self-stretch my-auto w-full aspect-[0.88] fill-blue-700 max-md:mt-10 max-md:max-w-full"
             />
           </div>

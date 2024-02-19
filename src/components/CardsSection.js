@@ -12,6 +12,7 @@ function CardsSection() {
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow items-center px-9 pt-6 pb-12 mt-1.5 w-full bg-white rounded-3xl shadow-sm max-md:px-5 max-md:mt-10 transition-transform transform hover:scale-105">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/alertz/4.svg"
                   className="max-w-full aspect-square w-[100px] m-2"
@@ -29,6 +30,7 @@ function CardsSection() {
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full transition-transform transform hover:scale-105">
               <div className="flex flex-col grow items-center px-9 pt-6 pb-12 mt-1.5 w-full bg-white rounded-3xl shadow-sm max-md:px-5 max-md:mt-10">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/alertz/5.svg"
                   className="max-w-full aspect-square w-[100px] m-2"
@@ -45,6 +47,7 @@ function CardsSection() {
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full transition-transform transform hover:scale-105">
               <div className="flex flex-col grow items-center px-9 pt-6 pb-12 mt-1.5 w-full bg-white rounded-3xl shadow-sm max-md:px-5 max-md:mt-10">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/alertz/6.svg"
                   className="max-w-full aspect-square w-[130px] m-1"

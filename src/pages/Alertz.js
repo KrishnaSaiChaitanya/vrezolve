@@ -27,6 +27,7 @@ function Alertz() {
                     </div>
                     <div className="flex gap-5 justify-between mt-9 mr-3.5 max-md:flex-wrap max-md:mr-2.5 max-md:max-w-full">
                       <img
+                        alt="vrezolve"
                         loading="lazy"
                         src="../images/cube.svg"
                         className="my-auto aspect-square w-[45px]"
@@ -39,6 +40,7 @@ function Alertz() {
                     </div>
                     <div className="flex gap-5 justify-between mt-6 mr-3.5 max-md:flex-wrap max-md:mr-2.5 max-md:max-w-full">
                       <img
+                        alt="vrezolve"
                         loading="lazy"
                         src="../images/cube.svg"
                         className="my-auto aspect-square w-[45px]"
@@ -53,6 +55,7 @@ function Alertz() {
                 </div>{" "}
                 <div className="flex flex-col ml-5 w-[44%] max-md:ml-0 max-md:w-full">
                   <img
+                    alt="vrezolve"
                     loading="lazy"
                     srcSet="../images/alertz/section-1.svg"
                     className="grow w-full aspect-[0.93] max-md:mt-10 max-md:max-w-full"
@@ -80,6 +83,7 @@ function Alertz() {
               <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                 <div className="flex flex-col grow justify-center px-12 py-12 w-full bg-white rounded-3xl shadow-md max-md:px-5 max-md:mt-10">
                   <img
+                    alt="vrezolve"
                     loading="lazy"
                     src="../images/alertz/feature-1.svg"
                     className="w-full aspect-square "
@@ -90,6 +94,7 @@ function Alertz() {
                 <div className="flex flex-col flex-wrap justify-center content-center self-stretch my-auto text-4xl leading-6 text-black whitespace-nowrap max-md:mt-10 max-md:max-w-full">
                   <div className="flex gap-5 justify-between pr-5 max-md:flex-wrap max-md:max-w-full">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="aspect-square w-[40px]"
@@ -98,6 +103,7 @@ function Alertz() {
                   </div>{" "}
                   <div className="flex gap-5 justify-between pr-5 mt-20 max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="aspect-square w-[40px]"
@@ -113,6 +119,7 @@ function Alertz() {
               <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                 <div className="flex flex-col grow justify-center px-5 py-5 w-full bg-white rounded-3xl shadow-md max-md:px-5 max-md:mt-10">
                   <img
+                    alt="vrezolve"
                     loading="lazy"
                     srcSet="../images/alertz/feature-2.svg"
                     className="w-full aspect-square"
@@ -123,6 +130,7 @@ function Alertz() {
                 <div className="flex flex-col flex-wrap justify-center content-center self-stretch my-auto text-4xl leading-6 text-black whitespace-nowrap max-md:mt-10 max-md:max-w-full">
                   <div className="flex gap-5 justify-between pr-5 max-md:flex-wrap max-md:max-w-full">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="aspect-square w-[45px]"
@@ -131,6 +139,7 @@ function Alertz() {
                   </div>{" "}
                   <div className="flex gap-5 justify-between pr-5 mt-20 max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="aspect-square w-[40px]"
@@ -139,6 +148,7 @@ function Alertz() {
                   </div>
                   <div className="flex gap-5 justify-between pr-5 mt-20 max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="aspect-square w-[45px]"
@@ -154,6 +164,7 @@ function Alertz() {
               <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                 <div className="flex flex-col grow justify-center px-5 py-5 w-full bg-white rounded-3xl shadow-md max-md:px-5 max-md:mt-10">
                   <img
+                    alt="vrezolve"
                     loading="lazy"
                     srcSet="../images/alertz/feature-3.svg"
                     className="w-full aspect-square"
@@ -164,6 +175,7 @@ function Alertz() {
                 <div className="flex flex-col flex-wrap justify-center content-center self-stretch my-auto text-4xl leading-6 text-black whitespace-nowrap max-md:mt-10 max-md:max-w-full">
                   <div className="flex gap-5 justify-between pr-5 max-md:flex-wrap max-md:max-w-full">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="aspect-square w-[45px]"
@@ -172,6 +184,7 @@ function Alertz() {
                   </div>{" "}
                   <div className="flex gap-5 justify-between pr-5 mt-20 max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="aspect-square w-[45px]"
@@ -249,6 +262,7 @@ function Alertz() {
               </div>
               <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/alertz/1.svg"
                   className="self-stretch my-auto w-full aspect-[0.98] max-md:mt-10 max-md:max-w-full"
@@ -260,6 +274,7 @@ function Alertz() {
             <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
               <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/alertz/2.svg"
                   className="self-stretch my-auto w-full aspect-square max-md:mt-10 max-md:max-w-full"
@@ -385,6 +400,7 @@ function Alertz() {
               </div>
               <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/alertz/3.svg"
                   className="self-stretch my-auto w-full aspect-square max-md:mt-10 max-md:max-w-full"

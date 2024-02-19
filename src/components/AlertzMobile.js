@@ -15,6 +15,7 @@ function AlertzMobile() {
           Chargebacks
         </div>
         <img
+          alt="vrezolve"
           loading="lazy"
           src="../images/alertz/1.png"
           className="self-stretch mt-6 w-full aspect-[1.03]"
@@ -35,6 +36,7 @@ function AlertzMobile() {
             real-time alerts
           </div>
           <img
+            alt="vrezolve"
             loading="lazy"
             srcSet="../images/alertz/1.svg"
             className="self-center mt-12 w-full aspect-[1.12] mx-auto max-w-[310px]"
@@ -53,6 +55,7 @@ function AlertzMobile() {
             <div className="flex flex-col flex-1 text-base  leading-6 text-black">
               <div className="flex gap-5 justify-between py-3 pr-5 pl-px ">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   src="../images/cube.svg"
                   className="my-auto w-6 aspect-square"
@@ -65,6 +68,7 @@ function AlertzMobile() {
               </div>
               <div className="flex gap-5 justify-between py-3 pr-5 pl-px ">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   src="../images/cube.svg"
                   className="my-auto w-6 aspect-square"
@@ -96,16 +100,19 @@ function AlertzMobile() {
           <div className="flex gap-2 justify-between mt-11">
             <div className="flex flex-col flex-1 justify-center items-center">
               <img
+                alt="vrezolve"
                 loading="lazy"
                 srcSet="../images/alertz/feature-1.svg"
                 className="aspect-[1.02] w-[102px] rounded-3xl p-3 shadow-md"
               />
               <img
+                alt="vrezolve"
                 loading="lazy"
                 srcSet="../images/alertz/feature-2.svg"
                 className="mt-6 aspect-[1.02] w-[102px] rounded-3xl p-3 shadow-md"
               />
               <img
+                alt="vrezolve"
                 loading="lazy"
                 srcSet="../images/alertz/feature-3.svg"
                 className="mt-6 aspect-[1.02] w-[102px] rounded-3xl p-3 shadow-md"
@@ -114,6 +121,7 @@ function AlertzMobile() {
             <div className="flex flex-col flex-wrap flex-1 justify-center content-center my-auto text-base leading-6 text-black">
               <div className="flex gap-5 justify-between">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   src="../images/cube.svg"
                   className="w-6 aspect-square"
@@ -122,6 +130,7 @@ function AlertzMobile() {
               </div>
               <div className="flex gap-5 justify-between mt-6">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   src="../images/cube.svg"
                   className="w-6 aspect-square"
@@ -130,6 +139,7 @@ function AlertzMobile() {
               </div>
               <div className="flex gap-5 justify-between mt-6">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   src="../images/cube.svg"
                   className="w-6 aspect-square"
@@ -138,6 +148,7 @@ function AlertzMobile() {
               </div>
               <div className="flex gap-5 justify-between mt-6">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   src="../images/cube.svg"
                   className="w-6 aspect-square"
@@ -146,6 +157,7 @@ function AlertzMobile() {
               </div>
               <div className="flex gap-5 justify-between mt-6">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   src="../images/cube.svg"
                   className="w-6 aspect-square"
@@ -154,6 +166,7 @@ function AlertzMobile() {
               </div>
               <div className="flex gap-5 justify-between mt-6">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   src="../images/cube.svg"
                   className="w-6 aspect-square"
@@ -162,6 +175,7 @@ function AlertzMobile() {
               </div>
               <div className="flex gap-5 justify-between mt-6">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   src="../images/cube.svg"
                   className="w-6 aspect-square"
@@ -174,6 +188,7 @@ function AlertzMobile() {
             Defend against fraud and chargebacks
           </div>
           <img
+            alt="vrezolve"
             loading="lazy"
             srcSet="../images/alertz/7.svg"
             className="mt-11 w-full aspect-[1.02] fill-zinc-300 fill-opacity-50"
@@ -187,6 +202,7 @@ function AlertzMobile() {
             <div className="flex flex-col my-auto basis-0">
               <div className="flex justify-center items-center px-3 bg-white rounded-3xl shadow-sm h-[101px] w-[101px]">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/alertz/4.svg"
                   className="w-[60px] aspect-square"
@@ -194,6 +210,7 @@ function AlertzMobile() {
               </div>{" "}
               <div className="flex justify-center items-center px-3 mt-16 bg-white rounded-3xl shadow-sm h-[101px] w-[101px]">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/alertz/5.svg"
                   className="w-[60px] aspect-square"
@@ -215,6 +232,7 @@ function AlertzMobile() {
           <div className="flex gap-5 justify-between mt-10 mb-10">
             <div className="flex justify-center items-center self-start px-3 mt-4 bg-white rounded-3xl shadow-sm h-[101px] w-[101px]">
               <img
+                alt="vrezolve"
                 loading="lazy"
                 srcSet="../images/alertz/6.svg"
                 className="w-[70px] aspect-square"
@@ -236,6 +254,7 @@ function AlertzMobile() {
             PROACTIVE ALERTS
           </div>
           <img
+            alt="vrezolve"
             loading="lazy"
             src="../images/alertz/1.svg"
             className="self-center mt-10 w-full rounded-3xl aspect-[0.86] max-w-[300px]"
@@ -306,6 +325,7 @@ function AlertzMobile() {
             SWIFT RESOLUTION
           </div>
           <img
+            alt="vrezolve"
             loading="lazy"
             src="../images/alertz/2.svg"
             className="self-center mt-9 w-full rounded-3xl aspect-[0.93] max-w-[310px]"
@@ -376,6 +396,7 @@ function AlertzMobile() {
             UPHOLDING USER SECURITY
           </div>
           <img
+            alt="vrezolve"
             loading="lazy"
             src="../images/alertz/3.svg"
             className="self-center mt-10 w-full rounded-3xl aspect-[0.88] max-w-[300px]"

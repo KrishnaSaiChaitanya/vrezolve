@@ -25,6 +25,7 @@ function HomeHero() {
         </div>
         <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
           <img
+            alt="vrezolve"
             loading="lazy"
             srcSet="../images/home/hero.png"
             className="grow w-full aspect-[0.85] max-md:mt-10 max-md:max-w-full"

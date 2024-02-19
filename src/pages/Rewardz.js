@@ -49,6 +49,7 @@ function Rewardz() {
           Unlock a world of rewards
         </div>
         <img
+          alt="vrezolve"
           loading="lazy"
           src="../images/rewardz-hero.svg"
           className="mt-20 w-full aspect-[0.77] max-w-[303px]"

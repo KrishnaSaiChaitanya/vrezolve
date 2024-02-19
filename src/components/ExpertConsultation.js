@@ -20,16 +20,15 @@ const ExpertConsultation = (props) => {
       <button
         class="justify-center items-stretch px-9 py-1.5 mt-9 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px] max-md:px-5 transition-transform duration-300 transform hover:scale-105"
         aria-label="Talk to an Expert"
-        role="button"
       >
         Talk to an Expert
       </button>
 
       <div class="relative overflow-hidden w-full max-w-full mt-16 aspect-w-2 aspect-h-1 group">
         <img
+          alt="vrezolve"
           loading="lazy"
           src="../images/home/3.svg"
-          alt=""
           class=" mx-auto mt-6 w-full aspect-[2] max-md:mr-2.5 max-md:max-w-ful"
         />
       </div>

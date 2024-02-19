@@ -1,9 +1,9 @@
 import React from "react";
-import LoginNavbar from "../components/LoginNavbar";
+
 import HomeHero from "../components/hero/HomeHero";
-import Footer from "../components/Footer";
+
 import LogoSlider from "../components/LogoSlider";
-import ExpertConsultation from "../components/ExpertConsultation";
+
 import ContactSection from "../components/ContactSection";
 import HomeMobile from "../components/HomeMobile";
 
@@ -33,6 +33,7 @@ function Home() {
             >
               <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/home/5.svg"
                   className="grow w-full aspect-[0.77] max-md:mt-10 max-md:max-w-full"
@@ -53,6 +54,7 @@ function Home() {
                   </div>{" "}
                   <div className="flex gap-[40px] justify-between mt-9">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="aspect-square w-[45px]"
@@ -61,6 +63,7 @@ function Home() {
                   </div>{" "}
                   <div className="flex gap-[40px] justify-between mt-5">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="aspect-square w-[45px]"
@@ -69,6 +72,7 @@ function Home() {
                   </div>{" "}
                   <div className="flex gap-[40px] justify-between mt-5">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="w-11 aspect-[0.98]"
@@ -79,6 +83,7 @@ function Home() {
                   </div>{" "}
                   <div className="flex gap-[40px] justify-between mt-5">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="w-11 aspect-[0.98]"
@@ -89,6 +94,7 @@ function Home() {
                   </div>{" "}
                   <div className="flex gap-[40px] justify-between mt-5">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="w-11 aspect-[0.98]"
@@ -134,6 +140,7 @@ function Home() {
                 </div>{" "}
                 <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
                   <img
+                    alt="vrezolve"
                     loading="lazy"
                     srcSet="../images/home/8.svg"
                     className="w-full shadow-sm aspect-square max-md:mt-10 max-md:max-w-full"
@@ -151,6 +158,7 @@ function Home() {
             >
               <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                 <img
+                  alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/home/6.svg"
                   className="grow w-full aspect-[0.77] max-md:mt-10 max-md:max-w-full"
@@ -172,6 +180,7 @@ function Home() {
                   </div>{" "}
                   <div className="flex gap-[40px] justify-between mt-9">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="aspect-square w-[45px]"
@@ -182,6 +191,7 @@ function Home() {
                   </div>{" "}
                   <div className="flex gap-[40px] justify-between mt-5">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="aspect-square w-[45px]"
@@ -192,6 +202,7 @@ function Home() {
                   </div>{" "}
                   <div className="flex gap-[40px] justify-between mt-5">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="w-11 aspect-[0.98]"
@@ -202,6 +213,7 @@ function Home() {
                   </div>{" "}
                   <div className="flex gap-[40px] justify-between self-stretch mt-6 max-md:flex-wrap max-md:max-w-full">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="w-11 aspect-[0.98]"
@@ -212,6 +224,7 @@ function Home() {
                   </div>{" "}
                   <div className="flex gap-[40px] justify-between mt-5">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="w-11 aspect-[0.98]"
@@ -220,6 +233,7 @@ function Home() {
                   </div>{" "}
                   <div className="flex gap-[40px] justify-between mt-5">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       src="../images/cube.svg"
                       className="w-11 aspect-[0.98]"
@@ -267,6 +281,7 @@ function Home() {
                   </div>{" "}
                   <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
                     <img
+                      alt="vrezolve"
                       loading="lazy"
                       srcSet="../images/home/9.svg"
                       className="w-full shadow-sm aspect-square max-md:mt-10 max-md:max-w-full"
@@ -278,6 +293,7 @@ function Home() {
           </div>{" "}
           {/* Expert consultation */}
           <img
+            alt="vrezolve"
             loading="lazy"
             srcSet="../images/home/3.svg"
             className="mx-10 mt-28 aspect-[2] max-md:mt-10 max-md:mr-2.5 "
