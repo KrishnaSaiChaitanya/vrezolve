@@ -69,12 +69,7 @@ function Disputz() {
           <span className="font-bold text-[#0033cc]">dispute</span>
           <span className=" font-black text-[#ff6600]">Z</span>
         </div>
-        <img
-          alt="vrezolve"
-          loading="lazy"
-          src="../images/cube.svg"
-          className="my-auto aspect-square w-[45px]"
-        />
+
         <div className="mt-12 text-2xl  font-bold tracking-wider text-center ">
           <span className="leading-7 text-[#0033cc]">
             Redefining chargebacks :
@@ -101,43 +96,40 @@ function Disputz() {
           COMING SOON
         </div>
         <div className="h-0.5 mt-1 mx-auto bg-[#ff6600] w-[148px]" />
-        <div className="mt-24 text-2xl font-bold tracking-wider text-center text-black w-[309px]">
+        <div className="mt-24 text-2xl font-bold tracking-wider  text-center text-black w-[309px]">
           <span className="text-[#0033cc]">Revolutionizing</span> chargeback
           processes
         </div>
-        <div>
-          <div className="flex gap-3 pr-5 mt-10 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
+        <div className="mb-10">
+          <ul className="flex gap-3 pr-5 mt-10 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
             {/* <div className="self-start mt-2.5 bg-[#0033cc] rounded-full h-[9px] w-[9px]" /> */}
-            <div className="flex flex-row">
-              <div className="bg-[#0033cc] mt-2 mr-3 rounded-full h-[9px] w-[10px]" />
-              <span>
-                <span className="text-[#0033cc]">Seamless Integration : </span>
-                Customer communication, reasoning, accounting, case management
-                and closure.
-              </span>
-            </div>
-          </div>
-          <div className="flex gap-3 pr-5 mt-5 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
+            <li className="flex-auto">
+              <span className="text-[#0033cc]">Seamless Integration : </span>
+              Customer communication, reasoning, accounting, case management and
+              closure.
+            </li>
+          </ul>
+          <ul className="flex gap-3 pr-5 mt-5 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
             {/* <div className="my-auto bg-[#0033cc] rounded-full h-[9px] w-[9px]" /> */}
-            <div className="flex-auto">
+            <li className="flex-auto">
               <span className="text-[#0033cc]">Automated Experience :</span>{" "}
               Brace yourselves for a more streamlined chargeback process.
-            </div>
-          </div>
-          <div className="flex gap-3 pr-5 mt-8 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
+            </li>
+          </ul>
+          <ul className="flex gap-3 pr-5 mt-8 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
             {/* <div className="self-start mt-2.5 bg-[#0033cc] rounded-full h-[9px] w-[9px]" /> */}
-            <div className="flex-auto">
+            <li className="flex-auto">
               <span className="text-[#0033cc]">Efficiency Unleashed :</span> The
               future of chargeback operations is coming soon!
-            </div>
-          </div>
-          <div className="flex gap-3 pr-5 mt-5 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
+            </li>
+          </ul>
+          <ul className="flex gap-3 pr-5 mt-5 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
             {/* <div className="self-start mt-2.5 bg-[#0033cc] rounded-full h-[9px] w-[9px]" /> */}
-            <div className="flex-auto">
+            <li className="flex-auto">
               <span className="text-[#0033cc]">Stay Tuned :</span>{" "}
               #ChargebackInnovation #Coming Soon
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
         <ContactSection />
       </div>

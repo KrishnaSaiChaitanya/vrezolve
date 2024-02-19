@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
 function LoginNavbar() {
   const [isNavbarFixed, setIsNavbarFixed] = useState(false);
@@ -39,6 +40,15 @@ function LoginNavbar() {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    if (!isMenuOpen) {
+      document.body.style.overflowY = "hidden"; // Disable scrolling when sidebar is opened
+    } else {
+      document.body.style.overflowY = "auto"; // Enable scrolling when sidebar is closed
+    }
+  };
+  const closeMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+    setDropdownOpen(!isDropdownOpen);
     if (!isMenuOpen) {
       document.body.style.overflowY = "hidden"; // Disable scrolling when sidebar is opened
     } else {
@@ -117,72 +127,77 @@ function LoginNavbar() {
           className="fixed top-[110px] right-5  p-3 bg-white w-64 shadow-md z-50 overflow-y-auto h-[280px]"
         >
           <div className="flex flex-col py-2 bg-white p-2 rounded shadow max-w-[280px]">
-            <div className="flex gap-3 justify-between px-3 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
-              <img
-                alt="vrezolve"
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/f7dd6963be2ba1d01d37e57d19abda85a90f20cf97c7cceba18c074d77702fd1?apiKey=67296d98361248faadca04e106a4f278&"
-                className="my-auto w-6 aspect-square"
-              />
-              <div className="flex flex-col flex-1">
-                <div className="text-base mb-2 flex flex-row  font-bold tracking-wide leading-6  whitespace-nowrap">
-                  <span>
-                    dispute
-                    <span className=" font-black text-[#ff6600]">Z</span>
-                  </span>
-                  <img
-                    alt="vrezolve"
-                    src="../images/badge.svg"
-                    className="w-[90px] mt-1 ml-2"
-                  />
-                </div>
-                <div className="text-sm tracking-wide leading-5 text-zinc-700">
-                  Dispute Management
+            <Link to={"disputz"} onClick={closeMenu}>
+              <div className="flex gap-3 justify-between px-3 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
+                <img
+                  alt="vrezolve"
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/f7dd6963be2ba1d01d37e57d19abda85a90f20cf97c7cceba18c074d77702fd1?apiKey=67296d98361248faadca04e106a4f278&"
+                  className="my-auto w-6 aspect-square"
+                />
+                <div className="flex flex-col flex-1">
+                  <div className="text-base mb-2 flex flex-row  font-bold tracking-wide leading-6  whitespace-nowrap">
+                    <span>
+                      dispute
+                      <span className=" font-black text-[#ff6600]">Z</span>
+                    </span>
+                    <img
+                      alt="vrezolve"
+                      src="../images/badge.svg"
+                      className="w-[90px] mt-1 ml-2"
+                    />
+                  </div>
+                  <div className="text-sm tracking-wide leading-5 text-zinc-700">
+                    Dispute Management
+                  </div>
                 </div>
               </div>
-            </div>
-
+            </Link>
             <div className="mt-3 w-full bg-stone-300 min-h-[1px]" />
-            <div className="flex gap-3 justify-between px-3 mt-5 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
-              <img
-                alt="vrezolve"
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/d09416d61dc61ef9f19660b50f777243cd8b08c07f96bbd932c28838e060dd8e?apiKey=67296d98361248faadca04e106a4f278&"
-                className="my-auto w-6 aspect-square"
-              />
-              <div className="flex flex-col flex-1">
-                <div className="text-base  font-bold tracking-wide mb-2 leading-6  whitespace-nowrap">
-                  alert
-                  <span className=" font-black text-[#ff6600]">Z</span>
-                </div>
-                <div className="text-sm tracking-wide leading-5 text-zinc-700">
-                  Real-time fraud and chargeback alerts
+            <Link to={"alertz"} onClick={closeMenu}>
+              <div className="flex gap-3 justify-between px-3 mt-5 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
+                <img
+                  alt="vrezolve"
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/d09416d61dc61ef9f19660b50f777243cd8b08c07f96bbd932c28838e060dd8e?apiKey=67296d98361248faadca04e106a4f278&"
+                  className="my-auto w-6 aspect-square"
+                />
+                <div className="flex flex-col flex-1">
+                  <div className="text-base  font-bold tracking-wide mb-2 leading-6  whitespace-nowrap">
+                    alert
+                    <span className=" font-black text-[#ff6600]">Z</span>
+                  </div>
+                  <div className="text-sm tracking-wide leading-5 text-zinc-700">
+                    Real-time fraud and chargeback alerts
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
             <div className="mt-5 w-full bg-stone-300 min-h-[1px]" />
-            <div className="flex gap-3 justify-between px-3 mt-5 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
-              <img
-                alt="vrezolve"
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa8c066ef3188d3a76fc4e05fb3105e34b7d1ce1a8e0a8e5257144fc0fdcae02?apiKey=67296d98361248faadca04e106a4f278&"
-                className="my-auto w-6 aspect-square"
-              />
-              <div className="flex flex-col flex-1">
-                <div className="text-base mb-2   flex flex-row font-bold tracking-wide leading-6  whitespace-nowrap pl-2">
-                  reward
-                  <span className=" font-black text-[#ff6600]">Z</span>
-                  <img
-                    alt="vrezolve"
-                    src="../images/badge.svg"
-                    className="w-[90px] mt-1 ml-2"
-                  />
-                </div>
-                {/* <div className="text-sm tracking-wide leading-5 text-zinc-700">
+            <Link to={"rewardz"} onClick={closeMenu}>
+              <div className="flex gap-3 justify-between px-3 mt-5 transition-opacity duration-300 ease-in-out hover:bg-gray-200">
+                <img
+                  alt="vrezolve"
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa8c066ef3188d3a76fc4e05fb3105e34b7d1ce1a8e0a8e5257144fc0fdcae02?apiKey=67296d98361248faadca04e106a4f278&"
+                  className="my-auto w-6 aspect-square"
+                />
+                <div className="flex flex-col flex-1">
+                  <div className="text-base mb-2   flex flex-row font-bold tracking-wide leading-6  whitespace-nowrap pl-2">
+                    reward
+                    <span className=" font-black text-[#ff6600]">Z</span>
+                    <img
+                      alt="vrezolve"
+                      src="../images/badge.svg"
+                      className="w-[90px] mt-1 ml-2"
+                    />
+                  </div>
+                  {/* <div className="text-sm tracking-wide leading-5 text-zinc-700">
                   Unlock Exclusive Rewards on every Journey
                 </div> */}
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       )}
