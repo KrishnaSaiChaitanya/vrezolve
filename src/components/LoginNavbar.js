@@ -76,7 +76,7 @@ function LoginNavbar() {
       >
         <div className="flex mt-3 gap-[32px] justify-between items-stretch px-5 max-md:flex-wrap py-2">
           <img src="../images/logo.svg" alt="Logo" />
-          <div className="md:flex gap-6 justify-between items-stretch p-6 text-xl text-center text-black whitespace-nowrap max-md:flex-wrap max-md:px-5 max-md:max-w-full hidden">
+          <div className="md:flex gap-[32px] justify-between items-stretch p-6 text-xl text-center text-black whitespace-nowrap max-md:flex-wrap max-md:px-5 max-md:max-w-full hidden">
             <Link
               to="/"
               className={`leading-[150%] ${
@@ -269,7 +269,7 @@ function LoginNavbar() {
               <div className="shrink-0 mt-5 h-px bg-stone-300 max-md:max-w-full" />
             </div>
             <Link
-              to={"disputz"}
+              to={"alertz"}
               onClick={() => setisDesktopDropdownOpen(!isDesktopDropdownOpen)}
             >
               <div className="flex gap-5 justify-between items-center px-2 mt-2 m-1 whitespace-nowrap max-md:flex-wrap max-md:max-w-full transition-opacity duration-300 ease-in-out hover:bg-gray-200">
@@ -323,7 +323,7 @@ function LoginNavbar() {
             </Link>
             <div className="w-full bg-stone-300 min-h-[1px] max-md:max-w-full" />
             <Link
-              to={"disputz"}
+              to={"rewardz"}
               onClick={() => setisDesktopDropdownOpen(!isDesktopDropdownOpen)}
             >
               <div className="flex gap-5 justify-between items-start px-2 pb-4 mt-2 text-xl font-medium leading-8  max-md:flex-wrap max-md:max-w-full transition-opacity duration-300 ease-in-out hover:bg-gray-200 m-1">
