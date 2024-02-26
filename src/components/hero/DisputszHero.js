@@ -20,9 +20,9 @@ function DisputszHero() {
                   <span className="text-[#0033cc] ">dispute</span>
                   <span className=" font-black text-[#ff6600]">Z</span>
                 </div>
-                <div className="mt-5 ml-5 max-w-full mx-auto bg-[#0033cc] h-[3px] w-[150px]" />
+                {/* <div className="mt-5 ml-5 max-w-full mx-auto bg-[#0033cc] h-[3px] w-[150px]" /> */}
               </div>
-              <div className="mt-9 text-5xl  font-medium tracking-wider leading-[80px] max-md:max-w-full max-md:text-4xl max-md:leading-[74px] max-sm:leading-[44px] max-sm:text-3xl ">
+              <div className="mt-12 text-5xl  font-medium tracking-wider leading-[80px] max-md:max-w-full max-md:text-4xl max-md:leading-[74px] max-sm:leading-[44px] max-sm:text-3xl ">
                 <span className="font-bold text-[#0033cc]">
                   Redefining Chargebacks
                 </span>
@@ -44,7 +44,7 @@ function DisputszHero() {
                 COMING SOON
               </div>
 
-              <div className="mt-6 max-w-full ml-16 bg-[#0033cc] h-[3px] w-[180px]" />
+              {/* <div className="mt-6 max-w-full ml-16 bg-[#0033cc] h-[3px] w-[180px]" /> */}
             </div>
           </div>
         </div>

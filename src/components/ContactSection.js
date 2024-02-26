@@ -7,7 +7,7 @@ function ContactSection() {
         <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col items-start pl-16 self-stretch my-auto max-md:mt-10 max-md:max-w-full">
-              <div className="mt-40 sm:text-2xl md:text-5xl text-2xl font-bold leading-[60.16px] text-stone-750 tracking-[3px] max-md:mt-10 max-md:max-w-full max-md:text-4xl">
+              <div className="mt-[40px] sm:text-2xl md:text-4xl text-2xl font-bold leading-[60.16px] text-stone-750 tracking-[3px] max-md:mt-10 max-md:max-w-full max-md:text-4xl">
                 Want to learn more?
               </div>
               <div className="flex-auto md:text-xl  text-black mt-5">
@@ -16,7 +16,7 @@ function ContactSection() {
               </div>
             </div>
           </div>
-          <div className="flex bg-[#f2f5fc] flex-col ml-5 md:mt-32 mt-6   w-5/12 max-md:ml-0 max-md:w-full">
+          <div className="flex bg-[#f2f5fc] flex-col ml-5 md:mt-[40px] mt-6   w-5/12 max-md:ml-0 max-md:w-full">
             {/* <div className="flex px-5 flex-col grow text-base tracking-wider leading-8 whitespace-nowrap text-zinc-500 max-md:mt-10 max-md:max-w-full">
               <div className="flex flex-col ml-20 max-w-full text-5xl font-bold text-center text-black leading-[80.16px] tracking-[2.4px] w-[383px] max-md:mt-10 sm:mt-5 max-md:mr-2.5 max-md:text-4xl mb-[50px]">
                 <div className="max-md:text-4xl ">Contact Us</div>{" "}
@@ -64,7 +64,7 @@ function ContactSection() {
               </div>
             </div> */}
             <div className="flex flex-col grow justify-center text-base leading-8 text-zinc-500 max-md:mt-10 max-md:max-w-full">
-              <div className="text-5xl font-bold text-center text-black max-md:max-w-full max-md:text-4xl">
+              <div className="text-4xl font-bold text-center text-black max-md:max-w-full max-md:text-4xl">
                 Contact Us
               </div>
 
@@ -110,7 +110,7 @@ function ContactSection() {
           </div>
         </div>
 
-        <div className="mt-32  max-w-full mx-auto bg-[#0033cc] h-[3px] w-full" />
+        <div className="mt-[40px]  max-w-full mx-auto bg-[#0033cc] h-[3px] w-full" />
       </div>
       <div className="flex md:hidden flex-col self-stretch px-6 py-12  w-full text-base tracking-wider leading-8 bg-[#f2f5fc] text-zinc-500">
         <div className="mt-16 text-2xl font-bold tracking-wider text-center text-black whitespace-nowrap">
@@ -163,7 +163,7 @@ function ContactSection() {
             />
           </div>
         </div>
-        <div className="justify-center self-center px-8 py-1.5 mt-10 mb-8 font-medium text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px]">
+        <div className="justify-center self-center px-8 py-1.5 mt-10 mb-8 text-base text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px]">
           Submit
         </div>
       </div>

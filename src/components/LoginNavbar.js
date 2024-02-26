@@ -71,10 +71,10 @@ function LoginNavbar() {
         className={` ${
           isNavbarFixed
             ? "fixed top-0 left-0 right-0 z-50 bg-white shadow-md"
-            : "mt-10"
+            : "mt-4"
         }`}
       >
-        <div className="flex mt-3 gap-[32px] justify-between items-stretch px-5 max-md:flex-wrap py-2">
+        {/* <div className="flex mt-3 gap-[32px] justify-between items-stretch px-5 max-md:flex-wrap py-2">
           <img src="../images/logo.svg" alt="Logo" />
           <div className="md:flex gap-[32px] justify-between items-stretch p-6 text-xl text-center text-black whitespace-nowrap max-md:flex-wrap max-md:px-5 max-md:max-w-full hidden">
             <Link
@@ -141,6 +141,63 @@ function LoginNavbar() {
           >
             <img alt="vrezolve" src="../images/menu.svg" />
           </button>
+        </div> */}
+        <div className="flex gap-5 mx-auto justify-between self-end mr-28 max-w-full text-base leading-8 text-center w-[787px] max-md:flex-wrap max-md:mr-2.5">
+          <div className="flex gap-5 justify-between px-3 py-6 text-black max-md:flex-wrap max-md:max-w-full">
+            <Link
+              to="/"
+              className={`leading-[150%] ${
+                location.pathname === "/" ? "text-[#0033cc] cursor-pointer" : ""
+              }`}
+            >
+              Home
+            </Link>
+            <div
+              className={`leading-[150%] ${
+                location.pathname.includes("/solutions")
+                  ? "text-[#0033cc] cursor-pointer"
+                  : ""
+              }`}
+              onClick={() => {
+                setisDesktopDropdownOpen(!isDesktopDropdownOpen);
+              }}
+            >
+              Solutions
+            </div>
+            <Link
+              to="/partners"
+              className={`leading-[150%] ${
+                location.pathname === "/partners"
+                  ? "text-[#0033cc] cursor-pointer"
+                  : ""
+              }`}
+            >
+              Partners
+            </Link>
+            <Link
+              to="/blog"
+              className={`leading-[150%] ${
+                location.pathname === "/blog"
+                  ? "text-[#0033cc] cursor-pointer"
+                  : ""
+              }`}
+            >
+              Blog
+            </Link>
+            <Link
+              to="/contact"
+              className={`grow leading-[150%] ${
+                location.pathname === "/contact"
+                  ? "text-[#0033cc] cursor-pointer"
+                  : ""
+              }`}
+            >
+              Contact Us
+            </Link>
+          </div>
+          <div className="justify-center px-6 py-1.5 my-auto text-base text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5">
+            GET IN TOUCH
+          </div>
         </div>
         {!isNavbarFixed && <div className="mt-3 h-[3px] bg-[#0033cc] w-full" />}
       </div>
@@ -258,7 +315,7 @@ function LoginNavbar() {
       {isDesktopDropdownOpen && (
         <div
           ref={desktopdropdownRef}
-          className="fixed top-[135px] right-[41%] bg-white w-[488px] shadow-md z-50 overflow-y-auto h-[348px]"
+          className="fixed top-[100px] right-[41%] bg-white w-[488px] shadow-md z-50 overflow-y-auto h-[348px]"
         >
           <div className="flex flex-col pt-3  bg-white rounded shadow max-w-[688px]">
             <div className="flex flex-col px-6 pb-2 w-full text-xl font-medium tracking-wider leading-10 text-zinc-900 max-md:px-5 max-md:max-w-full">

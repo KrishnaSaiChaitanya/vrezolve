@@ -11,22 +11,22 @@ function Home() {
   return (
     <>
       <div className="hidden sm:block">
-        <div className="flex flex-col py-12 bg-white">
+        <div className="flex flex-col py-[40px] bg-white">
           <HomeHero />
-          <div className="self-center mt-32 text-xl font-bold leading-8 text-blue-700 whitespace-nowrap tracking-[4px] max-md:mt-10">
+          <div className="self-center mt-[40px] text-xl font-bold leading-8 text-blue-700 whitespace-nowrap tracking-[4px] max-md:mt-10">
             OUR SOLUTIONS
           </div>
           <div className="self-center mt-9 text-4xl font-bold text-center text-blue-700 leading-[60px] max-md:max-w-full">
             Issuer and Merchant Solutions
           </div>
-          <div className="self-center mt-6 text-xl leading-8 text-center text-black w-[775px] max-md:max-w-full">
+          <div className="self-center mt-6 text-xl  text-center text-black w-[775px] max-md:max-w-full">
             Experience unmatched efficiency with our tailored solutions designed
             for both issuers and merchants. Our comprehensive suite of tools
             empowers seamless transactions, ensuring a smooth and secure
             interaction between issuers and merchants.
           </div>
           {/* Alertz */}
-          <div className=" mt-[200px] max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
+          <div className=" mt-[40px] max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
             <div
               id="hero-section"
               className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:"
@@ -40,7 +40,7 @@ function Home() {
                 />
               </div>
               <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-                <div className="flex flex-col grow justify-center items-start py-6 text-xl leading-8 text-black max-md:mt-10 max-md:max-w-full">
+                <div className="flex flex-col grow justify-center items-start py-6 text-xl  text-black max-md:mt-10 max-md:max-w-full">
                   <div className="ml-3 text-4xl  font-semibold leading-5 whitespace-nowrap tracking-[5px] max-md:ml-2.5">
                     <span className="font-bold">alert</span>
                     <span className=" font-black text-orange-500">Z</span>
@@ -103,7 +103,7 @@ function Home() {
                       Real - Time Fraud Alerts
                     </div>
                   </div>{" "}
-                  <div className="justify-center px-10 py-1.5 mt-9 font-medium text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5">
+                  <div className="justify-center px-10 py-1.5 mt-9 text-base text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5">
                     LEARN MORE
                   </div>
                 </div>
@@ -111,8 +111,8 @@ function Home() {
             </div>
           </div>{" "}
           {/* Why Alertz */}
-          <div className="flex flex-col justify-center px-10 py-[120px] mt-44 w-full bg-[#f2f5fc] max-md:px-5 max-md:mt-10 max-md:max-w-full">
-            <div className="mt-40 mb-11 max-md:pr-5 max-md:my-10 max-md:max-w-full">
+          <div className="flex flex-col justify-center px-[40px] py-[40px] mt-[40px] w-full bg-[#f2f5fc] max-md:px-5 max-md:mt-10 max-md:max-w-full">
+            <div className="  max-md:pr-5 max-md:my-10 max-md:max-w-full">
               <div
                 id="hero-section"
                 className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:"
@@ -151,7 +151,7 @@ function Home() {
           </div>{" "}
           <div className="self-stretch w-full bg-[#0033cc] min-h-[2px]" />
           {/* Disputz */}
-          <div className="py-11 mx-10 mt-28 max-md:pr-5 max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
+          <div className="py-[40px] mx-10  max-md:pr-5 max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
             <div
               id="hero-section"
               className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:"
@@ -248,12 +248,12 @@ function Home() {
             </div>
           </div>{" "}
           {/* Why disptez */}
-          <div className="flex z-10 flex-col bg-[#f2f5fc] justify-center mt-32 w-full  max-md:mt-10 max-md:max-w-full">
-            <div className="flex flex-col px-10 py-[120px] w-full max-md:px-5 max-md:max-w-full">
-              <div className="self-center  mb-12 text-4xl font-medium text-black leading-[54px] max-md:mt-10 max-md:max-w-full">
+          <div className="flex z-10 flex-col bg-[#f2f5fc] justify-center  w-full  max-md:mt-10 max-md:max-w-full">
+            <div className="flex flex-col px-10 py-[40px] w-full max-md:px-5 max-md:max-w-full">
+              {/* <div className="self-center  mb-12 text-4xl font-medium text-black leading-[54px] max-md:mt-10 max-md:max-w-full">
                 Experience efficiency at every step
-              </div>{" "}
-              <div className="mt-14  mb-12 max-md:my-10 max-md:max-w-full">
+              </div>{" "} */}
+              <div className="mt-3  mb-3 max-md:my-10 max-md:max-w-full">
                 <div
                   id="hero-section"
                   className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:"
@@ -296,9 +296,9 @@ function Home() {
             alt="vrezolve"
             loading="lazy"
             srcSet="../images/home/3.svg"
-            className="mx-10 mt-28 aspect-[2] max-md:mt-10 max-md:mr-2.5 "
+            className="mx-10 mt-[40px] aspect-[2] max-md:mt-10 max-md:mr-2.5 "
           />{" "}
-          <div className="self-center mt-6 text-[48px] font-bold text-center text-black leading-[80px] tracking-[2.4px] max-md:max-w-full max-md:text-4xl">
+          <div className="self-center mt-6 text-4xl font-bold text-center text-black leading-[80px] max-md:max-w-full max-md:text-4xl">
             Expert Consultation
           </div>{" "}
           <div className="self-center mt-11 text-xl leading-8 text-center  w-[775px] max-md:mt-10 max-md:max-w-full">
@@ -315,9 +315,9 @@ function Home() {
             TALK TO AN EXPERT
           </div>{" "}
         </div>
-        <div className="flex flex-col justify-center py-12 mt-32 w-full text-center text-black bg-[#0033CC] max-md:pl-5 max-md:mt-10 max-md:max-w-full">
+        <div className="flex flex-col justify-center py-12 mt-[40px] w-full text-center text-black bg-[#0033CC] max-md:pl-5 max-md:mt-10 max-md:max-w-full">
           <div className="flex flex-col py-12 pl-20 mt-20 mb-12 bg-white rounded-2xl max-md:pl-5 max-md:my-10 max-md:max-w-full">
-            <div className="self-center  text-5xl font-bold leading-[80.16px] tracking-[2.4px] max-md:mt-10 max-md:max-w-full max-md:text-4xl">
+            <div className="self-center  text-4xl font-bold leading-[80.16px]  max-md:mt-10 max-md:max-w-full max-md:text-4xl">
               Corporate Partners
             </div>{" "}
             {/* <div className="mt-5 max-w-full mx-auto bg-[#0033cc] h-[3px] w-[400px]" /> */}

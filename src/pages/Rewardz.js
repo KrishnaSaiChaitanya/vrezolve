@@ -13,25 +13,45 @@ function Rewardz() {
             Excusive Rewards
           </div>
           <div className="flex gap-5 justify-between p-3 mt-20 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
-            <div className="my-auto w-4 h-4 bg-[#0033cc] rounded-full" />
+            <img
+              alt="vrezolve"
+              loading="lazy"
+              src="../images/cube.svg"
+              className="my-auto aspect-square w-[48px]"
+            />
             <div className="flex-auto max-md:max-w-full">
               Earn points effortlessly with every transaction.
             </div>
           </div>
           <div className="flex gap-5 justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
-            <div className="my-auto w-4 h-4 bg-[#0033cc] rounded-full" />
+            <img
+              alt="vrezolve"
+              loading="lazy"
+              src="../images/cube.svg"
+              className="my-auto aspect-square w-[48px]"
+            />
             <div className="flex-auto max-md:max-w-full">
               Loyalty transforms into exciting perks and privileges.
             </div>
           </div>
           <div className="flex gap-5 justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
-            <div className="my-auto w-4 h-4 bg-[#0033cc] rounded-full" />
+            <img
+              alt="vrezolve"
+              loading="lazy"
+              src="../images/cube.svg"
+              className="my-auto aspect-square w-[48px]"
+            />
             <div className="grow max-md:max-w-full">
               Access exclusive discounts and special offers.
             </div>
           </div>
           <div className="flex gap-5 justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
-            <div className="my-auto w-4 h-4 bg-[#0033cc] rounded-full" />
+            <img
+              alt="vrezolve"
+              loading="lazy"
+              src="../images/cube.svg"
+              className="my-auto aspect-square w-[48px]"
+            />
             <div className="grow max-md:max-w-full">
               Your journey with us is about to become even more rewarding.
             </div>
@@ -44,8 +64,8 @@ function Rewardz() {
           <span className="font-bold text-[#0033cc]">reward</span>
           <span className="italic font-black text-[#ff6600]">Z</span>
         </div>
-        <div className="h-0.5 mt-5 mx-auto bg-[#0033cc] w-[128px]" />
-        <div className="mt-12 text-2xl font-bold tracking-wider text-center text-[#0033cc] whitespace-nowrap">
+        {/* <div className="h-0.5 mt-5 mx-auto bg-[#0033cc] w-[128px]" /> */}
+        <div className="mt-16 text-2xl font-bold tracking-wider text-center text-[#0033cc] whitespace-nowrap">
           Unlock a world of rewards
         </div>
         <img
@@ -65,7 +85,7 @@ function Rewardz() {
         <div className="mt-5 text-2xl font-bold text-center text-[#ff6600] whitespace-nowrap leading-[60px] tracking-[4.8px]">
           COMING SOON
         </div>
-        <div className="h-0.5 mt-1 mx-auto bg-[#ff6600] w-[148px]" />
+        {/* <div className="h-0.5 mt-1 mx-auto bg-[#ff6600] w-[148px]" /> */}
         <div className="mt-28 text-2xl font-bold tracking-wider text-center text-black whitespace-nowrap">
           Discover <span className="text-black">exclusive rewards</span>
         </div>
