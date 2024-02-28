@@ -65,7 +65,7 @@ function Home() {
                   <div className="max-md:max-w-full">
                     Real - Time Fraud Alerts
                   </div>
-                  <div className="justify-center self-start px-7 py-1.5 mt-6 text-base leading-8 text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5">
+                  <div className="justify-center self-start px-7 py-1.5 mt-6 text-base font-medium text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5">
                     LEARN MORE
                   </div>
                 </div>
@@ -154,6 +154,9 @@ function Home() {
                   <div className="max-w-full bg-black h-[1px] w-[380px]" />
                   <div className="max-md:max-w-full">
                     Case Management and Case closure
+                  </div>
+                  <div className="justify-center self-start px-7 py-1.5 mt-6 text-base font-medium text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5">
+                    LEARN MORE
                   </div>
                 </div>
               </div>
