@@ -143,7 +143,7 @@ function LoginNavbar() {
           </button>
         </div> */}
         <div className="flex gap-5 mx-auto justify-between self-end mr-28 max-w-full text-base leading-8 text-center w-[787px] max-md:flex-wrap max-md:mr-2.5">
-          <div className="flex gap-5 justify-between px-3 py-6 text-black max-md:flex-wrap max-md:max-w-full">
+          <div className="flex gap-[32px] justify-between px-3 py-6 text-black max-md:flex-wrap max-md:max-w-full">
             <Link
               to="/"
               className={`leading-[150%] ${

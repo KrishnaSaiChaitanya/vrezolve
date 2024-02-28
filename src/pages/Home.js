@@ -19,12 +19,12 @@ function Home() {
           <div className="self-center mt-9 text-4xl font-bold text-center text-blue-700 leading-[60px] max-md:max-w-full">
             Issuer and Merchant Solutions
           </div>
-          <div className="self-center mt-6 text-xl  text-center text-black w-[775px] max-md:max-w-full">
+          <p className="self-center mt-6 text-xl  text-center text-black w-[775px] max-md:max-w-full">
             Experience unmatched efficiency with our tailored solutions designed
             for both issuers and merchants. Our comprehensive suite of tools
             empowers seamless transactions, ensuring a smooth and secure
             interaction between issuers and merchants.
-          </div>
+          </p>
           {/* Alertz */}
           <div className=" mt-[40px] max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
             <div
@@ -36,74 +36,36 @@ function Home() {
                   alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/home/5.svg"
-                  className="grow w-full aspect-[0.77] max-md:mt-10 max-md:max-w-full"
+                  className="w-[500px] m-auto"
                 />
               </div>
               <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-                <div className="flex flex-col grow justify-center items-start py-6 text-xl  text-black max-md:mt-10 max-md:max-w-full">
-                  <div className="ml-3 text-4xl  font-semibold leading-5 whitespace-nowrap tracking-[5px] max-md:ml-2.5">
+                <div className="flex flex-col grow justify-center py-12 text-xl font-medium text-black leading-[60px] max-md:mt-10 max-md:max-w-full">
+                  <div className="text-4xl  font-semibold leading-5 tracking-[5px] max-md:max-w-full">
                     <span className="font-bold">alert</span>
-                    <span className=" font-black text-orange-500">Z</span>
+                    <span className="italic font-black text-orange-500">Z</span>
                   </div>
-                  <div className="mt-9 leading-8 max-md:max-w-full">
+                  <div className="mt-6 leading-8 max-md:max-w-full">
                     Our solution facilitates instant communication of fraud and
                     chargeback information, empowering both parties to combat
                     fraud and swiftly resolve disputes. This not only enhances
                     collaboration but also ensures the preservation of the
                     issuer's chargeback rights throughout the process.
-                  </div>{" "}
-                  <div className="flex gap-[40px] justify-between mt-9">
-                    <img
-                      alt="vrezolve"
-                      loading="lazy"
-                      src="../images/cube.svg"
-                      className="aspect-square w-[45px]"
-                    />{" "}
-                    <div className="flex-auto my-auto">Fraud Detection</div>
-                  </div>{" "}
-                  <div className="flex gap-[40px] justify-between mt-5">
-                    <img
-                      alt="vrezolve"
-                      loading="lazy"
-                      src="../images/cube.svg"
-                      className="aspect-square w-[45px]"
-                    />{" "}
-                    <div className="flex-auto my-auto">Fraud Prevention</div>
-                  </div>{" "}
-                  <div className="flex gap-[40px] justify-between mt-5">
-                    <img
-                      alt="vrezolve"
-                      loading="lazy"
-                      src="../images/cube.svg"
-                      className="w-11 aspect-[0.98]"
-                    />{" "}
-                    <div className="flex-auto self-start mt-5">
-                      Dispute Resolution
-                    </div>
-                  </div>{" "}
-                  <div className="flex gap-[40px] justify-between mt-5">
-                    <img
-                      alt="vrezolve"
-                      loading="lazy"
-                      src="../images/cube.svg"
-                      className="w-11 aspect-[0.98]"
-                    />{" "}
-                    <div className="flex-auto my-auto">
-                      Preservation of Chargeback Rights
-                    </div>
-                  </div>{" "}
-                  <div className="flex gap-[40px] justify-between mt-5">
-                    <img
-                      alt="vrezolve"
-                      loading="lazy"
-                      src="../images/cube.svg"
-                      className="w-11 aspect-[0.98]"
-                    />{" "}
-                    <div className="flex-auto my-auto">
-                      Real - Time Fraud Alerts
-                    </div>
-                  </div>{" "}
-                  <div className="justify-center px-10 py-1.5 mt-9 text-base text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5">
+                  </div>
+                  <div className="mt-6 max-md:max-w-full">Fraud Detection</div>
+                  <div className="max-w-full bg-black h-[1px] w-[380px]" />
+                  <div className="max-md:max-w-full">Fraud Prevention</div>
+                  <div className="max-w-full bg-black h-[1px] w-[380px]" />
+                  <div className="max-md:max-w-full">Dispute Resolution</div>
+                  <div className="max-w-full bg-black h-[1px] w-[380px]" />
+                  <div className="max-md:max-w-full">
+                    Preservation of Chargeback Rights
+                  </div>
+                  <div className="max-w-full bg-black h-[1px] w-[380px]" />
+                  <div className="max-md:max-w-full">
+                    Real - Time Fraud Alerts
+                  </div>
+                  <div className="justify-center self-start px-7 py-1.5 mt-6 text-base leading-8 text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5">
                     LEARN MORE
                   </div>
                 </div>
@@ -143,7 +105,7 @@ function Home() {
                     alt="vrezolve"
                     loading="lazy"
                     srcSet="../images/home/8.svg"
-                    className="w-full shadow-sm aspect-square max-md:mt-10 max-md:max-w-full"
+                    className="w-[500px] m-auto"
                   />
                 </div>
               </div>
@@ -161,14 +123,14 @@ function Home() {
                   alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/home/6.svg"
-                  className="grow w-full aspect-[0.77] max-md:mt-10 max-md:max-w-full"
+                  className="w-[500px] m-auto"
                 />
               </div>{" "}
               <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-                <div className="flex flex-col grow justify-center items-start py-6 text-xl leading-8 text-black max-md:mt-10 max-md:max-w-full">
-                  <div className="ml-3 text-4xl  font-semibold leading-5 whitespace-nowrap tracking-[5px] max-md:ml-2.5">
+                <div className="flex flex-col grow px-5 pt-6 text-xl font-medium text-black leading-[60px] max-md:mt-10 max-md:max-w-full">
+                  <div className="text-4xl  font-semibold leading-5  tracking-[5px] max-md:max-w-full">
                     <span className="font-bold">dispute</span>
-                    <span className=" font-black text-orange-500">Z</span>
+                    <span className="italic font-black text-orange-500">Z</span>
                   </div>
                   <div className="mt-9 leading-8 max-md:max-w-full">
                     Our solution seamlessly integrates all aspects of chargeback
@@ -177,71 +139,21 @@ function Home() {
                     designed to enhance every stage of the chargeback process,
                     providing a seamless experience for both issuers and
                     merchants.
-                  </div>{" "}
-                  <div className="flex gap-[40px] justify-between mt-9">
-                    <img
-                      alt="vrezolve"
-                      loading="lazy"
-                      src="../images/cube.svg"
-                      className="aspect-square w-[45px]"
-                    />{" "}
-                    <div className="flex-auto my-auto">
-                      Integrated chargeback operations
-                    </div>
-                  </div>{" "}
-                  <div className="flex gap-[40px] justify-between mt-5">
-                    <img
-                      alt="vrezolve"
-                      loading="lazy"
-                      src="../images/cube.svg"
-                      className="aspect-square w-[45px]"
-                    />{" "}
-                    <div className="flex-auto my-auto">
-                      Customer communication
-                    </div>
-                  </div>{" "}
-                  <div className="flex gap-[40px] justify-between mt-5">
-                    <img
-                      alt="vrezolve"
-                      loading="lazy"
-                      src="../images/cube.svg"
-                      className="w-11 aspect-[0.98]"
-                    />{" "}
-                    <div className="flex-auto self-start mt-5">
-                      Chargeback reasoning
-                    </div>
-                  </div>{" "}
-                  <div className="flex gap-[40px] justify-between self-stretch mt-6 max-md:flex-wrap max-md:max-w-full">
-                    <img
-                      alt="vrezolve"
-                      loading="lazy"
-                      src="../images/cube.svg"
-                      className="w-11 aspect-[0.98]"
-                    />{" "}
-                    <div className="flex-auto self-start mt-5 max-md:max-w-full">
-                      Chargeback accounting
-                    </div>
-                  </div>{" "}
-                  <div className="flex gap-[40px] justify-between mt-5">
-                    <img
-                      alt="vrezolve"
-                      loading="lazy"
-                      src="../images/cube.svg"
-                      className="w-11 aspect-[0.98]"
-                    />{" "}
-                    <div className="flex-auto my-auto">Case management</div>
-                  </div>{" "}
-                  <div className="flex gap-[40px] justify-between mt-5">
-                    <img
-                      alt="vrezolve"
-                      loading="lazy"
-                      src="../images/cube.svg"
-                      className="w-11 aspect-[0.98]"
-                    />{" "}
-                    <div className="flex-auto my-auto">Case closure</div>
-                  </div>{" "}
-                  <div className="justify-center px-10 py-1.5 mt-9 font-medium text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5">
-                    LEARN MORE
+                  </div>
+                  <div className="mt-9 max-md:max-w-full">
+                    Integrated Chargeback Operations
+                  </div>
+                  <div className="max-w-full bg-black h-[1px] w-[380px]" />
+                  <div className="max-md:max-w-full">
+                    Customer Communication
+                  </div>
+                  <div className="max-w-full bg-black h-[1px] w-[380px]" />
+                  <div className="max-md:max-w-full">Chargeback Reasoning</div>
+                  <div className="max-w-full bg-black h-[1px] w-[380px]" />
+                  <div className="max-md:max-w-full">Chargeback Accounting</div>
+                  <div className="max-w-full bg-black h-[1px] w-[380px]" />
+                  <div className="max-md:max-w-full">
+                    Case Management and Case closure
                   </div>
                 </div>
               </div>
@@ -284,7 +196,7 @@ function Home() {
                       alt="vrezolve"
                       loading="lazy"
                       srcSet="../images/home/9.svg"
-                      className="w-full shadow-sm aspect-square max-md:mt-10 max-md:max-w-full"
+                      className="w-[500px] m-auto"
                     />
                   </div>
                 </div>
@@ -315,8 +227,8 @@ function Home() {
             TALK TO AN EXPERT
           </div>{" "}
         </div>
-        <div className="flex flex-col justify-center py-12 mt-[40px] w-full text-center text-black bg-[#0033CC] max-md:pl-5 max-md:mt-10 max-md:max-w-full">
-          <div className="flex flex-col py-12 pl-20 mt-20 mb-12 bg-white rounded-2xl max-md:pl-5 max-md:my-10 max-md:max-w-full">
+        <div className="flex flex-col justify-center py-[40px]  w-full text-center text-black bg-[#0033CC] max-md:pl-5 max-md:mt-10 max-md:max-w-full">
+          <div className="flex flex-col py-[40px] pl-20   bg-white rounded-2xl max-md:pl-5 max-md:my-10 max-md:max-w-full">
             <div className="self-center  text-4xl font-bold leading-[80.16px]  max-md:mt-10 max-md:max-w-full max-md:text-4xl">
               Corporate Partners
             </div>{" "}

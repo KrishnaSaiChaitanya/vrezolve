@@ -23,6 +23,13 @@ ul li::before {
   margin-right: 0.5rem;
   margin-top: 3px;
 }
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+}
 
 /* Default styles */
 
@@ -46,7 +53,7 @@ ul li::before {
     margin: auto;
   }
   #hero-section {
-    max-width: 1230px;
+    max-width: 1200px;
     margin: auto;
     gap: 120px;
   }

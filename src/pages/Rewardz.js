@@ -7,50 +7,50 @@ function Rewardz() {
     <div>
       <div className="hidden md:block">
         <RewardzHero />
-        <div className="flex flex-col items-center py-12 mb-6 bg-white">
-          <div className="mt-32 text-5xl font-bold text-black leading-[80px] tracking-[2.4px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[74px]">
+        <div className="flex flex-col items-center pb-[40px] mb-6 bg-white">
+          <div className=" text-4xl font-bold text-black  max-md:max-w-full ">
             <span className="text-[#0033cc]">Discover </span>
             Excusive Rewards
           </div>
-          <div className="flex gap-5 justify-between p-3 mt-20 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
+          <div className="flex gap-5 justify-between  mt-[40px] w-full text-xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
             <img
               alt="vrezolve"
               loading="lazy"
               src="../images/cube.svg"
-              className="my-auto aspect-square w-[48px]"
+              className="my-auto aspect-square w-[38px]"
             />
             <div className="flex-auto max-md:max-w-full">
               Earn points effortlessly with every transaction.
             </div>
           </div>
-          <div className="flex gap-5 justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
+          <div className="flex gap-5 justify-between  mt-6 w-full text-xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
             <img
               alt="vrezolve"
               loading="lazy"
               src="../images/cube.svg"
-              className="my-auto aspect-square w-[48px]"
+              className="my-auto aspect-square w-[38px]"
             />
             <div className="flex-auto max-md:max-w-full">
               Loyalty transforms into exciting perks and privileges.
             </div>
           </div>
-          <div className="flex gap-5 justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
+          <div className="flex gap-5 justify-between  mt-6 w-full text-xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
             <img
               alt="vrezolve"
               loading="lazy"
               src="../images/cube.svg"
-              className="my-auto aspect-square w-[48px]"
+              className="my-auto aspect-square w-[38px]"
             />
             <div className="grow max-md:max-w-full">
               Access exclusive discounts and special offers.
             </div>
           </div>
-          <div className="flex gap-5 justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
+          <div className="flex gap-5 justify-between  mt-6 w-full text-xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
             <img
               alt="vrezolve"
               loading="lazy"
               src="../images/cube.svg"
-              className="my-auto aspect-square w-[48px]"
+              className="my-auto aspect-square w-[38px]"
             />
             <div className="grow max-md:max-w-full">
               Your journey with us is about to become even more rewarding.
@@ -90,19 +90,19 @@ function Rewardz() {
           Discover <span className="text-black">exclusive rewards</span>
         </div>
         <div className="">
-          <div className="flex gap-3 pr-5 mt-9 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
+          <div className="flex ga pr-5 mt-9 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
             <div className=" flex flex-row">
               <div className="bg-[#0033cc] mt-2 mr-3 rounded-full h-[9px] w-[9px]" />
               Earn points effortlessly with every transaction.
             </div>
           </div>
-          <div className="flex gap-3 pr-5 mt-5 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
+          <div className="flex ga pr-5 mt-5 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
             <div className=" flex flex-row">
               <div className="bg-[#0033cc] mt-2 mr-3 rounded-full h-[9px] w-[11px]" />
               Loyalty transforms into exciting perks and privileges.
             </div>
           </div>
-          <div className="flex gap-3 pr-5 mt-8 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
+          <div className="flex ga pr-5 mt-8 w-full text-base tracking-normal leading-6 text-black max-w-[321px]">
             <div className=" flex flex-row">
               <div className="bg-[#0033cc] mt-2 mr-3 rounded-full h-[9px] w-[10px]" />
               Access exclusive discounts and special offers.

@@ -17,11 +17,18 @@ const ExpertConsultation = (props) => {
         business to the next level.
       </div>
 
-      <button
+      {/* <button
         class="justify-center items-stretch px-9 py-1.5 mt-9 text-xl font-medium leading-8 text-center text-white whitespace-nowrap bg-[#ff6600] rounded-[100px] tracking-[2px] max-md:px-5 transition-transform duration-300 transform hover:scale-105"
         aria-label="Talk to an Expert"
       >
         Talk to an Expert
+      </button> */}
+
+      <button
+        className="justify-center self-center px-7 py-1.5 mt-6 text-base font-medium leading-8 text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5 transition-transform duration-300 transform hover:scale-105"
+        aria-label="Talk to an Expert"
+      >
+        TALK TO AN EXPERT
       </button>
 
       <div class="relative overflow-hidden w-full max-w-full mt-16 aspect-w-2 aspect-h-1 group">

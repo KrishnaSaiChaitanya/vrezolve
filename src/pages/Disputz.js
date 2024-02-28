@@ -7,17 +7,17 @@ function Disputz() {
     <>
       <div className="hidden md:block">
         <DisputszHero />
-        <div className="flex flex-col items-center py-12 mb-6 bg-white">
-          <div className="mt-32 text-5xl font-bold text-black leading-[80px] tracking-[2.4px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[74px]">
+        <div className="flex flex-col items-center pb-[40px] mb-6 bg-white">
+          <div className="mt-[40px] text-4xl font-bold text-black  tracking-[2.4px] ">
             <span className="text-[#0033cc]">Revolutionizing</span> Chargeback
             Processes
           </div>
-          <div className="flex gap-[40px] justify-between p-3 mt-20 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
+          <div className="flex gap-[40px] justify-between  mt-[40px] w-full text-xl tracking-wider  text-black max-w-[1007px] max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
             <img
               alt="vrezolve"
               loading="lazy"
               src="../images/cube.svg"
-              className="my-auto aspect-square w-[48px]"
+              className="my-auto aspect-square w-[38px]"
             />
             <div className="flex-auto max-md:max-w-full">
               <span className="text-[#0033cc]">Seamless Integration : </span>
@@ -25,36 +25,36 @@ function Disputz() {
               closure.
             </div>
           </div>
-          <div className="flex gap-[40px] justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
+          <div className="flex gap-[40px] justify-between mt-6 w-full text-xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
             <img
               alt="vrezolve"
               loading="lazy"
               src="../images/cube.svg"
-              className="my-auto aspect-square w-[45px]"
+              className="my-auto aspect-square w-[38px]"
             />
             <div className="flex-auto max-md:max-w-full">
               <span className="text-[#0033cc]">Automated Experience :</span>{" "}
               Brace yourselves for a more streamlined chargeback process.
             </div>
           </div>
-          <div className="flex gap-[40px] justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
+          <div className="flex gap-[40px] justify-between mt-6 w-full text-xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
             <img
               alt="vrezolve"
               loading="lazy"
               src="../images/cube.svg"
-              className="my-auto aspect-square w-[40px]"
+              className="my-auto aspect-square w-[38px]"
             />
             <div className="grow max-md:max-w-full">
               <span className="text-[#0033cc]">Efficiency Unleashed :</span> The
               future of chargeback operations is coming soon!
             </div>
           </div>
-          <div className="flex gap-[40px] justify-between p-3 mt-6 w-full text-2xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
+          <div className="flex gap-[40px] justify-between  mt-6 w-full text-xl tracking-wider leading-10 text-black max-w-[1007px] max-md:flex-wrap max-md:max-w-full">
             <img
               alt="vrezolve"
               loading="lazy"
               src="../images/cube.svg"
-              className="my-auto aspect-square w-[40px]"
+              className="my-auto aspect-square w-[38px]"
             />
             <div className="grow max-md:max-w-full">
               <span className="text-[#0033cc]">Stay Tuned :</span>{" "}
