@@ -49,7 +49,7 @@ function HomeHero() {
               management and beyond, we empower your digital landscape for
               unparalleled success.
             </div>
-            <div className="justify-center self-start px-7 py-1.5 mt-6 text-base font-medium text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5">
+            <div className="justify-center self-start px-7 py-1.5 mt-6 text-base font-medium text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5 cursor-pointer">
               LEARN MORE
             </div>
           </div>
@@ -58,7 +58,8 @@ function HomeHero() {
           <img
             loading="lazy"
             srcSet="../images/home/hero.png"
-            className="w-[500px]"
+            // className="w-[500px]"
+            id="section-image"
           />
         </div>
       </div>

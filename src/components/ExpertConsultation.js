@@ -24,7 +24,7 @@ const ExpertConsultation = (props) => {
         Talk to an Expert
       </button> */}
 
-      <button className="justify-center self-start px-7 py-1.5 mt-6 text-base font-medium text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5 transition-transform duration-300 transform hover:scale-105">
+      <button className="justify-center self-start px-7 py-1.5 mt-6 text-base font-medium text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5 transition-transform duration-300 transform hover:scale-105 cursor-pointer">
         TALK TO AN EXPERT
       </button>
       <div class="relative overflow-hidden w-full max-w-full mt-16 aspect-w-2 aspect-h-1 group">

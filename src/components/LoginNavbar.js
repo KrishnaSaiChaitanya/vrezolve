@@ -153,7 +153,7 @@ function LoginNavbar() {
               Home
             </Link>
             <div
-              className={`leading-[150%] ${
+              className={`leading-[150%] cursor-pointer ${
                 location.pathname.includes("/solutions")
                   ? "text-[#0033cc] cursor-pointer"
                   : ""
@@ -195,7 +195,7 @@ function LoginNavbar() {
               Contact Us
             </Link>
           </div>
-          <div className="justify-center px-6 py-1.5 my-auto text-base text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5">
+          <div className="justify-center px-6 py-1.5 my-auto text-base text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5 cursor-pointer">
             GET IN TOUCH
           </div>
         </div>

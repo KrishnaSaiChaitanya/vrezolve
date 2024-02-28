@@ -3,7 +3,7 @@ import * as React from "react";
 function AlertzHero(props) {
   return (
     <>
-      <div className=" max-w-full w-[1200px] max-md:mt-10">
+      <div className=" max-w-full w-[1200px] ">
         <div
           className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:"
           id="hero-section"
@@ -13,6 +13,7 @@ function AlertzHero(props) {
               alt="vrezolve"
               loading="lazy"
               src="../images/alertz/1.png"
+              // id="section-image"
               className="w-[500px] m-auto"
             />
           </div>

@@ -36,7 +36,7 @@ function Home() {
                   alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/home/5.svg"
-                  className="w-[500px] m-auto"
+                  id="section-image"
                 />
               </div>
               <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
@@ -65,7 +65,7 @@ function Home() {
                   <div className="max-md:max-w-full">
                     Real - Time Fraud Alerts
                   </div>
-                  <div className="justify-center self-start px-7 py-1.5 mt-6 text-base font-medium text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5">
+                  <div className="justify-center self-start px-7 py-1.5 mt-6 text-base font-medium text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5 cursor-pointer">
                     LEARN MORE
                   </div>
                 </div>
@@ -105,7 +105,7 @@ function Home() {
                     alt="vrezolve"
                     loading="lazy"
                     srcSet="../images/home/8.svg"
-                    className="w-[500px] m-auto"
+                    id="section-image"
                   />
                 </div>
               </div>
@@ -123,7 +123,7 @@ function Home() {
                   alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/home/6.svg"
-                  className="w-[500px] m-auto"
+                  id="section-image"
                 />
               </div>{" "}
               <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
@@ -155,7 +155,7 @@ function Home() {
                   <div className="max-md:max-w-full">
                     Case Management and Case closure
                   </div>
-                  <div className="justify-center self-start px-7 py-1.5 mt-6 text-base font-medium text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5">
+                  <div className="justify-center self-start px-7 py-1.5 mt-6 text-base font-medium text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5 cursor-pointer">
                     LEARN MORE
                   </div>
                 </div>
@@ -199,7 +199,7 @@ function Home() {
                       alt="vrezolve"
                       loading="lazy"
                       srcSet="../images/home/9.svg"
-                      className="w-[500px] m-auto"
+                      id="section-image"
                     />
                   </div>
                 </div>

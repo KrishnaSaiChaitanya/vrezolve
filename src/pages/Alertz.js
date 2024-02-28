@@ -9,7 +9,7 @@ function Alertz() {
   return (
     <>
       <div className="flex flex-col md:flex hidden sm:block">
-        <div className="flex flex-col items-center py-12 bg-white">
+        <div className="flex flex-col items-center py-[40px] bg-white">
           <AlertzHero />
           <div className="flex justify-center items-center self-stretch mt-[40px]   py-[40px] w-full bg-[#f2f5fc]  max-md:max-w-full">
             <div
@@ -61,7 +61,8 @@ function Alertz() {
                     alt="vrezolve"
                     loading="lazy"
                     srcSet="../images/alertz/section-1.svg"
-                    className="w-[500px] m-auto"
+                    id="section-image"
+                    // className="w-[500px] m-auto"
                   />
                 </div>
               </div>
@@ -271,7 +272,8 @@ function Alertz() {
                   alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/alertz/1.svg"
-                  className="w-[500px] m-auto"
+                  id="section-image"
+                  // className="w-[500px] m-auto"
                 />
               </div>
             </div>
@@ -286,7 +288,8 @@ function Alertz() {
                   alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/alertz/2.svg"
-                  className="w-[500px] m-auto"
+                  id="section-image"
+                  // className="w-[500px] m-auto"
                 />
               </div>
               <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
@@ -415,7 +418,8 @@ function Alertz() {
                   alt="vrezolve"
                   loading="lazy"
                   srcSet="../images/alertz/3.svg"
-                  className="w-[500px] m-auto"
+                  id="section-image"
+                  // className="w-[500px] m-auto"
                 />
               </div>
             </div>

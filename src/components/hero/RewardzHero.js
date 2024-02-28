@@ -13,7 +13,8 @@ function RewardzHero() {
               alt="vrezolve"
               loading="lazy"
               src="../images/rewardz-hero.svg"
-              className="w-[500px] m-auto"
+              id="section-image"
+              // className="w-[500px] m-auto"
             />
           </div>
           <div className="flex flex-col items-stretch ml-5 w-[54%] max-md:ml-0 max-md:w-full">

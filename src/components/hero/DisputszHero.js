@@ -13,7 +13,8 @@ function DisputszHero() {
               alt="vrezolve"
               loading="lazy"
               src="../images/dispute-hero.svg"
-              className="w-[500px] m-auto"
+              id="section-image"
+              // className="w-[500px] m-auto"
             />
           </div>
           <div className="flex flex-col items-stretch ml-5 w-[54%] max-md:ml-0 max-md:w-full">
@@ -43,7 +44,7 @@ function DisputszHero() {
                   for a more streamlined and automated experience.
                 </span>
               </div>
-              <div className="mt-16 text-4xl font-bold tracking-widest leading-5 text-[#0033cc] max-md:mt-10 max-md:max-w-full">
+              <div className="mt-10 text-4xl font-bold tracking-widest leading-5 text-[#0033cc] max-md:mt-10 max-md:max-w-full">
                 COMING SOON
               </div>
 
