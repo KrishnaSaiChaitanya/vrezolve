@@ -143,7 +143,7 @@ function LoginNavbar() {
           </button>
         </div> */}
         <div className="flex gap-5 mx-auto justify-between self-end mr-28 max-w-full text-base leading-8 text-center w-[787px] max-md:flex-wrap max-md:mr-2.5">
-          <div className="flex gap-[32px] justify-between px-3 py-6 text-black max-md:flex-wrap max-md:max-w-full">
+          <div className="md:flex gap-[32px] justify-between px-3 py-6 text-black max-md:flex-wrap max-md:max-w-full hidden">
             <Link
               to="/"
               className={`leading-[150%] ${
@@ -195,8 +195,16 @@ function LoginNavbar() {
               Contact Us
             </Link>
           </div>
-          <div className="justify-center px-6 py-1.5 my-auto text-base text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5 cursor-pointer">
+          <div className="md:flex justify-center px-6 py-1.5 my-auto text-base text-white whitespace-nowrap bg-orange-500 rounded-[100px] max-md:px-5 cursor-pointer hidden">
             GET IN TOUCH
+          </div>
+          <div className="w-full md:hidden flex justify-end">
+            <button
+              className="  flex-col items-stretch my-auto text-xl font-medium tracking-wider leading-8 text-center text-white max-md:px-5 flex transition-transform duration-300 transform hover:scale-105"
+              onClick={toggleMenu}
+            >
+              <img alt="vrezolve" src="../images/menu.svg" />
+            </button>
           </div>
         </div>
         {!isNavbarFixed && <div className="mt-3 h-[3px] bg-[#0033cc] w-full" />}

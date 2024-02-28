@@ -43,7 +43,7 @@ function Home() {
                 <div className="flex flex-col grow justify-center py-12 text-xl font-medium text-black leading-[60px] max-md:mt-10 max-md:max-w-full">
                   <div className="text-4xl  font-semibold leading-5 tracking-[5px] max-md:max-w-full">
                     <span className="font-bold">alert</span>
-                    <span className="italic font-black text-orange-500">Z</span>
+                    <span className=" font-black text-orange-500">Z</span>
                   </div>
                   <div className="mt-6 leading-8 max-md:max-w-full">
                     Our solution facilitates instant communication of fraud and
@@ -130,7 +130,7 @@ function Home() {
                 <div className="flex flex-col grow px-5 pt-6 text-xl font-medium text-black leading-[60px] max-md:mt-10 max-md:max-w-full">
                   <div className="text-4xl  font-semibold leading-5  tracking-[5px] max-md:max-w-full">
                     <span className="font-bold">dispute</span>
-                    <span className="italic font-black text-orange-500">Z</span>
+                    <span className=" font-black text-orange-500">Z</span>
                   </div>
                   <div className="mt-9 leading-8 max-md:max-w-full">
                     Our solution seamlessly integrates all aspects of chargeback

@@ -36,7 +36,6 @@ p {
 /* Media queries for different screen sizes */
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
-  /* Adjust width for small desktops */
   #hero-section {
     max-width: 1100px;
     margin: auto;
@@ -49,7 +48,6 @@ p {
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1799px) {
-  /* Adjust width for small desktops */
   #hero-section {
     max-width: 1200px;
     margin: auto;
@@ -62,7 +60,6 @@ p {
 }
 
 @media screen and (min-width: 1800px) {
-  /* Adjust width for large desktops */
   #hero-section {
     max-width: 1280px;
     margin: auto;
@@ -86,6 +83,14 @@ p {
   font-size: 16px;
   transition: border-color 0.3s ease;
 }
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
 
 .form-group label {
   position: absolute;
@@ -101,6 +106,20 @@ p {
 }
 .form-group input:focus + label,
 .form-group input:not(:placeholder-shown) + label {
+  top: -15px;
+  font-size: 12px;
+  color: #007bff;
+  background-color: #ffffff;
+  padding: 0 4px;
+  border-radius: 4px;
+  left: 8px;
+}
+.form-group textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.form-group textarea:focus + label,
+.form-group textarea:not(:placeholder-shown) + label {
   top: -15px;
   font-size: 12px;
   color: #007bff;

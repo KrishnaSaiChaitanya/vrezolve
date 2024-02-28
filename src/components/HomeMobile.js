@@ -13,7 +13,7 @@ function HomeMobile() {
           <img
             alt="vrezolve"
             loading="lazy"
-            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/8246117a98344c15bb29dda1bfe13501195b0129a2fdfa54cd93f4a410a361b5?apiKey=67296d98361248faadca04e106a4f278&"
+            srcSet="../images/home/hero.png"
             className="self-center mt-8 w-full aspect-[0.85] max-w-[306px]"
           />
           <div className="mt-9 leading-6 text-black">
@@ -47,7 +47,7 @@ function HomeMobile() {
         <img
           alt="vrezolve"
           loading="lazy"
-          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/14573bcb5bbf9ad4256fd9ae1d341d5e2ec07a59f2b45a09af4fb73bd5526d96?apiKey=67296d98361248faadca04e106a4f278&"
+          srcSet="../images/home/5.svg"
           className="mt-8 w-full aspect-square max-w-[350px]"
         />
         <div className="mt-10 px-2 text-base leading-6 text-center text-black">
@@ -124,7 +124,7 @@ function HomeMobile() {
         <img
           alt="vrezolve"
           loading="lazy"
-          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/75738e68d8a4f506f6cc57779beb223fbdc43ffc336fba27a2dc69a4ef0b45c5?apiKey=67296d98361248faadca04e106a4f278&"
+          srcSet="../images/home/8.svg"
           className="mt-6 w-full aspect-square max-w-[350px]"
         />{" "}
         <div className="mt-6 px-2 text-base leading-6 text-center text-black">
@@ -228,7 +228,7 @@ function HomeMobile() {
         <img
           alt="vrezolve"
           loading="lazy"
-          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a8f1b31ec5e14810a90e6210904dc3ff2ca7bd605dcfe223fe60c312b2e4433d?apiKey=67296d98361248faadca04e106a4f278&"
+          srcSet="../images/home/6.svg"
           className="mt-6 w-full aspect-square max-w-[350px]"
         />{" "}
         <div className="mt-6 px-2 text-base leading-6 text-center text-black">
@@ -259,6 +259,7 @@ function HomeMobile() {
           </div>
         </div>{" "}
         <ContactSection />
+        <div className="self-stretch w-full bg-blue-700 min-h-[2px]" />
       </div>
     </div>
   );

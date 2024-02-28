@@ -89,8 +89,7 @@ function ContactSection() {
                 class="form-group justify-center items-start mt-5 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)]"
                 style={{ padding: "20px" }}
               >
-                <input
-                  type="text"
+                <textarea
                   placeholder=" "
                   id="message"
                   style={{ border: "0px" }}
@@ -106,7 +105,7 @@ function ContactSection() {
 
         <div className="mt-[40px]  max-w-full mx-auto bg-[#0033cc] h-[3px] w-full" />
       </div>
-      <div className="flex md:hidden flex-col self-stretch px-6 py-12  w-full text-base tracking-wider leading-8 bg-[#f2f5fc] text-zinc-500">
+      <div className="flex md:hidden flex-col self-stretch px-6 py-12  w-full text-base tracking-wider leading-8  text-zinc-500">
         <div className="mt-16 text-2xl font-bold tracking-wider text-center text-black whitespace-nowrap">
           Want to learn more?
         </div>
@@ -117,44 +116,31 @@ function ContactSection() {
         <div className="self-center mt-9 text-2xl font-bold tracking-wider text-center text-black">
           Contact Us
         </div>
-        <div className="flex flex-col bg-[#f2f5fc]  justify-center md:mr-5   py-0.5 mt-10  rounded max-md:mt-10 max-md:max-w-full">
-          <div className="justify-center bg-white  items-start py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
-            <input
-              type="text"
-              placeholder="First name"
-              className="placeholder-gray-400 text-black text-xl font-medium leading-5 tracking-[2px] outline-none bg-transparent w-full"
-            />
+        <div className="flex flex-col   justify-center md:mr-5   py-0.5 mt-10  rounded max-md:mt-10 max-md:max-w-full">
+          <div class="form-group justify-center  items-start mt-5 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)]">
+            <input type="text" placeholder=" " id="first-name" />
+            <label for="first-name">First Name</label>
           </div>
 
-          <div className="justify-center bg-white items-start mt-5 py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
-            <input
-              type="text"
-              placeholder="Last name"
-              className="placeholder-gray-400  text-black text-xl font-medium leading-5 tracking-[2px] outline-none bg-transparent w-full"
-            />
+          <div class="form-group justify-center  items-start mt-3 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)]">
+            <input type="text" placeholder=" " id="last-name" />
+            <label for="last-name">Last Name</label>
+          </div>
+          <div class="form-group justify-center  items-start mt-3 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)]">
+            <input type="text" placeholder=" " id="email" />
+            <label for="email">Email</label>
+          </div>
+          <div class="form-group justify-center  items-start mt-3 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)]">
+            <input type="text" placeholder=" " id="phone" />
+            <label for="phone">Phone</label>
           </div>
 
-          <div className="justify-center bg-white items-start mt-5 py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
-            <input
-              type="text"
-              placeholder="Email"
-              className="placeholder-gray-400 text-black text-xl font-medium leading-5 tracking-[2px] outline-none bg-transparent w-full"
-            />
-          </div>
-
-          <div className="justify-center bg-white items-start mt-5 py-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
-            <input
-              type="text"
-              placeholder="Phone"
-              className="placeholder-gray-400 text-black text-xl font-medium leading-5 tracking-[2px] outline-none bg-transparent w-full"
-            />
-          </div>
-          <div className="justify-center bg-white items-start mt-5 pb-16 pt-3.5 pr-16 pl-4 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)] max-md:pr-5 max-md:max-w-full">
-            <input
-              type="text"
-              placeholder="Send us a message"
-              className="placeholder-gray-400 text-black text-xl font-medium leading-5 tracking-[2px] outline-none bg-transparent w-full"
-            />
+          <div
+            class="form-group justify-center items-start mt-5 rounded border border-solid border-[color:var(--M3-sys-light-outline,#79747E)]"
+            style={{ padding: "20px" }}
+          >
+            <textarea placeholder=" " id="message" style={{ border: "0px" }} />
+            <label for="name">Send Us a Message</label>
           </div>
         </div>
         <div className="justify-center self-center px-8 py-1.5 mt-10 mb-8 text-base text-center text-white whitespace-nowrap bg-orange-500 rounded-[100px] tracking-[2px]">

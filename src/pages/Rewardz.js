@@ -60,9 +60,9 @@ function Rewardz() {
         <ContactSection />
       </div>
       <div className="flex md:hidden flex-col items-center pt-5 pb-12 mx-auto w-full bg-white max-w-[380px]">
-        <div className="mt-14 text-2xl italic font-semibold leading-5 text-center text-[#ff6600] whitespace-nowrap tracking-[5px]">
+        <div className="mt-14 text-2xl  font-semibold leading-5 text-center text-[#ff6600] whitespace-nowrap tracking-[5px]">
           <span className="font-bold text-[#0033cc]">reward</span>
-          <span className="italic font-black text-[#ff6600]">Z</span>
+          <span className=" font-black text-[#ff6600]">Z</span>
         </div>
         {/* <div className="h-0.5 mt-5 mx-auto bg-[#0033cc] w-[128px]" /> */}
         <div className="mt-16 text-2xl font-bold tracking-wider text-center text-[#0033cc] whitespace-nowrap">
