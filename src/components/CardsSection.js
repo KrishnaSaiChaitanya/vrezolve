@@ -76,6 +76,7 @@ function CardsSection() {
               <div className="flex flex-col w-[300px] h-[300px] pt-5 items-center px-5  w-full bg-white rounded-3xl shadow-sm max-md:mt-10">
                 <img
                   loading="lazy"
+                  alt="vrezolve"
                   srcSet="../images/alertz/4.svg"
                   className=" w-[50px]"
                 />
@@ -92,6 +93,7 @@ function CardsSection() {
               <div className="flex flex-col w-[300px] h-[300px] pt-4 items-center px-5  w-full bg-white rounded-3xl shadow-sm max-md:mt-10">
                 <img
                   loading="lazy"
+                  alt="vrezolve"
                   srcSet="../images/alertz/5.svg"
                   className="mt-3.5  w-[50px]"
                 />
@@ -108,6 +110,7 @@ function CardsSection() {
                 <div className="flex flex-col justify-center items-center px-1 py-6">
                   <img
                     loading="lazy"
+                    alt="vrezolve"
                     srcSet="../images/alertz/6.svg"
                     className=" w-[61px]"
                   />

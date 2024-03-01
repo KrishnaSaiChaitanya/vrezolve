@@ -340,6 +340,7 @@ function LoginNavbar() {
               <div className="flex gap-5 justify-between items-center px-2 mt-2 m-1 whitespace-nowrap max-md:flex-wrap max-md:max-w-full transition-opacity duration-300 ease-in-out hover:bg-gray-200">
                 <img
                   loading="lazy"
+                  alt="vrezolve"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/f7dd6963be2ba1d01d37e57d19abda85a90f20cf97c7cceba18c074d77702fd1?apiKey=67296d98361248faadca04e106a4f278&"
                   className="self-stretch my-auto w-6 aspect-square"
                 />
@@ -354,6 +355,7 @@ function LoginNavbar() {
                 </div>
                 <img
                   loading="lazy"
+                  alt="vrezolve"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/b2ea36626090668d1a1707e4bfe94bb61af896c979b52292daf5ab7f29141bbe?apiKey=67296d98361248faadca04e106a4f278&"
                   className="self-stretch my-auto w-6 aspect-square"
                 />
@@ -367,6 +369,7 @@ function LoginNavbar() {
               <div className="flex gap-5 justify-between items-center px-2 mt-2 whitespace-nowrap max-md:flex-wrap max-md:max-w-full transition-opacity duration-300 ease-in-out hover:bg-gray-200 m-1">
                 <img
                   loading="lazy"
+                  alt="vrezolve"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/d09416d61dc61ef9f19660b50f777243cd8b08c07f96bbd932c28838e060dd8e?apiKey=67296d98361248faadca04e106a4f278&"
                   className="self-stretch my-auto w-6 aspect-square"
                 />
@@ -381,6 +384,7 @@ function LoginNavbar() {
                 </div>
                 <img
                   loading="lazy"
+                  alt="vrezolve"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/b2ea36626090668d1a1707e4bfe94bb61af896c979b52292daf5ab7f29141bbe?apiKey=67296d98361248faadca04e106a4f278&"
                   className="self-stretch my-auto w-6 aspect-square"
                 />
@@ -394,6 +398,7 @@ function LoginNavbar() {
               <div className="flex gap-5 justify-between items-start px-2 pb-4 mt-2 text-xl font-medium leading-8  max-md:flex-wrap max-md:max-w-full transition-opacity duration-300 ease-in-out hover:bg-gray-200 m-1">
                 <img
                   loading="lazy"
+                  alt="vrezolve"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa8c066ef3188d3a76fc4e05fb3105e34b7d1ce1a8e0a8e5257144fc0fdcae02?apiKey=67296d98361248faadca04e106a4f278&"
                   className="mt-4 w-6 aspect-square"
                 />
@@ -403,6 +408,7 @@ function LoginNavbar() {
                 </div>
                 <img
                   loading="lazy"
+                  alt="vrezolve"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/b2ea36626090668d1a1707e4bfe94bb61af896c979b52292daf5ab7f29141bbe?apiKey=67296d98361248faadca04e106a4f278&"
                   className="mt-4 w-6 aspect-square"
                 />
